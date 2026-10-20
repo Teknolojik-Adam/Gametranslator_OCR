@@ -1,0 +1,4106 @@
+{
+  "normal": {
+    "summary": {
+      "lines": "66/66",
+      "exact": 66,
+      "total": 66,
+      "predicted": 66,
+      "character_accuracy": 100.0,
+      "mean_ms": 193.57,
+      "f1": 100.0,
+      "errors": []
+    },
+    "records": [
+      {
+        "name": "00_baseline.png",
+        "pass": 0,
+        "ms": 240.3993,
+        "texts": [
+          "GAME TRANSLATOR OCR",
+          "Merhaba dünya!",
+          "Quest completed"
+        ],
+        "confidences": [
+          0.99753803,
+          0.99895847,
+          0.98411566
+        ],
+        "bounds": [
+          {
+            "X": 55,
+            "Y": 126,
+            "Width": 547,
+            "Height": 21
+          },
+          {
+            "X": 78,
+            "Y": 234,
+            "Width": 333,
+            "Height": 30
+          },
+          {
+            "X": 66,
+            "Y": 346,
+            "Width": 374,
+            "Height": 25
+          }
+        ],
+        "words": 7,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.198,
+          "PreprocessMs": 16.6143,
+          "DetectionMs": 100.5461,
+          "PostprocessMs": 2.905699999999996,
+          "CropMs": 2.6176999999999992,
+          "RecognitionMs": 116.51750000000001,
+          "TotalMs": 240.3993
+        }
+      },
+      {
+        "name": "01_dark_dialogue.png",
+        "pass": 0,
+        "ms": 225.3598,
+        "texts": [
+          "Open the ancient gate",
+          "Görev tamamlandı",
+          "Press E to continue"
+        ],
+        "confidences": [
+          0.9990921,
+          0.97961193,
+          0.99837774
+        ],
+        "bounds": [
+          {
+            "X": 46,
+            "Y": 112,
+            "Width": 429,
+            "Height": 23
+          },
+          {
+            "X": 52,
+            "Y": 267,
+            "Width": 348,
+            "Height": 18
+          },
+          {
+            "X": 49,
+            "Y": 411,
+            "Width": 370,
+            "Height": 23
+          }
+        ],
+        "words": 10,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.1032,
+          "PreprocessMs": 16.7194,
+          "DetectionMs": 96.41489999999999,
+          "PostprocessMs": 7.849000000000004,
+          "CropMs": 1.8937999999999988,
+          "RecognitionMs": 101.37950000000001,
+          "TotalMs": 225.3598
+        }
+      },
+      {
+        "name": "02_small_hud.png",
+        "pass": 0,
+        "ms": 185.0959,
+        "texts": [
+          "LEVEL 27",
+          "Health 100%",
+          "Kalan süre 02:45"
+        ],
+        "confidences": [
+          0.9997511,
+          0.9988893,
+          0.9993216
+        ],
+        "bounds": [
+          {
+            "X": 57,
+            "Y": 101,
+            "Width": 138,
+            "Height": 23
+          },
+          {
+            "X": 154,
+            "Y": 320,
+            "Width": 194,
+            "Height": 19
+          },
+          {
+            "X": 50,
+            "Y": 551,
+            "Width": 258,
+            "Height": 20
+          }
+        ],
+        "words": 7,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 3.4042,
+          "PreprocessMs": 20.0664,
+          "DetectionMs": 102.15769999999999,
+          "PostprocessMs": 2.436800000000005,
+          "CropMs": 1.5726999999999975,
+          "RecognitionMs": 55.4581,
+          "TotalMs": 185.0959
+        }
+      },
+      {
+        "name": "03_outline_shadow.png",
+        "pass": 0,
+        "ms": 208.8631,
+        "texts": [
+          "Düşman yaklaşıyor!",
+          "Run to the bridge",
+          "Bölüm başarıyla bitti"
+        ],
+        "confidences": [
+          0.98936695,
+          0.99996614,
+          0.9907481
+        ],
+        "bounds": [
+          {
+            "X": 63,
+            "Y": 114,
+            "Width": 385,
+            "Height": 25
+          },
+          {
+            "X": 64,
+            "Y": 266,
+            "Width": 339,
+            "Height": 29
+          },
+          {
+            "X": 65,
+            "Y": 412,
+            "Width": 399,
+            "Height": 29
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.0827,
+          "PreprocessMs": 20.0271,
+          "DetectionMs": 95.0616,
+          "PostprocessMs": 2.7549999999999955,
+          "CropMs": 1.8983999999999952,
+          "RecognitionMs": 87.0383,
+          "TotalMs": 208.8631
+        }
+      },
+      {
+        "name": "04_bright_menu.png",
+        "pass": 0,
+        "ms": 163.7971,
+        "texts": [
+          "Settings",
+          "Yeni oyun",
+          "Çıkış"
+        ],
+        "confidences": [
+          0.99991024,
+          0.99949235,
+          0.89391345
+        ],
+        "bounds": [
+          {
+            "X": 60,
+            "Y": 116,
+            "Width": 212,
+            "Height": 32
+          },
+          {
+            "X": 67,
+            "Y": 269,
+            "Width": 232,
+            "Height": 37
+          },
+          {
+            "X": 67,
+            "Y": 415,
+            "Width": 112,
+            "Height": 38
+          }
+        ],
+        "words": 4,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.3287,
+          "PreprocessMs": 13.6399,
+          "DetectionMs": 94.73570000000001,
+          "PostprocessMs": 7.898299999999992,
+          "CropMs": 1.1099999999999994,
+          "RecognitionMs": 45.084500000000006,
+          "TotalMs": 163.7971
+        }
+      },
+      {
+        "name": "05_blurred_subtitles.png",
+        "pass": 0,
+        "ms": 196.534,
+        "texts": [
+          "Can you hear me?",
+          "Kapıyı açmalıyız",
+          "Follow the signal"
+        ],
+        "confidences": [
+          0.9998571,
+          0.993475,
+          0.9999842
+        ],
+        "bounds": [
+          {
+            "X": 52,
+            "Y": 111,
+            "Width": 339,
+            "Height": 24
+          },
+          {
+            "X": 54,
+            "Y": 267,
+            "Width": 306,
+            "Height": 23
+          },
+          {
+            "X": 52,
+            "Y": 411,
+            "Width": 323,
+            "Height": 25
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.4934,
+          "PreprocessMs": 11.6868,
+          "DetectionMs": 98.27420000000001,
+          "PostprocessMs": 2.427499999999995,
+          "CropMs": 1.4375,
+          "RecognitionMs": 81.21459999999999,
+          "TotalMs": 196.534
+        }
+      },
+      {
+        "name": "06_low_contrast.png",
+        "pass": 0,
+        "ms": 196.0059,
+        "texts": [
+          "The mission begins",
+          "Yeni görev alındı",
+          "Return to base"
+        ],
+        "confidences": [
+          0.99986786,
+          0.9563805,
+          0.987216
+        ],
+        "bounds": [
+          {
+            "X": 50,
+            "Y": 113,
+            "Width": 348,
+            "Height": 22
+          },
+          {
+            "X": 53,
+            "Y": 267,
+            "Width": 294,
+            "Height": 23
+          },
+          {
+            "X": 55,
+            "Y": 415,
+            "Width": 264,
+            "Height": 19
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.1079,
+          "PreprocessMs": 14.1601,
+          "DetectionMs": 92.4944,
+          "PostprocessMs": 3.2837999999999994,
+          "CropMs": 1.3778999999999968,
+          "RecognitionMs": 83.5818,
+          "TotalMs": 196.0059
+        }
+      },
+      {
+        "name": "07_busy_background.png",
+        "pass": 0,
+        "ms": 208.1949,
+        "texts": [
+          "Main quest",
+          "inceleme tamamlandı",
+          "Return to the village"
+        ],
+        "confidences": [
+          0.99994516,
+          0.986725,
+          0.9999613
+        ],
+        "bounds": [
+          {
+            "X": 57,
+            "Y": 107,
+            "Width": 212,
+            "Height": 29
+          },
+          {
+            "X": 45,
+            "Y": 263,
+            "Width": 417,
+            "Height": 23
+          },
+          {
+            "X": 48,
+            "Y": 409,
+            "Width": 395,
+            "Height": 29
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.6823,
+          "PreprocessMs": 13.1501,
+          "DetectionMs": 103.41229999999999,
+          "PostprocessMs": 1.894900000000007,
+          "CropMs": 1.5078999999999922,
+          "RecognitionMs": 86.5474,
+          "TotalMs": 208.1949
+        }
+      },
+      {
+        "name": "08_tilted_screen.png",
+        "pass": 0,
+        "ms": 168.1088,
+        "texts": [
+          "Victory is ours",
+          "Yeni bölge keşfedildi",
+          "Saving progress"
+        ],
+        "confidences": [
+          0.96500295,
+          0.99840564,
+          0.9998981
+        ],
+        "bounds": [
+          {
+            "X": 47,
+            "Y": 122,
+            "Width": 282,
+            "Height": 36
+          },
+          {
+            "X": 48,
+            "Y": 267,
+            "Width": 409,
+            "Height": 46
+          },
+          {
+            "X": 60,
+            "Y": 422,
+            "Width": 320,
+            "Height": 37
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.4179,
+          "PreprocessMs": 11.3123,
+          "DetectionMs": 95.04690000000001,
+          "PostprocessMs": 1.9542000000000002,
+          "CropMs": 1.8397999999999968,
+          "RecognitionMs": 56.5377,
+          "TotalMs": 168.1088
+        }
+      },
+      {
+        "name": "09_wide_720p.png",
+        "pass": 0,
+        "ms": 200.4595,
+        "texts": [
+          "The final chapter",
+          "Karakter seviyesi 18",
+          "Continue playing"
+        ],
+        "confidences": [
+          0.9880244,
+          0.98017323,
+          0.99995095
+        ],
+        "bounds": [
+          {
+            "X": 53,
+            "Y": 105,
+            "Width": 273,
+            "Height": 21
+          },
+          {
+            "X": 49,
+            "Y": 322,
+            "Width": 331,
+            "Height": 20
+          },
+          {
+            "X": 52,
+            "Y": 555,
+            "Width": 274,
+            "Height": 21
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.0051,
+          "PreprocessMs": 16.101200000000002,
+          "DetectionMs": 94.5547,
+          "PostprocessMs": 2.0275999999999925,
+          "CropMs": 1.6489000000000118,
+          "RecognitionMs": 84.12199999999999,
+          "TotalMs": 200.4595
+        }
+      },
+      {
+        "name": "10_colored_ui.png",
+        "pass": 0,
+        "ms": 191.623,
+        "texts": [
+          "New achievement",
+          "Başarı kilidi açıldı",
+          "Collect your reward"
+        ],
+        "confidences": [
+          0.99890625,
+          0.98885477,
+          0.999977
+        ],
+        "bounds": [
+          {
+            "X": 64,
+            "Y": 109,
+            "Width": 322,
+            "Height": 24
+          },
+          {
+            "X": 165,
+            "Y": 263,
+            "Width": 309,
+            "Height": 28
+          },
+          {
+            "X": 59,
+            "Y": 410,
+            "Width": 352,
+            "Height": 29
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.2258,
+          "PreprocessMs": 13.440100000000001,
+          "DetectionMs": 106.06479999999999,
+          "PostprocessMs": 1.9702000000000055,
+          "CropMs": 1.92649999999999,
+          "RecognitionMs": 66.9956,
+          "TotalMs": 191.623
+        }
+      },
+      {
+        "name": "00_baseline.png",
+        "pass": 1,
+        "ms": 219.6372,
+        "texts": [
+          "GAME TRANSLATOR OCR",
+          "Merhaba dünya!",
+          "Quest completed"
+        ],
+        "confidences": [
+          0.99753803,
+          0.99895847,
+          0.98411566
+        ],
+        "bounds": [
+          {
+            "X": 55,
+            "Y": 126,
+            "Width": 547,
+            "Height": 21
+          },
+          {
+            "X": 78,
+            "Y": 234,
+            "Width": 333,
+            "Height": 30
+          },
+          {
+            "X": 66,
+            "Y": 346,
+            "Width": 374,
+            "Height": 25
+          }
+        ],
+        "words": 7,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.137,
+          "PreprocessMs": 14.1302,
+          "DetectionMs": 100.53739999999999,
+          "PostprocessMs": 2.2347000000000037,
+          "CropMs": 4.3382000000000005,
+          "RecognitionMs": 97.25970000000001,
+          "TotalMs": 219.6372
+        }
+      },
+      {
+        "name": "01_dark_dialogue.png",
+        "pass": 1,
+        "ms": 212.6425,
+        "texts": [
+          "Open the ancient gate",
+          "Görev tamamlandı",
+          "Press E to continue"
+        ],
+        "confidences": [
+          0.9990921,
+          0.97961193,
+          0.99837774
+        ],
+        "bounds": [
+          {
+            "X": 46,
+            "Y": 112,
+            "Width": 429,
+            "Height": 23
+          },
+          {
+            "X": 52,
+            "Y": 267,
+            "Width": 348,
+            "Height": 18
+          },
+          {
+            "X": 49,
+            "Y": 411,
+            "Width": 370,
+            "Height": 23
+          }
+        ],
+        "words": 10,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.2089,
+          "PreprocessMs": 11.6053,
+          "DetectionMs": 107.8219,
+          "PostprocessMs": 2.9942999999999955,
+          "CropMs": 1.9746000000000095,
+          "RecognitionMs": 87.03750000000001,
+          "TotalMs": 212.6425
+        }
+      },
+      {
+        "name": "02_small_hud.png",
+        "pass": 1,
+        "ms": 175.4778,
+        "texts": [
+          "LEVEL 27",
+          "Health 100%",
+          "Kalan süre 02:45"
+        ],
+        "confidences": [
+          0.9997511,
+          0.9988893,
+          0.9993216
+        ],
+        "bounds": [
+          {
+            "X": 57,
+            "Y": 101,
+            "Width": 138,
+            "Height": 23
+          },
+          {
+            "X": 154,
+            "Y": 320,
+            "Width": 194,
+            "Height": 19
+          },
+          {
+            "X": 50,
+            "Y": 551,
+            "Width": 258,
+            "Height": 20
+          }
+        ],
+        "words": 7,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.6915,
+          "PreprocessMs": 13.6677,
+          "DetectionMs": 97.3029,
+          "PostprocessMs": 1.7028999999999996,
+          "CropMs": 1.519200000000012,
+          "RecognitionMs": 59.593599999999995,
+          "TotalMs": 175.4778
+        }
+      },
+      {
+        "name": "03_outline_shadow.png",
+        "pass": 1,
+        "ms": 188.7762,
+        "texts": [
+          "Düşman yaklaşıyor!",
+          "Run to the bridge",
+          "Bölüm başarıyla bitti"
+        ],
+        "confidences": [
+          0.98936695,
+          0.99996614,
+          0.9907481
+        ],
+        "bounds": [
+          {
+            "X": 63,
+            "Y": 114,
+            "Width": 385,
+            "Height": 25
+          },
+          {
+            "X": 64,
+            "Y": 266,
+            "Width": 339,
+            "Height": 29
+          },
+          {
+            "X": 65,
+            "Y": 412,
+            "Width": 399,
+            "Height": 29
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.2034,
+          "PreprocessMs": 11.0284,
+          "DetectionMs": 97.13499999999999,
+          "PostprocessMs": 2.099900000000005,
+          "CropMs": 1.5721999999999952,
+          "RecognitionMs": 75.73729999999999,
+          "TotalMs": 188.7762
+        }
+      },
+      {
+        "name": "04_bright_menu.png",
+        "pass": 1,
+        "ms": 154.5176,
+        "texts": [
+          "Settings",
+          "Yeni oyun",
+          "Çıkış"
+        ],
+        "confidences": [
+          0.99991024,
+          0.99949235,
+          0.89391345
+        ],
+        "bounds": [
+          {
+            "X": 60,
+            "Y": 116,
+            "Width": 212,
+            "Height": 32
+          },
+          {
+            "X": 67,
+            "Y": 269,
+            "Width": 232,
+            "Height": 37
+          },
+          {
+            "X": 67,
+            "Y": 415,
+            "Width": 112,
+            "Height": 38
+          }
+        ],
+        "words": 4,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.215,
+          "PreprocessMs": 14.1169,
+          "DetectionMs": 96.3441,
+          "PostprocessMs": 1.9222000000000037,
+          "CropMs": 1.3246999999999929,
+          "RecognitionMs": 39.59469999999999,
+          "TotalMs": 154.5176
+        }
+      },
+      {
+        "name": "05_blurred_subtitles.png",
+        "pass": 1,
+        "ms": 186.6413,
+        "texts": [
+          "Can you hear me?",
+          "Kapıyı açmalıyız",
+          "Follow the signal"
+        ],
+        "confidences": [
+          0.9998571,
+          0.993475,
+          0.9999842
+        ],
+        "bounds": [
+          {
+            "X": 52,
+            "Y": 111,
+            "Width": 339,
+            "Height": 24
+          },
+          {
+            "X": 54,
+            "Y": 267,
+            "Width": 306,
+            "Height": 23
+          },
+          {
+            "X": 52,
+            "Y": 411,
+            "Width": 323,
+            "Height": 25
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.595,
+          "PreprocessMs": 12.7469,
+          "DetectionMs": 93.5676,
+          "PostprocessMs": 2.4687000000000126,
+          "CropMs": 1.3726999999999947,
+          "RecognitionMs": 74.8904,
+          "TotalMs": 186.6413
+        }
+      },
+      {
+        "name": "06_low_contrast.png",
+        "pass": 1,
+        "ms": 183.8529,
+        "texts": [
+          "The mission begins",
+          "Yeni görev alındı",
+          "Return to base"
+        ],
+        "confidences": [
+          0.99986786,
+          0.9563805,
+          0.987216
+        ],
+        "bounds": [
+          {
+            "X": 50,
+            "Y": 113,
+            "Width": 348,
+            "Height": 22
+          },
+          {
+            "X": 53,
+            "Y": 267,
+            "Width": 294,
+            "Height": 23
+          },
+          {
+            "X": 55,
+            "Y": 415,
+            "Width": 264,
+            "Height": 19
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.0169,
+          "PreprocessMs": 13.8942,
+          "DetectionMs": 94.20009999999999,
+          "PostprocessMs": 1.8388000000000062,
+          "CropMs": 1.3175999999999988,
+          "RecognitionMs": 71.5853,
+          "TotalMs": 183.8529
+        }
+      },
+      {
+        "name": "07_busy_background.png",
+        "pass": 1,
+        "ms": 192.2397,
+        "texts": [
+          "Main quest",
+          "inceleme tamamlandı",
+          "Return to the village"
+        ],
+        "confidences": [
+          0.99994516,
+          0.986725,
+          0.9999613
+        ],
+        "bounds": [
+          {
+            "X": 57,
+            "Y": 107,
+            "Width": 212,
+            "Height": 29
+          },
+          {
+            "X": 45,
+            "Y": 263,
+            "Width": 417,
+            "Height": 23
+          },
+          {
+            "X": 48,
+            "Y": 409,
+            "Width": 395,
+            "Height": 29
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.6644,
+          "PreprocessMs": 12.4267,
+          "DetectionMs": 98.7906,
+          "PostprocessMs": 1.8739000000000061,
+          "CropMs": 1.3910000000000053,
+          "RecognitionMs": 76.09309999999999,
+          "TotalMs": 192.2397
+        }
+      },
+      {
+        "name": "08_tilted_screen.png",
+        "pass": 1,
+        "ms": 180.1189,
+        "texts": [
+          "Victory is ours",
+          "Yeni bölge keşfedildi",
+          "Saving progress"
+        ],
+        "confidences": [
+          0.96500295,
+          0.99840564,
+          0.9998981
+        ],
+        "bounds": [
+          {
+            "X": 47,
+            "Y": 122,
+            "Width": 282,
+            "Height": 36
+          },
+          {
+            "X": 48,
+            "Y": 267,
+            "Width": 409,
+            "Height": 46
+          },
+          {
+            "X": 60,
+            "Y": 422,
+            "Width": 320,
+            "Height": 37
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.5957,
+          "PreprocessMs": 13.5702,
+          "DetectionMs": 102.00040000000001,
+          "PostprocessMs": 1.9101,
+          "CropMs": 1.9063999999999908,
+          "RecognitionMs": 59.1361,
+          "TotalMs": 180.1189
+        }
+      },
+      {
+        "name": "09_wide_720p.png",
+        "pass": 1,
+        "ms": 191.4873,
+        "texts": [
+          "The final chapter",
+          "Karakter seviyesi 18",
+          "Continue playing"
+        ],
+        "confidences": [
+          0.9880244,
+          0.98017323,
+          0.99995095
+        ],
+        "bounds": [
+          {
+            "X": 53,
+            "Y": 105,
+            "Width": 273,
+            "Height": 21
+          },
+          {
+            "X": 49,
+            "Y": 322,
+            "Width": 331,
+            "Height": 20
+          },
+          {
+            "X": 52,
+            "Y": 555,
+            "Width": 274,
+            "Height": 21
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.6542,
+          "PreprocessMs": 12.195400000000001,
+          "DetectionMs": 96.065,
+          "PostprocessMs": 1.6862000000000137,
+          "CropMs": 1.7042000000000002,
+          "RecognitionMs": 78.1823,
+          "TotalMs": 191.4873
+        }
+      },
+      {
+        "name": "10_colored_ui.png",
+        "pass": 1,
+        "ms": 188.8053,
+        "texts": [
+          "New achievement",
+          "Başarı kilidi açıldı",
+          "Collect your reward"
+        ],
+        "confidences": [
+          0.99890625,
+          0.98885477,
+          0.999977
+        ],
+        "bounds": [
+          {
+            "X": 64,
+            "Y": 109,
+            "Width": 322,
+            "Height": 24
+          },
+          {
+            "X": 165,
+            "Y": 263,
+            "Width": 309,
+            "Height": 28
+          },
+          {
+            "X": 59,
+            "Y": 410,
+            "Width": 352,
+            "Height": 29
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.5166,
+          "PreprocessMs": 14.2187,
+          "DetectionMs": 93.3692,
+          "PostprocessMs": 1.8340999999999923,
+          "CropMs": 1.703700000000012,
+          "RecognitionMs": 76.16299999999998,
+          "TotalMs": 188.8053
+        }
+      }
+    ]
+  },
+  "fast": {
+    "summary": {
+      "lines": "66/66",
+      "exact": 66,
+      "total": 66,
+      "predicted": 66,
+      "character_accuracy": 100.0,
+      "mean_ms": 155.08,
+      "f1": 100.0,
+      "errors": []
+    },
+    "records": [
+      {
+        "name": "00_baseline.png",
+        "pass": 0,
+        "ms": 183.9714,
+        "texts": [
+          "GAME TRANSLATOR OCR",
+          "Merhaba dünya!",
+          "Quest completed"
+        ],
+        "confidences": [
+          0.9948069,
+          0.9991935,
+          0.99967706
+        ],
+        "bounds": [
+          {
+            "X": 55,
+            "Y": 126,
+            "Width": 547,
+            "Height": 20
+          },
+          {
+            "X": 66,
+            "Y": 232,
+            "Width": 359,
+            "Height": 29
+          },
+          {
+            "X": 66,
+            "Y": 345,
+            "Width": 374,
+            "Height": 27
+          }
+        ],
+        "words": 7,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.122,
+          "PreprocessMs": 13.2932,
+          "DetectionMs": 66.1156,
+          "PostprocessMs": 2.515900000000002,
+          "CropMs": 1.9776999999999987,
+          "RecognitionMs": 98.94699999999999,
+          "TotalMs": 183.9714
+        }
+      },
+      {
+        "name": "01_dark_dialogue.png",
+        "pass": 0,
+        "ms": 181.7945,
+        "texts": [
+          "Open the ancient gate",
+          "Görev tamamlandı",
+          "Press E to continue"
+        ],
+        "confidences": [
+          0.99670154,
+          0.9914806,
+          0.98189396
+        ],
+        "bounds": [
+          {
+            "X": 45,
+            "Y": 111,
+            "Width": 431,
+            "Height": 24
+          },
+          {
+            "X": 47,
+            "Y": 266,
+            "Width": 357,
+            "Height": 19
+          },
+          {
+            "X": 48,
+            "Y": 412,
+            "Width": 370,
+            "Height": 22
+          }
+        ],
+        "words": 10,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.993,
+          "PreprocessMs": 12.2777,
+          "DetectionMs": 68.4587,
+          "PostprocessMs": 1.7334000000000032,
+          "CropMs": 2.108099999999993,
+          "RecognitionMs": 95.2236,
+          "TotalMs": 181.7945
+        }
+      },
+      {
+        "name": "02_small_hud.png",
+        "pass": 0,
+        "ms": 148.4919,
+        "texts": [
+          "LEVEL 27",
+          "Health 100%",
+          "Kalan süre 02:45"
+        ],
+        "confidences": [
+          0.99956834,
+          0.99299246,
+          0.998782
+        ],
+        "bounds": [
+          {
+            "X": 57,
+            "Y": 103,
+            "Width": 138,
+            "Height": 20
+          },
+          {
+            "X": 154,
+            "Y": 319,
+            "Width": 195,
+            "Height": 20
+          },
+          {
+            "X": 51,
+            "Y": 550,
+            "Width": 255,
+            "Height": 22
+          }
+        ],
+        "words": 7,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.2737,
+          "PreprocessMs": 11.5928,
+          "DetectionMs": 72.0352,
+          "PostprocessMs": 1.5943999999999932,
+          "CropMs": 1.5849000000000046,
+          "RecognitionMs": 59.410899999999984,
+          "TotalMs": 148.4919
+        }
+      },
+      {
+        "name": "03_outline_shadow.png",
+        "pass": 0,
+        "ms": 179.6587,
+        "texts": [
+          "Düşman yaklaşıyor!",
+          "Run to the bridge",
+          "Bölüm başarıyla bitti"
+        ],
+        "confidences": [
+          0.98483247,
+          0.9676699,
+          0.96300477
+        ],
+        "bounds": [
+          {
+            "X": 47,
+            "Y": 113,
+            "Width": 412,
+            "Height": 26
+          },
+          {
+            "X": 57,
+            "Y": 266,
+            "Width": 348,
+            "Height": 28
+          },
+          {
+            "X": 65,
+            "Y": 412,
+            "Width": 398,
+            "Height": 28
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.5429,
+          "PreprocessMs": 10.8415,
+          "DetectionMs": 72.0646,
+          "PostprocessMs": 2.3851999999999975,
+          "CropMs": 1.4769000000000005,
+          "RecognitionMs": 91.34760000000001,
+          "TotalMs": 179.6587
+        }
+      },
+      {
+        "name": "04_bright_menu.png",
+        "pass": 0,
+        "ms": 123.7522,
+        "texts": [
+          "Settings",
+          "Yeni oyun",
+          "Çıkış"
+        ],
+        "confidences": [
+          0.99994636,
+          0.9996718,
+          0.91395557
+        ],
+        "bounds": [
+          {
+            "X": 60,
+            "Y": 115,
+            "Width": 214,
+            "Height": 35
+          },
+          {
+            "X": 64,
+            "Y": 268,
+            "Width": 235,
+            "Height": 37
+          },
+          {
+            "X": 67,
+            "Y": 414,
+            "Width": 112,
+            "Height": 40
+          }
+        ],
+        "words": 4,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.2918,
+          "PreprocessMs": 9.1448,
+          "DetectionMs": 70.2527,
+          "PostprocessMs": 2.0259999999999962,
+          "CropMs": 1.1970000000000027,
+          "RecognitionMs": 39.8399,
+          "TotalMs": 123.7522
+        }
+      },
+      {
+        "name": "05_blurred_subtitles.png",
+        "pass": 0,
+        "ms": 152.8215,
+        "texts": [
+          "Can you hear me?",
+          "Kapıyı açmalıyız",
+          "Follow the signal"
+        ],
+        "confidences": [
+          0.9990257,
+          0.99246305,
+          0.9997673
+        ],
+        "bounds": [
+          {
+            "X": 51,
+            "Y": 110,
+            "Width": 339,
+            "Height": 24
+          },
+          {
+            "X": 53,
+            "Y": 265,
+            "Width": 307,
+            "Height": 27
+          },
+          {
+            "X": 51,
+            "Y": 411,
+            "Width": 325,
+            "Height": 26
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.3117,
+          "PreprocessMs": 11.2291,
+          "DetectionMs": 62.653099999999995,
+          "PostprocessMs": 1.7434999999999974,
+          "CropMs": 1.2697000000000003,
+          "RecognitionMs": 74.61439999999999,
+          "TotalMs": 152.8215
+        }
+      },
+      {
+        "name": "06_low_contrast.png",
+        "pass": 0,
+        "ms": 164.768,
+        "texts": [
+          "The mission begins",
+          "Yeni görev alındı",
+          "Return to base"
+        ],
+        "confidences": [
+          0.9998692,
+          0.96902514,
+          0.9983732
+        ],
+        "bounds": [
+          {
+            "X": 50,
+            "Y": 112,
+            "Width": 349,
+            "Height": 25
+          },
+          {
+            "X": 52,
+            "Y": 266,
+            "Width": 297,
+            "Height": 25
+          },
+          {
+            "X": 53,
+            "Y": 412,
+            "Width": 269,
+            "Height": 25
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.1199,
+          "PreprocessMs": 9.914200000000001,
+          "DetectionMs": 69.6558,
+          "PostprocessMs": 2.0108000000000033,
+          "CropMs": 1.182699999999997,
+          "RecognitionMs": 80.8846,
+          "TotalMs": 164.768
+        }
+      },
+      {
+        "name": "07_busy_background.png",
+        "pass": 0,
+        "ms": 160.7986,
+        "texts": [
+          "Main quest",
+          "inceleme tamamlandı",
+          "Return to the village"
+        ],
+        "confidences": [
+          0.99994135,
+          0.9706986,
+          0.9997458
+        ],
+        "bounds": [
+          {
+            "X": 56,
+            "Y": 108,
+            "Width": 214,
+            "Height": 26
+          },
+          {
+            "X": 44,
+            "Y": 262,
+            "Width": 419,
+            "Height": 25
+          },
+          {
+            "X": 46,
+            "Y": 410,
+            "Width": 399,
+            "Height": 28
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.9725,
+          "PreprocessMs": 10.5746,
+          "DetectionMs": 63.284400000000005,
+          "PostprocessMs": 1.8025999999999982,
+          "CropMs": 1.4577999999999918,
+          "RecognitionMs": 81.7067,
+          "TotalMs": 160.7986
+        }
+      },
+      {
+        "name": "08_tilted_screen.png",
+        "pass": 0,
+        "ms": 149.4044,
+        "texts": [
+          "Victory is ours",
+          "Yeni bölge keşfedildi",
+          "Saving progress"
+        ],
+        "confidences": [
+          0.9842829,
+          0.9976845,
+          0.97781396
+        ],
+        "bounds": [
+          {
+            "X": 46,
+            "Y": 121,
+            "Width": 282,
+            "Height": 36
+          },
+          {
+            "X": 46,
+            "Y": 267,
+            "Width": 411,
+            "Height": 45
+          },
+          {
+            "X": 62,
+            "Y": 424,
+            "Width": 317,
+            "Height": 34
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.3526,
+          "PreprocessMs": 9.319999999999999,
+          "DetectionMs": 64.98349999999999,
+          "PostprocessMs": 1.906000000000006,
+          "CropMs": 1.685299999999998,
+          "RecognitionMs": 70.15700000000001,
+          "TotalMs": 149.4044
+        }
+      },
+      {
+        "name": "09_wide_720p.png",
+        "pass": 0,
+        "ms": 166.6836,
+        "texts": [
+          "The final chapter",
+          "Karakter seviyesi 18",
+          "Continue playing"
+        ],
+        "confidences": [
+          0.99602836,
+          0.99978125,
+          0.99955046
+        ],
+        "bounds": [
+          {
+            "X": 51,
+            "Y": 105,
+            "Width": 277,
+            "Height": 21
+          },
+          {
+            "X": 45,
+            "Y": 321,
+            "Width": 338,
+            "Height": 21
+          },
+          {
+            "X": 50,
+            "Y": 555,
+            "Width": 276,
+            "Height": 21
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.7402,
+          "PreprocessMs": 10.0878,
+          "DetectionMs": 70.619,
+          "PostprocessMs": 2.1051999999999964,
+          "CropMs": 1.5927000000000078,
+          "RecognitionMs": 80.5387,
+          "TotalMs": 166.6836
+        }
+      },
+      {
+        "name": "10_colored_ui.png",
+        "pass": 0,
+        "ms": 160.9563,
+        "texts": [
+          "New achievement",
+          "Başarı kilidi açıldı",
+          "Collect your reward"
+        ],
+        "confidences": [
+          0.9999615,
+          0.995698,
+          0.999947
+        ],
+        "bounds": [
+          {
+            "X": 63,
+            "Y": 110,
+            "Width": 324,
+            "Height": 21
+          },
+          {
+            "X": 164,
+            "Y": 264,
+            "Width": 312,
+            "Height": 24
+          },
+          {
+            "X": 62,
+            "Y": 410,
+            "Width": 355,
+            "Height": 26
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.2811,
+          "PreprocessMs": 11.3622,
+          "DetectionMs": 65.9838,
+          "PostprocessMs": 1.9418000000000006,
+          "CropMs": 1.3525000000000063,
+          "RecognitionMs": 79.0349,
+          "TotalMs": 160.9563
+        }
+      },
+      {
+        "name": "00_baseline.png",
+        "pass": 1,
+        "ms": 164.8015,
+        "texts": [
+          "GAME TRANSLATOR OCR",
+          "Merhaba dünya!",
+          "Quest completed"
+        ],
+        "confidences": [
+          0.9948069,
+          0.9991935,
+          0.99967706
+        ],
+        "bounds": [
+          {
+            "X": 55,
+            "Y": 126,
+            "Width": 547,
+            "Height": 20
+          },
+          {
+            "X": 66,
+            "Y": 232,
+            "Width": 359,
+            "Height": 29
+          },
+          {
+            "X": 66,
+            "Y": 345,
+            "Width": 374,
+            "Height": 27
+          }
+        ],
+        "words": 7,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.2483,
+          "PreprocessMs": 9.1433,
+          "DetectionMs": 63.424800000000005,
+          "PostprocessMs": 1.6982,
+          "CropMs": 4.312399999999997,
+          "RecognitionMs": 84.9745,
+          "TotalMs": 164.8015
+        }
+      },
+      {
+        "name": "01_dark_dialogue.png",
+        "pass": 1,
+        "ms": 175.9912,
+        "texts": [
+          "Open the ancient gate",
+          "Görev tamamlandı",
+          "Press E to continue"
+        ],
+        "confidences": [
+          0.99670154,
+          0.9914806,
+          0.98189396
+        ],
+        "bounds": [
+          {
+            "X": 45,
+            "Y": 111,
+            "Width": 431,
+            "Height": 24
+          },
+          {
+            "X": 47,
+            "Y": 266,
+            "Width": 357,
+            "Height": 19
+          },
+          {
+            "X": 48,
+            "Y": 412,
+            "Width": 370,
+            "Height": 22
+          }
+        ],
+        "words": 10,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.3553,
+          "PreprocessMs": 12.75,
+          "DetectionMs": 66.1713,
+          "PostprocessMs": 1.765900000000002,
+          "CropMs": 1.2779999999999916,
+          "RecognitionMs": 92.6707,
+          "TotalMs": 175.9912
+        }
+      },
+      {
+        "name": "02_small_hud.png",
+        "pass": 1,
+        "ms": 138.8312,
+        "texts": [
+          "LEVEL 27",
+          "Health 100%",
+          "Kalan süre 02:45"
+        ],
+        "confidences": [
+          0.99956834,
+          0.99299246,
+          0.998782
+        ],
+        "bounds": [
+          {
+            "X": 57,
+            "Y": 103,
+            "Width": 138,
+            "Height": 20
+          },
+          {
+            "X": 154,
+            "Y": 319,
+            "Width": 195,
+            "Height": 20
+          },
+          {
+            "X": 51,
+            "Y": 550,
+            "Width": 255,
+            "Height": 22
+          }
+        ],
+        "words": 7,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 3.9377,
+          "PreprocessMs": 12.262900000000002,
+          "DetectionMs": 65.4905,
+          "PostprocessMs": 1.5527999999999906,
+          "CropMs": 1.6306000000000012,
+          "RecognitionMs": 53.9567,
+          "TotalMs": 138.8312
+        }
+      },
+      {
+        "name": "03_outline_shadow.png",
+        "pass": 1,
+        "ms": 154.5112,
+        "texts": [
+          "Düşman yaklaşıyor!",
+          "Run to the bridge",
+          "Bölüm başarıyla bitti"
+        ],
+        "confidences": [
+          0.98483247,
+          0.9676699,
+          0.96300477
+        ],
+        "bounds": [
+          {
+            "X": 47,
+            "Y": 113,
+            "Width": 412,
+            "Height": 26
+          },
+          {
+            "X": 57,
+            "Y": 266,
+            "Width": 348,
+            "Height": 28
+          },
+          {
+            "X": 65,
+            "Y": 412,
+            "Width": 398,
+            "Height": 28
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.2249,
+          "PreprocessMs": 10.7406,
+          "DetectionMs": 59.7972,
+          "PostprocessMs": 1.7224000000000075,
+          "CropMs": 1.4124999999999943,
+          "RecognitionMs": 79.6136,
+          "TotalMs": 154.5112
+        }
+      },
+      {
+        "name": "04_bright_menu.png",
+        "pass": 1,
+        "ms": 118.7245,
+        "texts": [
+          "Settings",
+          "Yeni oyun",
+          "Çıkış"
+        ],
+        "confidences": [
+          0.99994636,
+          0.9996718,
+          0.91395557
+        ],
+        "bounds": [
+          {
+            "X": 60,
+            "Y": 115,
+            "Width": 214,
+            "Height": 35
+          },
+          {
+            "X": 64,
+            "Y": 268,
+            "Width": 235,
+            "Height": 37
+          },
+          {
+            "X": 67,
+            "Y": 414,
+            "Width": 112,
+            "Height": 40
+          }
+        ],
+        "words": 4,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.5084,
+          "PreprocessMs": 9.4486,
+          "DetectionMs": 65.0213,
+          "PostprocessMs": 1.6255000000000024,
+          "CropMs": 1.0625,
+          "RecognitionMs": 40.0582,
+          "TotalMs": 118.7245
+        }
+      },
+      {
+        "name": "05_blurred_subtitles.png",
+        "pass": 1,
+        "ms": 154.4469,
+        "texts": [
+          "Can you hear me?",
+          "Kapıyı açmalıyız",
+          "Follow the signal"
+        ],
+        "confidences": [
+          0.9990257,
+          0.99246305,
+          0.9997673
+        ],
+        "bounds": [
+          {
+            "X": 51,
+            "Y": 110,
+            "Width": 339,
+            "Height": 24
+          },
+          {
+            "X": 53,
+            "Y": 265,
+            "Width": 307,
+            "Height": 27
+          },
+          {
+            "X": 51,
+            "Y": 411,
+            "Width": 325,
+            "Height": 26
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.385,
+          "PreprocessMs": 11.389100000000001,
+          "DetectionMs": 65.1039,
+          "PostprocessMs": 1.7425000000000068,
+          "CropMs": 1.217499999999987,
+          "RecognitionMs": 73.6089,
+          "TotalMs": 154.4469
+        }
+      },
+      {
+        "name": "06_low_contrast.png",
+        "pass": 1,
+        "ms": 141.8601,
+        "texts": [
+          "The mission begins",
+          "Yeni görev alındı",
+          "Return to base"
+        ],
+        "confidences": [
+          0.9998692,
+          0.96902514,
+          0.9983732
+        ],
+        "bounds": [
+          {
+            "X": 50,
+            "Y": 112,
+            "Width": 349,
+            "Height": 25
+          },
+          {
+            "X": 52,
+            "Y": 266,
+            "Width": 297,
+            "Height": 25
+          },
+          {
+            "X": 53,
+            "Y": 412,
+            "Width": 269,
+            "Height": 25
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.1074,
+          "PreprocessMs": 9.8479,
+          "DetectionMs": 60.832100000000004,
+          "PostprocessMs": 1.6940999999999917,
+          "CropMs": 1.1544999999999987,
+          "RecognitionMs": 67.22409999999999,
+          "TotalMs": 141.8601
+        }
+      },
+      {
+        "name": "07_busy_background.png",
+        "pass": 1,
+        "ms": 148.6477,
+        "texts": [
+          "Main quest",
+          "inceleme tamamlandı",
+          "Return to the village"
+        ],
+        "confidences": [
+          0.99994135,
+          0.9706986,
+          0.9997458
+        ],
+        "bounds": [
+          {
+            "X": 56,
+            "Y": 108,
+            "Width": 214,
+            "Height": 26
+          },
+          {
+            "X": 44,
+            "Y": 262,
+            "Width": 419,
+            "Height": 25
+          },
+          {
+            "X": 46,
+            "Y": 410,
+            "Width": 399,
+            "Height": 28
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.7202,
+          "PreprocessMs": 10.6604,
+          "DetectionMs": 64.2614,
+          "PostprocessMs": 1.7107000000000028,
+          "CropMs": 1.3097000000000065,
+          "RecognitionMs": 68.98529999999998,
+          "TotalMs": 148.6477
+        }
+      },
+      {
+        "name": "08_tilted_screen.png",
+        "pass": 1,
+        "ms": 133.2715,
+        "texts": [
+          "Victory is ours",
+          "Yeni bölge keşfedildi",
+          "Saving progress"
+        ],
+        "confidences": [
+          0.9842829,
+          0.9976845,
+          0.97781396
+        ],
+        "bounds": [
+          {
+            "X": 46,
+            "Y": 121,
+            "Width": 282,
+            "Height": 36
+          },
+          {
+            "X": 46,
+            "Y": 267,
+            "Width": 411,
+            "Height": 45
+          },
+          {
+            "X": 62,
+            "Y": 424,
+            "Width": 317,
+            "Height": 34
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.6021,
+          "PreprocessMs": 8.9811,
+          "DetectionMs": 62.38740000000001,
+          "PostprocessMs": 1.6751999999999896,
+          "CropMs": 1.4029000000000025,
+          "RecognitionMs": 57.22280000000001,
+          "TotalMs": 133.2715
+        }
+      },
+      {
+        "name": "09_wide_720p.png",
+        "pass": 1,
+        "ms": 156.9336,
+        "texts": [
+          "The final chapter",
+          "Karakter seviyesi 18",
+          "Continue playing"
+        ],
+        "confidences": [
+          0.99602836,
+          0.99978125,
+          0.99955046
+        ],
+        "bounds": [
+          {
+            "X": 51,
+            "Y": 105,
+            "Width": 277,
+            "Height": 21
+          },
+          {
+            "X": 45,
+            "Y": 321,
+            "Width": 338,
+            "Height": 21
+          },
+          {
+            "X": 50,
+            "Y": 555,
+            "Width": 276,
+            "Height": 21
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.6417,
+          "PreprocessMs": 11.0753,
+          "DetectionMs": 62.501599999999996,
+          "PostprocessMs": 2.1399000000000115,
+          "CropMs": 1.6577999999999946,
+          "RecognitionMs": 77.91730000000001,
+          "TotalMs": 156.9336
+        }
+      },
+      {
+        "name": "10_colored_ui.png",
+        "pass": 1,
+        "ms": 150.6365,
+        "texts": [
+          "New achievement",
+          "Başarı kilidi açıldı",
+          "Collect your reward"
+        ],
+        "confidences": [
+          0.9999615,
+          0.995698,
+          0.999947
+        ],
+        "bounds": [
+          {
+            "X": 63,
+            "Y": 110,
+            "Width": 324,
+            "Height": 21
+          },
+          {
+            "X": 164,
+            "Y": 264,
+            "Width": 312,
+            "Height": 24
+          },
+          {
+            "X": 62,
+            "Y": 410,
+            "Width": 355,
+            "Height": 26
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.2143,
+          "PreprocessMs": 10.530000000000001,
+          "DetectionMs": 63.6701,
+          "PostprocessMs": 1.8029999999999973,
+          "CropMs": 1.1621999999999986,
+          "RecognitionMs": 72.25690000000002,
+          "TotalMs": 150.6365
+        }
+      }
+    ]
+  },
+  "normal_tr": {
+    "summary": {
+      "lines": "66/66",
+      "exact": 66,
+      "total": 66,
+      "predicted": 66,
+      "character_accuracy": 100.0,
+      "mean_ms": 167.77,
+      "f1": 100.0,
+      "errors": []
+    },
+    "records": [
+      {
+        "name": "00_baseline.png",
+        "pass": 0,
+        "ms": 186.9341,
+        "texts": [
+          "GAME TRANSLATOR OCR",
+          "Merhaba dünya!",
+          "Quest completed"
+        ],
+        "confidences": [
+          0.99753803,
+          0.99895847,
+          0.98411566
+        ],
+        "bounds": [
+          {
+            "X": 55,
+            "Y": 126,
+            "Width": 547,
+            "Height": 21
+          },
+          {
+            "X": 78,
+            "Y": 234,
+            "Width": 333,
+            "Height": 30
+          },
+          {
+            "X": 66,
+            "Y": 346,
+            "Width": 374,
+            "Height": 25
+          }
+        ],
+        "words": 7,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.1322,
+          "PreprocessMs": 16.5583,
+          "DetectionMs": 95.7302,
+          "PostprocessMs": 2.8329999999999984,
+          "CropMs": 2.6152000000000015,
+          "RecognitionMs": 68.0652,
+          "TotalMs": 186.9341
+        }
+      },
+      {
+        "name": "01_dark_dialogue.png",
+        "pass": 0,
+        "ms": 189.373,
+        "texts": [
+          "Open the ancient gate",
+          "Görev tamamlandı",
+          "Press E to continue"
+        ],
+        "confidences": [
+          0.9990921,
+          0.97961193,
+          0.99837774
+        ],
+        "bounds": [
+          {
+            "X": 46,
+            "Y": 112,
+            "Width": 429,
+            "Height": 23
+          },
+          {
+            "X": 52,
+            "Y": 267,
+            "Width": 348,
+            "Height": 18
+          },
+          {
+            "X": 49,
+            "Y": 411,
+            "Width": 370,
+            "Height": 23
+          }
+        ],
+        "words": 10,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.9536,
+          "PreprocessMs": 15.207099999999999,
+          "DetectionMs": 98.57300000000001,
+          "PostprocessMs": 8.369,
+          "CropMs": 2.0422000000000082,
+          "RecognitionMs": 63.22809999999998,
+          "TotalMs": 189.373
+        }
+      },
+      {
+        "name": "02_small_hud.png",
+        "pass": 0,
+        "ms": 158.2318,
+        "texts": [
+          "LEVEL 27",
+          "Health 100%",
+          "Kalan süre 02:45"
+        ],
+        "confidences": [
+          0.9997511,
+          0.9988893,
+          0.9993216
+        ],
+        "bounds": [
+          {
+            "X": 57,
+            "Y": 101,
+            "Width": 138,
+            "Height": 23
+          },
+          {
+            "X": 154,
+            "Y": 320,
+            "Width": 194,
+            "Height": 19
+          },
+          {
+            "X": 50,
+            "Y": 551,
+            "Width": 258,
+            "Height": 20
+          }
+        ],
+        "words": 7,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.3647,
+          "PreprocessMs": 16.2456,
+          "DetectionMs": 96.9812,
+          "PostprocessMs": 2.528800000000004,
+          "CropMs": 1.8777000000000044,
+          "RecognitionMs": 38.23379999999999,
+          "TotalMs": 158.2318
+        }
+      },
+      {
+        "name": "03_outline_shadow.png",
+        "pass": 0,
+        "ms": 177.7132,
+        "texts": [
+          "Düşman yaklaşıyor!",
+          "Run to the bridge",
+          "Bölüm başarıyla bitti"
+        ],
+        "confidences": [
+          0.98936695,
+          0.99996614,
+          0.9907481
+        ],
+        "bounds": [
+          {
+            "X": 63,
+            "Y": 114,
+            "Width": 385,
+            "Height": 25
+          },
+          {
+            "X": 64,
+            "Y": 266,
+            "Width": 339,
+            "Height": 29
+          },
+          {
+            "X": 65,
+            "Y": 412,
+            "Width": 399,
+            "Height": 29
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.4325,
+          "PreprocessMs": 16.865099999999998,
+          "DetectionMs": 97.479,
+          "PostprocessMs": 3.389700000000005,
+          "CropMs": 1.6299999999999955,
+          "RecognitionMs": 56.9169,
+          "TotalMs": 177.7132
+        }
+      },
+      {
+        "name": "04_bright_menu.png",
+        "pass": 0,
+        "ms": 148.9432,
+        "texts": [
+          "Settings",
+          "Yeni oyun",
+          "Çıkış"
+        ],
+        "confidences": [
+          0.99991024,
+          0.99949235,
+          0.89391345
+        ],
+        "bounds": [
+          {
+            "X": 60,
+            "Y": 116,
+            "Width": 212,
+            "Height": 32
+          },
+          {
+            "X": 67,
+            "Y": 269,
+            "Width": 232,
+            "Height": 37
+          },
+          {
+            "X": 67,
+            "Y": 415,
+            "Width": 112,
+            "Height": 38
+          }
+        ],
+        "words": 4,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.2577,
+          "PreprocessMs": 13.8106,
+          "DetectionMs": 97.4829,
+          "PostprocessMs": 6.574100000000001,
+          "CropMs": 1.162700000000001,
+          "RecognitionMs": 28.655199999999994,
+          "TotalMs": 148.9432
+        }
+      },
+      {
+        "name": "05_blurred_subtitles.png",
+        "pass": 0,
+        "ms": 154.9218,
+        "texts": [
+          "Can you hear me?",
+          "Kapıyı açmalıyız",
+          "Follow the signal"
+        ],
+        "confidences": [
+          0.9998571,
+          0.993475,
+          0.9999842
+        ],
+        "bounds": [
+          {
+            "X": 52,
+            "Y": 111,
+            "Width": 339,
+            "Height": 24
+          },
+          {
+            "X": 54,
+            "Y": 267,
+            "Width": 306,
+            "Height": 23
+          },
+          {
+            "X": 52,
+            "Y": 411,
+            "Width": 323,
+            "Height": 25
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.2963,
+          "PreprocessMs": 12.1416,
+          "DetectionMs": 93.4278,
+          "PostprocessMs": 2.5049999999999955,
+          "CropMs": 1.7834000000000003,
+          "RecognitionMs": 43.76769999999999,
+          "TotalMs": 154.9218
+        }
+      },
+      {
+        "name": "06_low_contrast.png",
+        "pass": 0,
+        "ms": 160.1479,
+        "texts": [
+          "The mission begins",
+          "Yeni görev alındı",
+          "Return to base"
+        ],
+        "confidences": [
+          0.99986786,
+          0.9563805,
+          0.987216
+        ],
+        "bounds": [
+          {
+            "X": 50,
+            "Y": 113,
+            "Width": 348,
+            "Height": 22
+          },
+          {
+            "X": 53,
+            "Y": 267,
+            "Width": 294,
+            "Height": 23
+          },
+          {
+            "X": 55,
+            "Y": 415,
+            "Width": 264,
+            "Height": 19
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.3367,
+          "PreprocessMs": 14.307599999999999,
+          "DetectionMs": 94.0882,
+          "PostprocessMs": 3.403800000000004,
+          "CropMs": 1.8510999999999882,
+          "RecognitionMs": 45.1605,
+          "TotalMs": 160.1479
+        }
+      },
+      {
+        "name": "07_busy_background.png",
+        "pass": 0,
+        "ms": 185.9686,
+        "texts": [
+          "Main quest",
+          "inceleme tamamlandı",
+          "Return to the village"
+        ],
+        "confidences": [
+          0.99994516,
+          0.986725,
+          0.9999613
+        ],
+        "bounds": [
+          {
+            "X": 57,
+            "Y": 107,
+            "Width": 212,
+            "Height": 29
+          },
+          {
+            "X": 45,
+            "Y": 263,
+            "Width": 417,
+            "Height": 23
+          },
+          {
+            "X": 48,
+            "Y": 409,
+            "Width": 395,
+            "Height": 29
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.9862,
+          "PreprocessMs": 13.7715,
+          "DetectionMs": 108.7757,
+          "PostprocessMs": 2.1724999999999994,
+          "CropMs": 2.380600000000001,
+          "RecognitionMs": 56.88210000000001,
+          "TotalMs": 185.9686
+        }
+      },
+      {
+        "name": "08_tilted_screen.png",
+        "pass": 0,
+        "ms": 154.5024,
+        "texts": [
+          "Victory is ours",
+          "Yeni bölge keşfedildi",
+          "Saving progress"
+        ],
+        "confidences": [
+          0.96500295,
+          0.99840564,
+          0.9998981
+        ],
+        "bounds": [
+          {
+            "X": 47,
+            "Y": 122,
+            "Width": 282,
+            "Height": 36
+          },
+          {
+            "X": 48,
+            "Y": 267,
+            "Width": 409,
+            "Height": 46
+          },
+          {
+            "X": 60,
+            "Y": 422,
+            "Width": 320,
+            "Height": 37
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.422,
+          "PreprocessMs": 14.2396,
+          "DetectionMs": 99.2801,
+          "PostprocessMs": 2.4962000000000018,
+          "CropMs": 2.0978999999999957,
+          "RecognitionMs": 34.9666,
+          "TotalMs": 154.5024
+        }
+      },
+      {
+        "name": "09_wide_720p.png",
+        "pass": 0,
+        "ms": 175.8702,
+        "texts": [
+          "The final chapter",
+          "Karakter seviyesi 18",
+          "Continue playing"
+        ],
+        "confidences": [
+          0.9880244,
+          0.98017323,
+          0.99995095
+        ],
+        "bounds": [
+          {
+            "X": 53,
+            "Y": 105,
+            "Width": 273,
+            "Height": 21
+          },
+          {
+            "X": 49,
+            "Y": 322,
+            "Width": 331,
+            "Height": 20
+          },
+          {
+            "X": 52,
+            "Y": 555,
+            "Width": 274,
+            "Height": 21
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.6991,
+          "PreprocessMs": 16.178099999999997,
+          "DetectionMs": 98.3053,
+          "PostprocessMs": 1.9538999999999902,
+          "CropMs": 1.7924000000000007,
+          "RecognitionMs": 55.941400000000016,
+          "TotalMs": 175.8702
+        }
+      },
+      {
+        "name": "10_colored_ui.png",
+        "pass": 0,
+        "ms": 168.4143,
+        "texts": [
+          "New achievement",
+          "Başarı kilidi açıldı",
+          "Collect your reward"
+        ],
+        "confidences": [
+          0.99890625,
+          0.98885477,
+          0.999977
+        ],
+        "bounds": [
+          {
+            "X": 64,
+            "Y": 109,
+            "Width": 322,
+            "Height": 24
+          },
+          {
+            "X": 165,
+            "Y": 263,
+            "Width": 309,
+            "Height": 28
+          },
+          {
+            "X": 59,
+            "Y": 410,
+            "Width": 352,
+            "Height": 29
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.4829,
+          "PreprocessMs": 12.3057,
+          "DetectionMs": 96.85289999999999,
+          "PostprocessMs": 1.9978000000000122,
+          "CropMs": 1.8203999999999922,
+          "RecognitionMs": 53.9546,
+          "TotalMs": 168.4143
+        }
+      },
+      {
+        "name": "00_baseline.png",
+        "pass": 1,
+        "ms": 182.1783,
+        "texts": [
+          "GAME TRANSLATOR OCR",
+          "Merhaba dünya!",
+          "Quest completed"
+        ],
+        "confidences": [
+          0.99753803,
+          0.99895847,
+          0.98411566
+        ],
+        "bounds": [
+          {
+            "X": 55,
+            "Y": 126,
+            "Width": 547,
+            "Height": 21
+          },
+          {
+            "X": 78,
+            "Y": 234,
+            "Width": 333,
+            "Height": 30
+          },
+          {
+            "X": 66,
+            "Y": 346,
+            "Width": 374,
+            "Height": 25
+          }
+        ],
+        "words": 7,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.3384,
+          "PreprocessMs": 14.1943,
+          "DetectionMs": 95.61819999999999,
+          "PostprocessMs": 2.099800000000002,
+          "CropMs": 4.160200000000003,
+          "RecognitionMs": 64.76740000000001,
+          "TotalMs": 182.1783
+        }
+      },
+      {
+        "name": "01_dark_dialogue.png",
+        "pass": 1,
+        "ms": 176.956,
+        "texts": [
+          "Open the ancient gate",
+          "Görev tamamlandı",
+          "Press E to continue"
+        ],
+        "confidences": [
+          0.9990921,
+          0.97961193,
+          0.99837774
+        ],
+        "bounds": [
+          {
+            "X": 46,
+            "Y": 112,
+            "Width": 429,
+            "Height": 23
+          },
+          {
+            "X": 52,
+            "Y": 267,
+            "Width": 348,
+            "Height": 18
+          },
+          {
+            "X": 49,
+            "Y": 411,
+            "Width": 370,
+            "Height": 23
+          }
+        ],
+        "words": 10,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.162,
+          "PreprocessMs": 11.575099999999999,
+          "DetectionMs": 101.3998,
+          "PostprocessMs": 1.9690999999999974,
+          "CropMs": 1.4313000000000073,
+          "RecognitionMs": 59.41869999999999,
+          "TotalMs": 176.956
+        }
+      },
+      {
+        "name": "02_small_hud.png",
+        "pass": 1,
+        "ms": 154.3793,
+        "texts": [
+          "LEVEL 27",
+          "Health 100%",
+          "Kalan süre 02:45"
+        ],
+        "confidences": [
+          0.9997511,
+          0.9988893,
+          0.9993216
+        ],
+        "bounds": [
+          {
+            "X": 57,
+            "Y": 101,
+            "Width": 138,
+            "Height": 23
+          },
+          {
+            "X": 154,
+            "Y": 320,
+            "Width": 194,
+            "Height": 19
+          },
+          {
+            "X": 50,
+            "Y": 551,
+            "Width": 258,
+            "Height": 20
+          }
+        ],
+        "words": 7,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.2435,
+          "PreprocessMs": 14.4496,
+          "DetectionMs": 97.5591,
+          "PostprocessMs": 1.8015000000000043,
+          "CropMs": 1.546599999999998,
+          "RecognitionMs": 36.778999999999996,
+          "TotalMs": 154.3793
+        }
+      },
+      {
+        "name": "03_outline_shadow.png",
+        "pass": 1,
+        "ms": 164.3719,
+        "texts": [
+          "Düşman yaklaşıyor!",
+          "Run to the bridge",
+          "Bölüm başarıyla bitti"
+        ],
+        "confidences": [
+          0.98936695,
+          0.99996614,
+          0.9907481
+        ],
+        "bounds": [
+          {
+            "X": 63,
+            "Y": 114,
+            "Width": 385,
+            "Height": 25
+          },
+          {
+            "X": 64,
+            "Y": 266,
+            "Width": 339,
+            "Height": 29
+          },
+          {
+            "X": 65,
+            "Y": 412,
+            "Width": 399,
+            "Height": 29
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.1988,
+          "PreprocessMs": 12.2189,
+          "DetectionMs": 92.7499,
+          "PostprocessMs": 2.1215000000000117,
+          "CropMs": 3.5180000000000007,
+          "RecognitionMs": 52.564800000000005,
+          "TotalMs": 164.3719
+        }
+      },
+      {
+        "name": "04_bright_menu.png",
+        "pass": 1,
+        "ms": 145.7703,
+        "texts": [
+          "Settings",
+          "Yeni oyun",
+          "Çıkış"
+        ],
+        "confidences": [
+          0.99991024,
+          0.99949235,
+          0.89391345
+        ],
+        "bounds": [
+          {
+            "X": 60,
+            "Y": 116,
+            "Width": 212,
+            "Height": 32
+          },
+          {
+            "X": 67,
+            "Y": 269,
+            "Width": 232,
+            "Height": 37
+          },
+          {
+            "X": 67,
+            "Y": 415,
+            "Width": 112,
+            "Height": 38
+          }
+        ],
+        "words": 4,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.6319,
+          "PreprocessMs": 14.0505,
+          "DetectionMs": 97.582,
+          "PostprocessMs": 1.8933000000000106,
+          "CropMs": 1.3904999999999887,
+          "RecognitionMs": 29.222099999999998,
+          "TotalMs": 145.7703
+        }
+      },
+      {
+        "name": "05_blurred_subtitles.png",
+        "pass": 1,
+        "ms": 177.4985,
+        "texts": [
+          "Can you hear me?",
+          "Kapıyı açmalıyız",
+          "Follow the signal"
+        ],
+        "confidences": [
+          0.9998571,
+          0.993475,
+          0.9999842
+        ],
+        "bounds": [
+          {
+            "X": 52,
+            "Y": 111,
+            "Width": 339,
+            "Height": 24
+          },
+          {
+            "X": 54,
+            "Y": 267,
+            "Width": 306,
+            "Height": 23
+          },
+          {
+            "X": 52,
+            "Y": 411,
+            "Width": 323,
+            "Height": 25
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.3082,
+          "PreprocessMs": 13.5372,
+          "DetectionMs": 110.6414,
+          "PostprocessMs": 2.1203000000000003,
+          "CropMs": 2.087299999999999,
+          "RecognitionMs": 47.804100000000005,
+          "TotalMs": 177.4985
+        }
+      },
+      {
+        "name": "06_low_contrast.png",
+        "pass": 1,
+        "ms": 165.9763,
+        "texts": [
+          "The mission begins",
+          "Yeni görev alındı",
+          "Return to base"
+        ],
+        "confidences": [
+          0.99986786,
+          0.9563805,
+          0.987216
+        ],
+        "bounds": [
+          {
+            "X": 50,
+            "Y": 113,
+            "Width": 348,
+            "Height": 22
+          },
+          {
+            "X": 53,
+            "Y": 267,
+            "Width": 294,
+            "Height": 23
+          },
+          {
+            "X": 55,
+            "Y": 415,
+            "Width": 264,
+            "Height": 19
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.3792,
+          "PreprocessMs": 11.933700000000002,
+          "DetectionMs": 97.1504,
+          "PostprocessMs": 2.0382999999999925,
+          "CropMs": 1.3382000000000005,
+          "RecognitionMs": 52.13650000000001,
+          "TotalMs": 165.9763
+        }
+      },
+      {
+        "name": "07_busy_background.png",
+        "pass": 1,
+        "ms": 168.5916,
+        "texts": [
+          "Main quest",
+          "inceleme tamamlandı",
+          "Return to the village"
+        ],
+        "confidences": [
+          0.99994516,
+          0.986725,
+          0.9999613
+        ],
+        "bounds": [
+          {
+            "X": 57,
+            "Y": 107,
+            "Width": 212,
+            "Height": 29
+          },
+          {
+            "X": 45,
+            "Y": 263,
+            "Width": 417,
+            "Height": 23
+          },
+          {
+            "X": 48,
+            "Y": 409,
+            "Width": 395,
+            "Height": 29
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.8583,
+          "PreprocessMs": 13.5166,
+          "DetectionMs": 96.93180000000001,
+          "PostprocessMs": 1.9649,
+          "CropMs": 1.3932999999999964,
+          "RecognitionMs": 52.9267,
+          "TotalMs": 168.5916
+        }
+      },
+      {
+        "name": "08_tilted_screen.png",
+        "pass": 1,
+        "ms": 156.0941,
+        "texts": [
+          "Victory is ours",
+          "Yeni bölge keşfedildi",
+          "Saving progress"
+        ],
+        "confidences": [
+          0.96500295,
+          0.99840564,
+          0.9998981
+        ],
+        "bounds": [
+          {
+            "X": 47,
+            "Y": 122,
+            "Width": 282,
+            "Height": 36
+          },
+          {
+            "X": 48,
+            "Y": 267,
+            "Width": 409,
+            "Height": 46
+          },
+          {
+            "X": 60,
+            "Y": 422,
+            "Width": 320,
+            "Height": 37
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.3853,
+          "PreprocessMs": 11.45,
+          "DetectionMs": 106.5042,
+          "PostprocessMs": 1.9535000000000053,
+          "CropMs": 1.6019000000000005,
+          "RecognitionMs": 33.19919999999999,
+          "TotalMs": 156.0941
+        }
+      },
+      {
+        "name": "09_wide_720p.png",
+        "pass": 1,
+        "ms": 170.3477,
+        "texts": [
+          "The final chapter",
+          "Karakter seviyesi 18",
+          "Continue playing"
+        ],
+        "confidences": [
+          0.9880244,
+          0.98017323,
+          0.99995095
+        ],
+        "bounds": [
+          {
+            "X": 53,
+            "Y": 105,
+            "Width": 273,
+            "Height": 21
+          },
+          {
+            "X": 49,
+            "Y": 322,
+            "Width": 331,
+            "Height": 20
+          },
+          {
+            "X": 52,
+            "Y": 555,
+            "Width": 274,
+            "Height": 21
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.9593,
+          "PreprocessMs": 14.8953,
+          "DetectionMs": 94.3258,
+          "PostprocessMs": 2.183799999999991,
+          "CropMs": 2.4692000000000007,
+          "RecognitionMs": 54.514300000000006,
+          "TotalMs": 170.3477
+        }
+      },
+      {
+        "name": "10_colored_ui.png",
+        "pass": 1,
+        "ms": 167.6815,
+        "texts": [
+          "New achievement",
+          "Başarı kilidi açıldı",
+          "Collect your reward"
+        ],
+        "confidences": [
+          0.99890625,
+          0.98885477,
+          0.999977
+        ],
+        "bounds": [
+          {
+            "X": 64,
+            "Y": 109,
+            "Width": 322,
+            "Height": 24
+          },
+          {
+            "X": 165,
+            "Y": 263,
+            "Width": 309,
+            "Height": 28
+          },
+          {
+            "X": 59,
+            "Y": 410,
+            "Width": 352,
+            "Height": 29
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.2347,
+          "PreprocessMs": 11.906,
+          "DetectionMs": 96.7527,
+          "PostprocessMs": 1.9972000000000065,
+          "CropMs": 1.6435999999999922,
+          "RecognitionMs": 54.1473,
+          "TotalMs": 167.6815
+        }
+      }
+    ]
+  },
+  "fast_tr": {
+    "summary": {
+      "lines": "66/66",
+      "exact": 66,
+      "total": 66,
+      "predicted": 66,
+      "character_accuracy": 100.0,
+      "mean_ms": 134.03,
+      "f1": 100.0,
+      "errors": []
+    },
+    "records": [
+      {
+        "name": "00_baseline.png",
+        "pass": 0,
+        "ms": 157.3032,
+        "texts": [
+          "GAME TRANSLATOR OCR",
+          "Merhaba dünya!",
+          "Quest completed"
+        ],
+        "confidences": [
+          0.9948069,
+          0.9991935,
+          0.99967706
+        ],
+        "bounds": [
+          {
+            "X": 55,
+            "Y": 126,
+            "Width": 547,
+            "Height": 20
+          },
+          {
+            "X": 66,
+            "Y": 232,
+            "Width": 359,
+            "Height": 29
+          },
+          {
+            "X": 66,
+            "Y": 345,
+            "Width": 374,
+            "Height": 27
+          }
+        ],
+        "words": 7,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.1679,
+          "PreprocessMs": 13.341800000000001,
+          "DetectionMs": 71.5197,
+          "PostprocessMs": 2.5386000000000024,
+          "CropMs": 2.011499999999998,
+          "RecognitionMs": 66.72370000000001,
+          "TotalMs": 157.3032
+        }
+      },
+      {
+        "name": "01_dark_dialogue.png",
+        "pass": 0,
+        "ms": 150.5006,
+        "texts": [
+          "Open the ancient gate",
+          "Görev tamamlandı",
+          "Press E to continue"
+        ],
+        "confidences": [
+          0.99670154,
+          0.9914806,
+          0.98189396
+        ],
+        "bounds": [
+          {
+            "X": 45,
+            "Y": 111,
+            "Width": 431,
+            "Height": 24
+          },
+          {
+            "X": 47,
+            "Y": 266,
+            "Width": 357,
+            "Height": 19
+          },
+          {
+            "X": 48,
+            "Y": 412,
+            "Width": 370,
+            "Height": 22
+          }
+        ],
+        "words": 10,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.8126,
+          "PreprocessMs": 14.657800000000002,
+          "DetectionMs": 67.1022,
+          "PostprocessMs": 1.8218999999999994,
+          "CropMs": 2.373800000000003,
+          "RecognitionMs": 62.732299999999995,
+          "TotalMs": 150.5006
+        }
+      },
+      {
+        "name": "02_small_hud.png",
+        "pass": 0,
+        "ms": 128.0732,
+        "texts": [
+          "LEVEL 27",
+          "Health 100%",
+          "Kalan süre 02:45"
+        ],
+        "confidences": [
+          0.99956834,
+          0.99299246,
+          0.998782
+        ],
+        "bounds": [
+          {
+            "X": 57,
+            "Y": 103,
+            "Width": 138,
+            "Height": 20
+          },
+          {
+            "X": 154,
+            "Y": 319,
+            "Width": 195,
+            "Height": 20
+          },
+          {
+            "X": 51,
+            "Y": 550,
+            "Width": 255,
+            "Height": 22
+          }
+        ],
+        "words": 7,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.6395,
+          "PreprocessMs": 15.8757,
+          "DetectionMs": 65.81890000000001,
+          "PostprocessMs": 1.7240999999999929,
+          "CropMs": 1.9482,
+          "RecognitionMs": 40.066800000000015,
+          "TotalMs": 128.0732
+        }
+      },
+      {
+        "name": "03_outline_shadow.png",
+        "pass": 0,
+        "ms": 146.546,
+        "texts": [
+          "Düşman yaklaşıyor!",
+          "Run to the bridge",
+          "Bölüm başarıyla bitti"
+        ],
+        "confidences": [
+          0.98483247,
+          0.9676699,
+          0.96300477
+        ],
+        "bounds": [
+          {
+            "X": 47,
+            "Y": 113,
+            "Width": 412,
+            "Height": 26
+          },
+          {
+            "X": 57,
+            "Y": 266,
+            "Width": 348,
+            "Height": 28
+          },
+          {
+            "X": 65,
+            "Y": 412,
+            "Width": 398,
+            "Height": 28
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.2434,
+          "PreprocessMs": 13.1667,
+          "DetectionMs": 66.0613,
+          "PostprocessMs": 2.4024,
+          "CropMs": 2.664900000000003,
+          "RecognitionMs": 61.00729999999999,
+          "TotalMs": 146.546
+        }
+      },
+      {
+        "name": "04_bright_menu.png",
+        "pass": 0,
+        "ms": 119.8119,
+        "texts": [
+          "Settings",
+          "Yeni oyun",
+          "Çıkış"
+        ],
+        "confidences": [
+          0.99994636,
+          0.9996718,
+          0.91395557
+        ],
+        "bounds": [
+          {
+            "X": 60,
+            "Y": 115,
+            "Width": 214,
+            "Height": 35
+          },
+          {
+            "X": 64,
+            "Y": 268,
+            "Width": 235,
+            "Height": 37
+          },
+          {
+            "X": 67,
+            "Y": 414,
+            "Width": 112,
+            "Height": 40
+          }
+        ],
+        "words": 4,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.2684,
+          "PreprocessMs": 13.3139,
+          "DetectionMs": 69.41839999999999,
+          "PostprocessMs": 1.799900000000008,
+          "CropMs": 1.6646999999999963,
+          "RecognitionMs": 32.346599999999995,
+          "TotalMs": 119.8119
+        }
+      },
+      {
+        "name": "05_blurred_subtitles.png",
+        "pass": 0,
+        "ms": 131.5133,
+        "texts": [
+          "Can you hear me?",
+          "Kapıyı açmalıyız",
+          "Follow the signal"
+        ],
+        "confidences": [
+          0.9990257,
+          0.99246305,
+          0.9997673
+        ],
+        "bounds": [
+          {
+            "X": 51,
+            "Y": 110,
+            "Width": 339,
+            "Height": 24
+          },
+          {
+            "X": 53,
+            "Y": 265,
+            "Width": 307,
+            "Height": 27
+          },
+          {
+            "X": 51,
+            "Y": 411,
+            "Width": 325,
+            "Height": 26
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.2495,
+          "PreprocessMs": 14.759000000000002,
+          "DetectionMs": 65.3866,
+          "PostprocessMs": 1.8495000000000061,
+          "CropMs": 1.4089999999999918,
+          "RecognitionMs": 46.85969999999999,
+          "TotalMs": 131.5133
+        }
+      },
+      {
+        "name": "06_low_contrast.png",
+        "pass": 0,
+        "ms": 124.851,
+        "texts": [
+          "The mission begins",
+          "Yeni görev alındı",
+          "Return to base"
+        ],
+        "confidences": [
+          0.9998692,
+          0.96902514,
+          0.9983732
+        ],
+        "bounds": [
+          {
+            "X": 50,
+            "Y": 112,
+            "Width": 349,
+            "Height": 25
+          },
+          {
+            "X": 52,
+            "Y": 266,
+            "Width": 297,
+            "Height": 25
+          },
+          {
+            "X": 53,
+            "Y": 412,
+            "Width": 269,
+            "Height": 25
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.3856,
+          "PreprocessMs": 9.3558,
+          "DetectionMs": 64.0391,
+          "PostprocessMs": 1.5254999999999939,
+          "CropMs": 1.1687000000000012,
+          "RecognitionMs": 47.3763,
+          "TotalMs": 124.851
+        }
+      },
+      {
+        "name": "07_busy_background.png",
+        "pass": 0,
+        "ms": 137.2055,
+        "texts": [
+          "Main quest",
+          "inceleme tamamlandı",
+          "Return to the village"
+        ],
+        "confidences": [
+          0.99994135,
+          0.9706986,
+          0.9997458
+        ],
+        "bounds": [
+          {
+            "X": 56,
+            "Y": 108,
+            "Width": 214,
+            "Height": 26
+          },
+          {
+            "X": 44,
+            "Y": 262,
+            "Width": 419,
+            "Height": 25
+          },
+          {
+            "X": 46,
+            "Y": 410,
+            "Width": 399,
+            "Height": 28
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.0003,
+          "PreprocessMs": 11.558499999999999,
+          "DetectionMs": 69.68419999999999,
+          "PostprocessMs": 1.7328000000000117,
+          "CropMs": 1.4313999999999965,
+          "RecognitionMs": 50.7983,
+          "TotalMs": 137.2055
+        }
+      },
+      {
+        "name": "08_tilted_screen.png",
+        "pass": 0,
+        "ms": 117.3487,
+        "texts": [
+          "Victory is ours",
+          "Yeni bölge keşfedildi",
+          "Saving progress"
+        ],
+        "confidences": [
+          0.9842829,
+          0.9976845,
+          0.97781396
+        ],
+        "bounds": [
+          {
+            "X": 46,
+            "Y": 121,
+            "Width": 282,
+            "Height": 36
+          },
+          {
+            "X": 46,
+            "Y": 267,
+            "Width": 411,
+            "Height": 45
+          },
+          {
+            "X": 62,
+            "Y": 424,
+            "Width": 317,
+            "Height": 34
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.4555,
+          "PreprocessMs": 9.109399999999999,
+          "DetectionMs": 65.7215,
+          "PostprocessMs": 1.7179000000000002,
+          "CropMs": 1.4150000000000063,
+          "RecognitionMs": 37.92939999999999,
+          "TotalMs": 117.3487
+        }
+      },
+      {
+        "name": "09_wide_720p.png",
+        "pass": 0,
+        "ms": 134.0184,
+        "texts": [
+          "The final chapter",
+          "Karakter seviyesi 18",
+          "Continue playing"
+        ],
+        "confidences": [
+          0.99602836,
+          0.99978125,
+          0.99955046
+        ],
+        "bounds": [
+          {
+            "X": 51,
+            "Y": 105,
+            "Width": 277,
+            "Height": 21
+          },
+          {
+            "X": 45,
+            "Y": 321,
+            "Width": 338,
+            "Height": 21
+          },
+          {
+            "X": 50,
+            "Y": 555,
+            "Width": 276,
+            "Height": 21
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.8313,
+          "PreprocessMs": 13.2496,
+          "DetectionMs": 63.0509,
+          "PostprocessMs": 2.0274,
+          "CropMs": 1.6107000000000085,
+          "RecognitionMs": 51.24850000000001,
+          "TotalMs": 134.0184
+        }
+      },
+      {
+        "name": "10_colored_ui.png",
+        "pass": 0,
+        "ms": 130.102,
+        "texts": [
+          "New achievement",
+          "Başarı kilidi açıldı",
+          "Collect your reward"
+        ],
+        "confidences": [
+          0.9999615,
+          0.995698,
+          0.999947
+        ],
+        "bounds": [
+          {
+            "X": 63,
+            "Y": 110,
+            "Width": 324,
+            "Height": 21
+          },
+          {
+            "X": 164,
+            "Y": 264,
+            "Width": 312,
+            "Height": 24
+          },
+          {
+            "X": 62,
+            "Y": 410,
+            "Width": 355,
+            "Height": 26
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.201,
+          "PreprocessMs": 10.7735,
+          "DetectionMs": 67.5927,
+          "PostprocessMs": 1.7609000000000066,
+          "CropMs": 1.269999999999996,
+          "RecognitionMs": 47.5039,
+          "TotalMs": 130.102
+        }
+      },
+      {
+        "name": "00_baseline.png",
+        "pass": 1,
+        "ms": 150.5032,
+        "texts": [
+          "GAME TRANSLATOR OCR",
+          "Merhaba dünya!",
+          "Quest completed"
+        ],
+        "confidences": [
+          0.9948069,
+          0.9991935,
+          0.99967706
+        ],
+        "bounds": [
+          {
+            "X": 55,
+            "Y": 126,
+            "Width": 547,
+            "Height": 20
+          },
+          {
+            "X": 66,
+            "Y": 232,
+            "Width": 359,
+            "Height": 29
+          },
+          {
+            "X": 66,
+            "Y": 345,
+            "Width": 374,
+            "Height": 27
+          }
+        ],
+        "words": 7,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.1974,
+          "PreprocessMs": 9.0511,
+          "DetectionMs": 69.29069999999999,
+          "PostprocessMs": 1.8875000000000028,
+          "CropMs": 4.7727,
+          "RecognitionMs": 64.3038,
+          "TotalMs": 150.5032
+        }
+      },
+      {
+        "name": "01_dark_dialogue.png",
+        "pass": 1,
+        "ms": 150.4204,
+        "texts": [
+          "Open the ancient gate",
+          "Görev tamamlandı",
+          "Press E to continue"
+        ],
+        "confidences": [
+          0.99670154,
+          0.9914806,
+          0.98189396
+        ],
+        "bounds": [
+          {
+            "X": 45,
+            "Y": 111,
+            "Width": 431,
+            "Height": 24
+          },
+          {
+            "X": 47,
+            "Y": 266,
+            "Width": 357,
+            "Height": 19
+          },
+          {
+            "X": 48,
+            "Y": 412,
+            "Width": 370,
+            "Height": 22
+          }
+        ],
+        "words": 10,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.2869,
+          "PreprocessMs": 11.192300000000001,
+          "DetectionMs": 70.59309999999999,
+          "PostprocessMs": 1.930099999999996,
+          "CropMs": 1.2857000000000056,
+          "RecognitionMs": 64.1323,
+          "TotalMs": 150.4204
+        }
+      },
+      {
+        "name": "02_small_hud.png",
+        "pass": 1,
+        "ms": 127.8311,
+        "texts": [
+          "LEVEL 27",
+          "Health 100%",
+          "Kalan süre 02:45"
+        ],
+        "confidences": [
+          0.99956834,
+          0.99299246,
+          0.998782
+        ],
+        "bounds": [
+          {
+            "X": 57,
+            "Y": 103,
+            "Width": 138,
+            "Height": 20
+          },
+          {
+            "X": 154,
+            "Y": 319,
+            "Width": 195,
+            "Height": 20
+          },
+          {
+            "X": 51,
+            "Y": 550,
+            "Width": 255,
+            "Height": 22
+          }
+        ],
+        "words": 7,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.2996,
+          "PreprocessMs": 10.4627,
+          "DetectionMs": 67.32000000000001,
+          "PostprocessMs": 2.232599999999991,
+          "CropMs": 1.8130000000000024,
+          "RecognitionMs": 43.70320000000001,
+          "TotalMs": 127.8311
+        }
+      },
+      {
+        "name": "03_outline_shadow.png",
+        "pass": 1,
+        "ms": 138.7778,
+        "texts": [
+          "Düşman yaklaşıyor!",
+          "Run to the bridge",
+          "Bölüm başarıyla bitti"
+        ],
+        "confidences": [
+          0.98483247,
+          0.9676699,
+          0.96300477
+        ],
+        "bounds": [
+          {
+            "X": 47,
+            "Y": 113,
+            "Width": 412,
+            "Height": 26
+          },
+          {
+            "X": 57,
+            "Y": 266,
+            "Width": 348,
+            "Height": 28
+          },
+          {
+            "X": 65,
+            "Y": 412,
+            "Width": 398,
+            "Height": 28
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.4528,
+          "PreprocessMs": 11.1819,
+          "DetectionMs": 71.03840000000001,
+          "PostprocessMs": 1.8119999999999976,
+          "CropMs": 1.4312999999999931,
+          "RecognitionMs": 51.86140000000002,
+          "TotalMs": 138.7778
+        }
+      },
+      {
+        "name": "04_bright_menu.png",
+        "pass": 1,
+        "ms": 108.0977,
+        "texts": [
+          "Settings",
+          "Yeni oyun",
+          "Çıkış"
+        ],
+        "confidences": [
+          0.99994636,
+          0.9996718,
+          0.91395557
+        ],
+        "bounds": [
+          {
+            "X": 60,
+            "Y": 115,
+            "Width": 214,
+            "Height": 35
+          },
+          {
+            "X": 64,
+            "Y": 268,
+            "Width": 235,
+            "Height": 37
+          },
+          {
+            "X": 67,
+            "Y": 414,
+            "Width": 112,
+            "Height": 40
+          }
+        ],
+        "words": 4,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.4195,
+          "PreprocessMs": 9.3049,
+          "DetectionMs": 69.0244,
+          "PostprocessMs": 1.7439999999999998,
+          "CropMs": 1.1891999999999996,
+          "RecognitionMs": 25.4157,
+          "TotalMs": 108.0977
+        }
+      },
+      {
+        "name": "05_blurred_subtitles.png",
+        "pass": 1,
+        "ms": 131.4194,
+        "texts": [
+          "Can you hear me?",
+          "Kapıyı açmalıyız",
+          "Follow the signal"
+        ],
+        "confidences": [
+          0.9990257,
+          0.99246305,
+          0.9997673
+        ],
+        "bounds": [
+          {
+            "X": 51,
+            "Y": 110,
+            "Width": 339,
+            "Height": 24
+          },
+          {
+            "X": 53,
+            "Y": 265,
+            "Width": 307,
+            "Height": 27
+          },
+          {
+            "X": 51,
+            "Y": 411,
+            "Width": 325,
+            "Height": 26
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.2816,
+          "PreprocessMs": 11.3433,
+          "DetectionMs": 69.1723,
+          "PostprocessMs": 1.8215000000000003,
+          "CropMs": 1.4180999999999955,
+          "RecognitionMs": 46.3826,
+          "TotalMs": 131.4194
+        }
+      },
+      {
+        "name": "06_low_contrast.png",
+        "pass": 1,
+        "ms": 129.0289,
+        "texts": [
+          "The mission begins",
+          "Yeni görev alındı",
+          "Return to base"
+        ],
+        "confidences": [
+          0.9998692,
+          0.96902514,
+          0.9983732
+        ],
+        "bounds": [
+          {
+            "X": 50,
+            "Y": 112,
+            "Width": 349,
+            "Height": 25
+          },
+          {
+            "X": 52,
+            "Y": 266,
+            "Width": 297,
+            "Height": 25
+          },
+          {
+            "X": 53,
+            "Y": 412,
+            "Width": 269,
+            "Height": 25
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.3314,
+          "PreprocessMs": 9.5422,
+          "DetectionMs": 67.2559,
+          "PostprocessMs": 1.652300000000011,
+          "CropMs": 1.2250999999999976,
+          "RecognitionMs": 48.02199999999999,
+          "TotalMs": 129.0289
+        }
+      },
+      {
+        "name": "07_busy_background.png",
+        "pass": 1,
+        "ms": 137.7485,
+        "texts": [
+          "Main quest",
+          "inceleme tamamlandı",
+          "Return to the village"
+        ],
+        "confidences": [
+          0.99994135,
+          0.9706986,
+          0.9997458
+        ],
+        "bounds": [
+          {
+            "X": 56,
+            "Y": 108,
+            "Width": 214,
+            "Height": 26
+          },
+          {
+            "X": 44,
+            "Y": 262,
+            "Width": 419,
+            "Height": 25
+          },
+          {
+            "X": 46,
+            "Y": 410,
+            "Width": 399,
+            "Height": 28
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.0644,
+          "PreprocessMs": 10.887699999999999,
+          "DetectionMs": 69.3763,
+          "PostprocessMs": 1.765599999999992,
+          "CropMs": 1.3081000000000103,
+          "RecognitionMs": 52.3464,
+          "TotalMs": 137.7485
+        }
+      },
+      {
+        "name": "08_tilted_screen.png",
+        "pass": 1,
+        "ms": 125.5523,
+        "texts": [
+          "Victory is ours",
+          "Yeni bölge keşfedildi",
+          "Saving progress"
+        ],
+        "confidences": [
+          0.9842829,
+          0.9976845,
+          0.97781396
+        ],
+        "bounds": [
+          {
+            "X": 46,
+            "Y": 121,
+            "Width": 282,
+            "Height": 36
+          },
+          {
+            "X": 46,
+            "Y": 267,
+            "Width": 411,
+            "Height": 45
+          },
+          {
+            "X": 62,
+            "Y": 424,
+            "Width": 317,
+            "Height": 34
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.5457,
+          "PreprocessMs": 9.2737,
+          "DetectionMs": 70.1746,
+          "PostprocessMs": 1.6559000000000026,
+          "CropMs": 1.3297999999999917,
+          "RecognitionMs": 41.57260000000001,
+          "TotalMs": 125.5523
+        }
+      },
+      {
+        "name": "09_wide_720p.png",
+        "pass": 1,
+        "ms": 137.5866,
+        "texts": [
+          "The final chapter",
+          "Karakter seviyesi 18",
+          "Continue playing"
+        ],
+        "confidences": [
+          0.99602836,
+          0.99978125,
+          0.99955046
+        ],
+        "bounds": [
+          {
+            "X": 51,
+            "Y": 105,
+            "Width": 277,
+            "Height": 21
+          },
+          {
+            "X": 45,
+            "Y": 321,
+            "Width": 338,
+            "Height": 21
+          },
+          {
+            "X": 50,
+            "Y": 555,
+            "Width": 276,
+            "Height": 21
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.1312,
+          "PreprocessMs": 10.9878,
+          "DetectionMs": 68.1998,
+          "PostprocessMs": 2.931899999999999,
+          "CropMs": 1.5334000000000003,
+          "RecognitionMs": 51.80250000000001,
+          "TotalMs": 137.5866
+        }
+      },
+      {
+        "name": "10_colored_ui.png",
+        "pass": 1,
+        "ms": 134.3383,
+        "texts": [
+          "New achievement",
+          "Başarı kilidi açıldı",
+          "Collect your reward"
+        ],
+        "confidences": [
+          0.9999615,
+          0.995698,
+          0.999947
+        ],
+        "bounds": [
+          {
+            "X": 63,
+            "Y": 110,
+            "Width": 324,
+            "Height": 21
+          },
+          {
+            "X": 164,
+            "Y": 264,
+            "Width": 312,
+            "Height": 24
+          },
+          {
+            "X": 62,
+            "Y": 410,
+            "Width": 355,
+            "Height": 26
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.2388,
+          "PreprocessMs": 10.592,
+          "DetectionMs": 67.2232,
+          "PostprocessMs": 1.8790000000000049,
+          "CropMs": 1.1966999999999928,
+          "RecognitionMs": 52.208600000000004,
+          "TotalMs": 134.3383
+        }
+      }
+    ]
+  }
+}

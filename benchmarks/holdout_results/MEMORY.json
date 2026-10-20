@@ -1,0 +1,23 @@
+{
+  "GameTranslatorOCR v5 tuned": {
+    "peak_rss_mb": 358.3,
+    "command": [
+      "dotnet",
+      "/run/media/adminmehmet/0ba60d1b-7861-4575-a77f-d974006e3982/GameTranslatorOCR/src/GameTranslatorOCR.Cli/bin/Release/net8.0/GameTranslatorOCR.Cli.dll"
+    ]
+  },
+  "GameTranslatorOCR hybrid tuned": {
+    "peak_rss_mb": 399.2,
+    "command": [
+      "dotnet",
+      "/run/media/adminmehmet/0ba60d1b-7861-4575-a77f-d974006e3982/GameTranslatorOCR/src/GameTranslatorOCR.Cli/bin/Release/net8.0/GameTranslatorOCR.Cli.dll"
+    ]
+  },
+  "RapidOCR v5 matched": {
+    "peak_rss_mb": 609.3,
+    "command": [
+      "python3",
+      "/run/media/adminmehmet/0ba60d1b-7861-4575-a77f-d974006e3982/GameTranslatorOCR/benchmarks/compare_local.py"
+    ]
+  }
+}

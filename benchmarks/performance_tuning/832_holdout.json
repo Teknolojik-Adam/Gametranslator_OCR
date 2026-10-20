@@ -1,0 +1,31 @@
+{
+  "side": 832,
+  "set": "holdout",
+  "exact": 29,
+  "truth": 30,
+  "predicted": 30,
+  "mean": {
+    "DecodeMs": 1.7,
+    "PreprocessMs": 10.8,
+    "DetectionMs": 67.7,
+    "PostprocessMs": 7.4,
+    "CropMs": 1.6,
+    "RecognitionMs": 66.6,
+    "TotalMs": 155.7
+  },
+  "errors": [
+    {
+      "name": "H00_unseen.png",
+      "truth": [
+        "Find the hidden key",
+        "Görüşürüz",
+        "Hızlı seyahat"
+      ],
+      "guess": [
+        "Find the hidden key",
+        "Görüşürüz",
+        "Hizlı seyahat"
+      ]
+    }
+  ]
+}

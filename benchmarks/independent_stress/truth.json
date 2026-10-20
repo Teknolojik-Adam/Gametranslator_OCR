@@ -1,0 +1,72 @@
+{
+  "S00_dialogue_turkish.png": [
+    "Şehrin kapıları açıldı",
+    "Işıklar yeniden yanıyor",
+    "Bütün görevler tamamlandı"
+  ],
+  "S01_english_subtitles.png": [
+    "Return to the shelter",
+    "Follow the glowing trail",
+    "The journey continues"
+  ],
+  "S02_tiny_inventory.png": [
+    "Gümüş anahtar bulundu",
+    "Kılıç dayanıklılığı 70",
+    "Press F to inspect"
+  ],
+  "S03_bright_settings.png": [
+    "Görüntü ayarları",
+    "Ekran çözünürlüğü",
+    "Değişiklikleri kaydet"
+  ],
+  "S04_orange_quest.png": [
+    "Yeni hedef belirlendi",
+    "Düşmanı etkisiz hale getir",
+    "Görev güncellendi"
+  ],
+  "S05_contrasty_dark.png": [
+    "İlk bölüm başlıyor",
+    "Şimdi gizlenmeliyiz",
+    "Stay near the river"
+  ],
+  "S06_color_hud.png": [
+    "Can seviyesi 100",
+    "Zırh kapasitesi 45",
+    "Yeni yetenek açıldı"
+  ],
+  "S07_soft_subtitle.png": [
+    "Köprüden karşıya geç",
+    "İleride bir çıkış var",
+    "Don't look behind"
+  ],
+  "S08_slightly_rotated.png": [
+    "Kapıya doğru ilerle",
+    "Üçüncü bölüm başladı",
+    "Victory is near"
+  ],
+  "S09_small_resolution.png": [
+    "Çevrimdışı mod",
+    "Bir sonraki kayıt",
+    "Hikâyeye devam et"
+  ],
+  "S10_low_contrast.png": [
+    "Sığınağa geri dön",
+    "Haritayı kontrol et",
+    "Gösterge açık"
+  ],
+  "S11_wide_menu.png": [
+    "Kayıtlı oyunlar",
+    "Başarılar listesi",
+    "Ana menüye dön"
+  ],
+  "S12_outlined_subtitles.png": [
+    "Şüpheli bir ses var",
+    "Hızlı koşmalıyız",
+    "Hedefe ulaştık"
+  ],
+  "S13_thin_font_ui.png": [
+    "Ödülleri topla",
+    "Köyün etrafını dolaş",
+    "Choose your weapon"
+  ]
+}

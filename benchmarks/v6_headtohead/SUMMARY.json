@@ -1,0 +1,767 @@
+{
+  "original": {
+    "game_hybrid_tuned": {
+      "exact": 33,
+      "truth_lines": 33,
+      "predicted_lines": 33,
+      "phantom_boxes": 0,
+      "line_precision": 100.0,
+      "line_recall": 100.0,
+      "line_f1": 100.0,
+      "joined_raw_accuracy": 100.0,
+      "joined_noise_filtered_accuracy": 100.0,
+      "mean_ms": 210.7,
+      "median_ms": 209.4,
+      "p95_ms": 237.5,
+      "cases": [
+        {
+          "file": "00_baseline.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "GAME TRANSLATOR OCR",
+            "Merhaba dünya!",
+            "Quest completed"
+          ],
+          "truth": [
+            "GAME TRANSLATOR OCR",
+            "Merhaba dünya!",
+            "Quest completed"
+          ]
+        },
+        {
+          "file": "01_dark_dialogue.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "Open the ancient gate",
+            "Görev tamamlandı",
+            "Press E to continue"
+          ],
+          "truth": [
+            "Open the ancient gate",
+            "Görev tamamlandı",
+            "Press E to continue"
+          ]
+        },
+        {
+          "file": "02_small_hud.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "LEVEL 27",
+            "Health 100%",
+            "Kalan süre 02:45"
+          ],
+          "truth": [
+            "LEVEL 27",
+            "Health 100%",
+            "Kalan süre 02:45"
+          ]
+        },
+        {
+          "file": "03_outline_shadow.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "Düşman yaklaşıyor!",
+            "Run to the bridge",
+            "Bölüm başarıyla bitti"
+          ],
+          "truth": [
+            "Düşman yaklaşıyor!",
+            "Run to the bridge",
+            "Bölüm başarıyla bitti"
+          ]
+        },
+        {
+          "file": "04_bright_menu.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "Settings",
+            "Yeni oyun",
+            "Çıkış"
+          ],
+          "truth": [
+            "Settings",
+            "Yeni oyun",
+            "Çıkış"
+          ]
+        },
+        {
+          "file": "05_blurred_subtitles.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "Can you hear me?",
+            "Kapıyı açmalıyız",
+            "Follow the signal"
+          ],
+          "truth": [
+            "Can you hear me?",
+            "Kapıyı açmalıyız",
+            "Follow the signal"
+          ]
+        },
+        {
+          "file": "06_low_contrast.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "The mission begins",
+            "Yeni görev alındı",
+            "Return to base"
+          ],
+          "truth": [
+            "The mission begins",
+            "Yeni görev alındı",
+            "Return to base"
+          ]
+        },
+        {
+          "file": "07_busy_background.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "Main quest",
+            "inceleme tamamlandı",
+            "Return to the village"
+          ],
+          "truth": [
+            "Main quest",
+            "İnceleme tamamlandı",
+            "Return to the village"
+          ]
+        },
+        {
+          "file": "08_tilted_screen.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "Victory is ours",
+            "Yeni bölge keşfedildi",
+            "Saving progress"
+          ],
+          "truth": [
+            "Victory is ours",
+            "Yeni bölge keşfedildi",
+            "Saving progress"
+          ]
+        },
+        {
+          "file": "09_wide_720p.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "The final chapter",
+            "Karakter seviyesi 18",
+            "Continue playing"
+          ],
+          "truth": [
+            "The final chapter",
+            "Karakter seviyesi 18",
+            "Continue playing"
+          ]
+        },
+        {
+          "file": "10_colored_ui.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "New achievement",
+            "Başarı kilidi açıldı",
+            "Collect your reward"
+          ],
+          "truth": [
+            "New achievement",
+            "Başarı kilidi açıldı",
+            "Collect your reward"
+          ]
+        }
+      ]
+    },
+    "rapid_default": {
+      "exact": 32,
+      "truth_lines": 33,
+      "predicted_lines": 33,
+      "phantom_boxes": 0,
+      "line_precision": 96.97,
+      "line_recall": 96.97,
+      "line_f1": 96.97,
+      "joined_raw_accuracy": 99.82,
+      "joined_noise_filtered_accuracy": 99.82,
+      "mean_ms": 328.7,
+      "median_ms": 328.3,
+      "p95_ms": 352.3,
+      "cases": [
+        {
+          "file": "00_baseline.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "GAME TRANSLATOR OCR",
+            "Merhaba dünya!",
+            "Quest completed"
+          ],
+          "truth": [
+            "GAME TRANSLATOR OCR",
+            "Merhaba dünya!",
+            "Quest completed"
+          ]
+        },
+        {
+          "file": "01_dark_dialogue.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "Open the ancient gate",
+            "Görev tamamlandı",
+            "Press E to continue"
+          ],
+          "truth": [
+            "Open the ancient gate",
+            "Görev tamamlandı",
+            "Press E to continue"
+          ]
+        },
+        {
+          "file": "02_small_hud.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "LEVEL 27",
+            "Health 100%",
+            "Kalan süre 02:45"
+          ],
+          "truth": [
+            "LEVEL 27",
+            "Health 100%",
+            "Kalan süre 02:45"
+          ]
+        },
+        {
+          "file": "03_outline_shadow.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "Düşman yaklaşıyor!",
+            "Run to the bridge",
+            "Bölüm başarıyla bitti"
+          ],
+          "truth": [
+            "Düşman yaklaşıyor!",
+            "Run to the bridge",
+            "Bölüm başarıyla bitti"
+          ]
+        },
+        {
+          "file": "04_bright_menu.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "Settings",
+            "Yeni oyun",
+            "Çıkış"
+          ],
+          "truth": [
+            "Settings",
+            "Yeni oyun",
+            "Çıkış"
+          ]
+        },
+        {
+          "file": "05_blurred_subtitles.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "Can you hear me?",
+            "Kapıyı açmalıyız",
+            "Follow the signal"
+          ],
+          "truth": [
+            "Can you hear me?",
+            "Kapıyı açmalıyız",
+            "Follow the signal"
+          ]
+        },
+        {
+          "file": "06_low_contrast.png",
+          "correct": 2,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "The mission begins",
+            "Yeni görev alindı",
+            "Return to base"
+          ],
+          "truth": [
+            "The mission begins",
+            "Yeni görev alındı",
+            "Return to base"
+          ]
+        },
+        {
+          "file": "07_busy_background.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "Main quest",
+            "inceleme tamamlandı",
+            "Return to the village"
+          ],
+          "truth": [
+            "Main quest",
+            "İnceleme tamamlandı",
+            "Return to the village"
+          ]
+        },
+        {
+          "file": "08_tilted_screen.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "Victory is ours",
+            "Yeni bölge keşfedildi",
+            "Saving progress"
+          ],
+          "truth": [
+            "Victory is ours",
+            "Yeni bölge keşfedildi",
+            "Saving progress"
+          ]
+        },
+        {
+          "file": "09_wide_720p.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "The final chapter",
+            "Karakter seviyesi 18",
+            "Continue playing"
+          ],
+          "truth": [
+            "The final chapter",
+            "Karakter seviyesi 18",
+            "Continue playing"
+          ]
+        },
+        {
+          "file": "10_colored_ui.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "New achievement",
+            "Başarı kilidi açıldı",
+            "Collect your reward"
+          ],
+          "truth": [
+            "New achievement",
+            "Başarı kilidi açıldı",
+            "Collect your reward"
+          ]
+        }
+      ]
+    }
+  },
+  "holdout": {
+    "game_hybrid_tuned": {
+      "exact": 30,
+      "truth_lines": 30,
+      "predicted_lines": 34,
+      "phantom_boxes": 4,
+      "line_precision": 88.24,
+      "line_recall": 100.0,
+      "line_f1": 93.75,
+      "joined_raw_accuracy": 98.14,
+      "joined_noise_filtered_accuracy": 100.0,
+      "mean_ms": 198.6,
+      "median_ms": 194.5,
+      "p95_ms": 225.8,
+      "cases": [
+        {
+          "file": "H00_unseen.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "Find the hidden key",
+            "Görüşürüz",
+            "Hızlı seyahat"
+          ],
+          "truth": [
+            "Find the hidden key",
+            "Görüşürüz",
+            "Hızlı seyahat"
+          ]
+        },
+        {
+          "file": "H01_unseen.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 3,
+          "pred": [
+            "□",
+            "Işığa doğru",
+            "□",
+            "□",
+            "Kapı kilitli",
+            "Run quickly"
+          ],
+          "truth": [
+            "Işığa doğru",
+            "Kapı kilitli",
+            "Run quickly"
+          ]
+        },
+        {
+          "file": "H02_unseen.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "Şifre yanlış",
+            "Enemy spotted",
+            "Target acquired"
+          ],
+          "truth": [
+            "Şifre yanlış",
+            "Enemy spotted",
+            "Target acquired"
+          ]
+        },
+        {
+          "file": "H03_unseen.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "Büyük ödül",
+            "Seviye yükseldi",
+            "Continue"
+          ],
+          "truth": [
+            "Büyük ödül",
+            "Seviye yükseldi",
+            "Continue"
+          ]
+        },
+        {
+          "file": "H04_unseen.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "Kılıç hasar gördü",
+            "Health restored",
+            "Görev iptal edildi"
+          ],
+          "truth": [
+            "Kılıç hasar gördü",
+            "Health restored",
+            "Görev iptal edildi"
+          ]
+        },
+        {
+          "file": "H05_unseen.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "Inventory full",
+            "Çözüm bulundu",
+            "ikinci bölüm"
+          ],
+          "truth": [
+            "Inventory full",
+            "Çözüm bulundu",
+            "İkinci bölüm"
+          ]
+        },
+        {
+          "file": "H06_unseen.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 1,
+          "pred": [
+            "Press SPACE",
+            "Hedefe yaklaşıyoruz",
+            "Karanlık çöktü",
+            "□"
+          ],
+          "truth": [
+            "Press SPACE",
+            "Hedefe yaklaşıyoruz",
+            "Karanlık çöktü"
+          ]
+        },
+        {
+          "file": "H07_unseen.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "Çıkışa ilerle",
+            "Find the map",
+            "Köprüye geri dön"
+          ],
+          "truth": [
+            "Çıkışa ilerle",
+            "Find the map",
+            "Köprüye geri dön"
+          ]
+        },
+        {
+          "file": "H08_unseen.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "Üçüncü kapı",
+            "Gizli bölge keşfedildi",
+            "Mission complete"
+          ],
+          "truth": [
+            "Üçüncü kapı",
+            "Gizli bölge keşfedildi",
+            "Mission complete"
+          ]
+        },
+        {
+          "file": "H09_unseen.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "Öğrenci girişi",
+            "Yolculuk başlıyor",
+            "Use magic"
+          ],
+          "truth": [
+            "Öğrenci girişi",
+            "Yolculuk başlıyor",
+            "Use magic"
+          ]
+        }
+      ]
+    },
+    "rapid_default": {
+      "exact": 30,
+      "truth_lines": 30,
+      "predicted_lines": 51,
+      "phantom_boxes": 21,
+      "line_precision": 58.82,
+      "line_recall": 100.0,
+      "line_f1": 74.07,
+      "joined_raw_accuracy": 90.26,
+      "joined_noise_filtered_accuracy": 100.0,
+      "mean_ms": 358.1,
+      "median_ms": 324.1,
+      "p95_ms": 576.5,
+      "cases": [
+        {
+          "file": "H00_unseen.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "Find the hidden key",
+            "Görüşürüz",
+            "Hızlı seyahat"
+          ],
+          "truth": [
+            "Find the hidden key",
+            "Görüşürüz",
+            "Hızlı seyahat"
+          ]
+        },
+        {
+          "file": "H01_unseen.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 14,
+          "pred": [
+            "□",
+            "□",
+            "□",
+            "Işığa doğru",
+            "□",
+            "□",
+            "□",
+            "□",
+            "□",
+            "Kapı kilitli",
+            "□",
+            "□",
+            "□",
+            "□",
+            "Run quickly",
+            "□",
+            "□"
+          ],
+          "truth": [
+            "Işığa doğru",
+            "Kapı kilitli",
+            "Run quickly"
+          ]
+        },
+        {
+          "file": "H02_unseen.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "Şifre yanlış",
+            "Enemy spotted",
+            "Target acquired"
+          ],
+          "truth": [
+            "Şifre yanlış",
+            "Enemy spotted",
+            "Target acquired"
+          ]
+        },
+        {
+          "file": "H03_unseen.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "Büyük ödül",
+            "Seviye yükseldi",
+            "Continue"
+          ],
+          "truth": [
+            "Büyük ödül",
+            "Seviye yükseldi",
+            "Continue"
+          ]
+        },
+        {
+          "file": "H04_unseen.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "Kılıç hasar gördü",
+            "Health restored",
+            "Görev iptal edildi"
+          ],
+          "truth": [
+            "Kılıç hasar gördü",
+            "Health restored",
+            "Görev iptal edildi"
+          ]
+        },
+        {
+          "file": "H05_unseen.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "Inventory full",
+            "Çözüm bulundu",
+            "ikinci bölüm"
+          ],
+          "truth": [
+            "Inventory full",
+            "Çözüm bulundu",
+            "İkinci bölüm"
+          ]
+        },
+        {
+          "file": "H06_unseen.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 7,
+          "pred": [
+            "□",
+            "□",
+            "Press SPACE",
+            "□",
+            "□",
+            "□",
+            "Hedefe yaklaşıyoruz",
+            "□",
+            "Karanlık çöktü",
+            "□"
+          ],
+          "truth": [
+            "Press SPACE",
+            "Hedefe yaklaşıyoruz",
+            "Karanlık çöktü"
+          ]
+        },
+        {
+          "file": "H07_unseen.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "Çıkışa ilerle",
+            "Find the map",
+            "Köprüye geri dön"
+          ],
+          "truth": [
+            "Çıkışa ilerle",
+            "Find the map",
+            "Köprüye geri dön"
+          ]
+        },
+        {
+          "file": "H08_unseen.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "Üçüncü kapı",
+            "Gizli bölge keşfedildi",
+            "Mission complete"
+          ],
+          "truth": [
+            "Üçüncü kapı",
+            "Gizli bölge keşfedildi",
+            "Mission complete"
+          ]
+        },
+        {
+          "file": "H09_unseen.png",
+          "correct": 3,
+          "ground": 3,
+          "noise": 0,
+          "pred": [
+            "Öğrenci girişi",
+            "Yolculuk başlıyor",
+            "Use magic"
+          ],
+          "truth": [
+            "Öğrenci girişi",
+            "Yolculuk başlıyor",
+            "Use magic"
+          ]
+        }
+      ]
+    }
+  }
+}

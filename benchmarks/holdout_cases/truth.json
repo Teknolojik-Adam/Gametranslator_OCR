@@ -1,0 +1,52 @@
+{
+  "H00_unseen.png": [
+    "Find the hidden key",
+    "Görüşürüz",
+    "Hızlı seyahat"
+  ],
+  "H01_unseen.png": [
+    "Işığa doğru",
+    "Kapı kilitli",
+    "Run quickly"
+  ],
+  "H02_unseen.png": [
+    "Şifre yanlış",
+    "Enemy spotted",
+    "Target acquired"
+  ],
+  "H03_unseen.png": [
+    "Büyük ödül",
+    "Seviye yükseldi",
+    "Continue"
+  ],
+  "H04_unseen.png": [
+    "Kılıç hasar gördü",
+    "Health restored",
+    "Görev iptal edildi"
+  ],
+  "H05_unseen.png": [
+    "Inventory full",
+    "Çözüm bulundu",
+    "İkinci bölüm"
+  ],
+  "H06_unseen.png": [
+    "Press SPACE",
+    "Hedefe yaklaşıyoruz",
+    "Karanlık çöktü"
+  ],
+  "H07_unseen.png": [
+    "Çıkışa ilerle",
+    "Find the map",
+    "Köprüye geri dön"
+  ],
+  "H08_unseen.png": [
+    "Üçüncü kapı",
+    "Gizli bölge keşfedildi",
+    "Mission complete"
+  ],
+  "H09_unseen.png": [
+    "Öğrenci girişi",
+    "Yolculuk başlıyor",
+    "Use magic"
+  ]
+}

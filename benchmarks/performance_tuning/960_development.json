@@ -1,0 +1,17 @@
+{
+  "side": 960,
+  "set": "development",
+  "exact": 33,
+  "truth": 33,
+  "predicted": 33,
+  "mean": {
+    "DecodeMs": 1.6,
+    "PreprocessMs": 14.0,
+    "DetectionMs": 97.0,
+    "PostprocessMs": 2.7,
+    "CropMs": 1.8,
+    "RecognitionMs": 74.7,
+    "TotalMs": 191.9
+  },
+  "errors": []
+}

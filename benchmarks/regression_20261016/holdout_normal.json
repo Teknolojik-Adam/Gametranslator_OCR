@@ -1,0 +1,382 @@
+{
+  "suite": "holdout",
+  "profile": "normal",
+  "images": 10,
+  "passes": 2,
+  "reference_lines": 60,
+  "exact_lines": 60,
+  "detected_lines": 60,
+  "character_count": 862,
+  "character_edit_distance": 0,
+  "character_accuracy_pct": 100.0,
+  "exact_line_recall_pct": 100.0,
+  "exact_line_precision_pct": 100.0,
+  "exact_line_f1_pct": 100.0,
+  "mean_ms": 182.3,
+  "median_ms": 181.8,
+  "p95_ms": 201.9,
+  "peak_process_rss_mib": 412.5,
+  "failures": [],
+  "details": [
+    {
+      "file": "H00_unseen.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Find the hidden key",
+        "Görüşürüz",
+        "Hızlı seyahat"
+      ],
+      "predicted": [
+        "Find the hidden key",
+        "Görüşürüz",
+        "Hızlı seyahat"
+      ]
+    },
+    {
+      "file": "H00_unseen.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Find the hidden key",
+        "Görüşürüz",
+        "Hızlı seyahat"
+      ],
+      "predicted": [
+        "Find the hidden key",
+        "Görüşürüz",
+        "Hızlı seyahat"
+      ]
+    },
+    {
+      "file": "H01_unseen.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Işığa doğru",
+        "Kapı kilitli",
+        "Run quickly"
+      ],
+      "predicted": [
+        "Işığa doğru",
+        "Kapı kilitli",
+        "Run quickly"
+      ]
+    },
+    {
+      "file": "H01_unseen.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Işığa doğru",
+        "Kapı kilitli",
+        "Run quickly"
+      ],
+      "predicted": [
+        "Işığa doğru",
+        "Kapı kilitli",
+        "Run quickly"
+      ]
+    },
+    {
+      "file": "H02_unseen.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Şifre yanlış",
+        "Enemy spotted",
+        "Target acquired"
+      ],
+      "predicted": [
+        "Şifre yanlış",
+        "Enemy spotted",
+        "Target acquired"
+      ]
+    },
+    {
+      "file": "H02_unseen.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Şifre yanlış",
+        "Enemy spotted",
+        "Target acquired"
+      ],
+      "predicted": [
+        "Şifre yanlış",
+        "Enemy spotted",
+        "Target acquired"
+      ]
+    },
+    {
+      "file": "H03_unseen.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Büyük ödül",
+        "Seviye yükseldi",
+        "Continue"
+      ],
+      "predicted": [
+        "Büyük ödül",
+        "Seviye yükseldi",
+        "Continue"
+      ]
+    },
+    {
+      "file": "H03_unseen.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Büyük ödül",
+        "Seviye yükseldi",
+        "Continue"
+      ],
+      "predicted": [
+        "Büyük ödül",
+        "Seviye yükseldi",
+        "Continue"
+      ]
+    },
+    {
+      "file": "H04_unseen.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Kılıç hasar gördü",
+        "Health restored",
+        "Görev iptal edildi"
+      ],
+      "predicted": [
+        "Kılıç hasar gördü",
+        "Health restored",
+        "Görev iptal edildi"
+      ]
+    },
+    {
+      "file": "H04_unseen.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Kılıç hasar gördü",
+        "Health restored",
+        "Görev iptal edildi"
+      ],
+      "predicted": [
+        "Kılıç hasar gördü",
+        "Health restored",
+        "Görev iptal edildi"
+      ]
+    },
+    {
+      "file": "H05_unseen.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Inventory full",
+        "Çözüm bulundu",
+        "İkinci bölüm"
+      ],
+      "predicted": [
+        "Inventory full",
+        "Çözüm bulundu",
+        "ikinci bölüm"
+      ]
+    },
+    {
+      "file": "H05_unseen.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Inventory full",
+        "Çözüm bulundu",
+        "İkinci bölüm"
+      ],
+      "predicted": [
+        "Inventory full",
+        "Çözüm bulundu",
+        "ikinci bölüm"
+      ]
+    },
+    {
+      "file": "H06_unseen.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Press SPACE",
+        "Hedefe yaklaşıyoruz",
+        "Karanlık çöktü"
+      ],
+      "predicted": [
+        "Press SPACE",
+        "Hedefe yaklaşıyoruz",
+        "Karanlık çöktü"
+      ]
+    },
+    {
+      "file": "H06_unseen.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Press SPACE",
+        "Hedefe yaklaşıyoruz",
+        "Karanlık çöktü"
+      ],
+      "predicted": [
+        "Press SPACE",
+        "Hedefe yaklaşıyoruz",
+        "Karanlık çöktü"
+      ]
+    },
+    {
+      "file": "H07_unseen.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Çıkışa ilerle",
+        "Find the map",
+        "Köprüye geri dön"
+      ],
+      "predicted": [
+        "Çıkışa ilerle",
+        "Find the map",
+        "Köprüye geri dön"
+      ]
+    },
+    {
+      "file": "H07_unseen.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Çıkışa ilerle",
+        "Find the map",
+        "Köprüye geri dön"
+      ],
+      "predicted": [
+        "Çıkışa ilerle",
+        "Find the map",
+        "Köprüye geri dön"
+      ]
+    },
+    {
+      "file": "H08_unseen.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Üçüncü kapı",
+        "Gizli bölge keşfedildi",
+        "Mission complete"
+      ],
+      "predicted": [
+        "Üçüncü kapı",
+        "Gizli bölge keşfedildi",
+        "Mission complete"
+      ]
+    },
+    {
+      "file": "H08_unseen.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Üçüncü kapı",
+        "Gizli bölge keşfedildi",
+        "Mission complete"
+      ],
+      "predicted": [
+        "Üçüncü kapı",
+        "Gizli bölge keşfedildi",
+        "Mission complete"
+      ]
+    },
+    {
+      "file": "H09_unseen.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Öğrenci girişi",
+        "Yolculuk başlıyor",
+        "Use magic"
+      ],
+      "predicted": [
+        "Öğrenci girişi",
+        "Yolculuk başlıyor",
+        "Use magic"
+      ]
+    },
+    {
+      "file": "H09_unseen.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Öğrenci girişi",
+        "Yolculuk başlıyor",
+        "Use magic"
+      ],
+      "predicted": [
+        "Öğrenci girişi",
+        "Yolculuk başlıyor",
+        "Use magic"
+      ]
+    }
+  ]
+}

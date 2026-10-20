@@ -1,0 +1,305 @@
+{
+  "engine": "rapid_default",
+  "records": [
+    {
+      "name": "S00_dialogue_turkish.png",
+      "pass": 0,
+      "texts": [
+        "Şehrin kapıları açıldı",
+        "Işıklar yeniden yanıyor",
+        "Bütün görevler tamamlandı"
+      ],
+      "ms": 337.433
+    },
+    {
+      "name": "S01_english_subtitles.png",
+      "pass": 0,
+      "texts": [
+        "Return to the shelter",
+        "Follow the glowing trail",
+        "The journey continues"
+      ],
+      "ms": 327.33
+    },
+    {
+      "name": "S02_tiny_inventory.png",
+      "pass": 0,
+      "texts": [
+        "Gümüş anahtar bulundu",
+        "□",
+        "Kılıç dayanıklılığı 70",
+        "Press F to inspect",
+        "口"
+      ],
+      "ms": 368.057
+    },
+    {
+      "name": "S03_bright_settings.png",
+      "pass": 0,
+      "texts": [
+        "Görüntü ayarları",
+        "Ekran çözünürlüğü",
+        "Değişiklikleri kaydet"
+      ],
+      "ms": 327.463
+    },
+    {
+      "name": "S04_orange_quest.png",
+      "pass": 0,
+      "texts": [
+        "Yeni hedef belirlendi",
+        "Düşmanı etkisiz hale getir",
+        "Görev güncellendi"
+      ],
+      "ms": 329.122
+    },
+    {
+      "name": "S05_contrasty_dark.png",
+      "pass": 0,
+      "texts": [
+        "ilk bölüm başlıyor",
+        "Şimdi gizlenmeliyiz",
+        "Stay near the river"
+      ],
+      "ms": 317.965
+    },
+    {
+      "name": "S06_color_hud.png",
+      "pass": 0,
+      "texts": [
+        "Can seviyesi 100",
+        "_",
+        "_",
+        "Zırh kapasitesi 45",
+        "Yeni yetenek açıldı",
+        "__",
+        "□"
+      ],
+      "ms": 511.195
+    },
+    {
+      "name": "S07_soft_subtitle.png",
+      "pass": 0,
+      "texts": [
+        "Köprüden karşıya geç",
+        "ileride bir çıkış var",
+        "Don't look behind"
+      ],
+      "ms": 315.482
+    },
+    {
+      "name": "S08_slightly_rotated.png",
+      "pass": 0,
+      "texts": [
+        "Kapıya doğru ilerle",
+        "Üçüncü bölüm başladı",
+        "Victory is near"
+      ],
+      "ms": 311.316
+    },
+    {
+      "name": "S09_small_resolution.png",
+      "pass": 0,
+      "texts": [
+        "Çevrimdışı mod",
+        "Bir sonraki kayıt",
+        "Hikâyeye devam et"
+      ],
+      "ms": 322.247
+    },
+    {
+      "name": "S10_low_contrast.png",
+      "pass": 0,
+      "texts": [
+        "Sığınağa geri dön",
+        "Haritayı kontrol et",
+        "Gösterge açık"
+      ],
+      "ms": 303.561
+    },
+    {
+      "name": "S11_wide_menu.png",
+      "pass": 0,
+      "texts": [
+        "Kayıtlı oyunlar",
+        "Başarılar listesi",
+        "Ana menüye dön"
+      ],
+      "ms": 323.027
+    },
+    {
+      "name": "S12_outlined_subtitles.png",
+      "pass": 0,
+      "texts": [
+        "Şüpheli bir ses var",
+        "Hızlı koşmalıyız",
+        "Hedefe ulaştık"
+      ],
+      "ms": 332.247
+    },
+    {
+      "name": "S13_thin_font_ui.png",
+      "pass": 0,
+      "texts": [
+        "□",
+        "Ödülleri topla",
+        "□",
+        "□",
+        "Köyün etrafını dolaş",
+        "□",
+        "Choose your weapon"
+      ],
+      "ms": 434.576
+    },
+    {
+      "name": "S00_dialogue_turkish.png",
+      "pass": 1,
+      "texts": [
+        "Şehrin kapıları açıldı",
+        "Işıklar yeniden yanıyor",
+        "Bütün görevler tamamlandı"
+      ],
+      "ms": 343.565
+    },
+    {
+      "name": "S01_english_subtitles.png",
+      "pass": 1,
+      "texts": [
+        "Return to the shelter",
+        "Follow the glowing trail",
+        "The journey continues"
+      ],
+      "ms": 339.8
+    },
+    {
+      "name": "S02_tiny_inventory.png",
+      "pass": 1,
+      "texts": [
+        "Gümüş anahtar bulundu",
+        "□",
+        "Kılıç dayanıklılığı 70",
+        "Press F to inspect",
+        "口"
+      ],
+      "ms": 386.665
+    },
+    {
+      "name": "S03_bright_settings.png",
+      "pass": 1,
+      "texts": [
+        "Görüntü ayarları",
+        "Ekran çözünürlüğü",
+        "Değişiklikleri kaydet"
+      ],
+      "ms": 336.387
+    },
+    {
+      "name": "S04_orange_quest.png",
+      "pass": 1,
+      "texts": [
+        "Yeni hedef belirlendi",
+        "Düşmanı etkisiz hale getir",
+        "Görev güncellendi"
+      ],
+      "ms": 344.967
+    },
+    {
+      "name": "S05_contrasty_dark.png",
+      "pass": 1,
+      "texts": [
+        "ilk bölüm başlıyor",
+        "Şimdi gizlenmeliyiz",
+        "Stay near the river"
+      ],
+      "ms": 316.943
+    },
+    {
+      "name": "S06_color_hud.png",
+      "pass": 1,
+      "texts": [
+        "Can seviyesi 100",
+        "_",
+        "_",
+        "Zırh kapasitesi 45",
+        "Yeni yetenek açıldı",
+        "__",
+        "□"
+      ],
+      "ms": 467.476
+    },
+    {
+      "name": "S07_soft_subtitle.png",
+      "pass": 1,
+      "texts": [
+        "Köprüden karşıya geç",
+        "ileride bir çıkış var",
+        "Don't look behind"
+      ],
+      "ms": 330.346
+    },
+    {
+      "name": "S08_slightly_rotated.png",
+      "pass": 1,
+      "texts": [
+        "Kapıya doğru ilerle",
+        "Üçüncü bölüm başladı",
+        "Victory is near"
+      ],
+      "ms": 323.941
+    },
+    {
+      "name": "S09_small_resolution.png",
+      "pass": 1,
+      "texts": [
+        "Çevrimdışı mod",
+        "Bir sonraki kayıt",
+        "Hikâyeye devam et"
+      ],
+      "ms": 313.407
+    },
+    {
+      "name": "S10_low_contrast.png",
+      "pass": 1,
+      "texts": [
+        "Sığınağa geri dön",
+        "Haritayı kontrol et",
+        "Gösterge açık"
+      ],
+      "ms": 312.046
+    },
+    {
+      "name": "S11_wide_menu.png",
+      "pass": 1,
+      "texts": [
+        "Kayıtlı oyunlar",
+        "Başarılar listesi",
+        "Ana menüye dön"
+      ],
+      "ms": 306.802
+    },
+    {
+      "name": "S12_outlined_subtitles.png",
+      "pass": 1,
+      "texts": [
+        "Şüpheli bir ses var",
+        "Hızlı koşmalıyız",
+        "Hedefe ulaştık"
+      ],
+      "ms": 312.602
+    },
+    {
+      "name": "S13_thin_font_ui.png",
+      "pass": 1,
+      "texts": [
+        "□",
+        "Ödülleri topla",
+        "□",
+        "□",
+        "Köyün etrafını dolaş",
+        "□",
+        "Choose your weapon"
+      ],
+      "ms": 385.934
+    }
+  ]
+}

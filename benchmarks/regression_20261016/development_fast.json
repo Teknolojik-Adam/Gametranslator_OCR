@@ -1,0 +1,418 @@
+{
+  "suite": "development",
+  "profile": "fast",
+  "images": 11,
+  "passes": 2,
+  "reference_lines": 66,
+  "exact_lines": 66,
+  "detected_lines": 66,
+  "character_count": 1090,
+  "character_edit_distance": 0,
+  "character_accuracy_pct": 100.0,
+  "exact_line_recall_pct": 100.0,
+  "exact_line_precision_pct": 100.0,
+  "exact_line_f1_pct": 100.0,
+  "mean_ms": 155.8,
+  "median_ms": 157.1,
+  "p95_ms": 178.5,
+  "peak_process_rss_mib": 370.3,
+  "failures": [],
+  "details": [
+    {
+      "file": "00_baseline.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "GAME TRANSLATOR OCR",
+        "Merhaba dünya!",
+        "Quest completed"
+      ],
+      "predicted": [
+        "GAME TRANSLATOR OCR",
+        "Merhaba dünya!",
+        "Quest completed"
+      ]
+    },
+    {
+      "file": "00_baseline.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "GAME TRANSLATOR OCR",
+        "Merhaba dünya!",
+        "Quest completed"
+      ],
+      "predicted": [
+        "GAME TRANSLATOR OCR",
+        "Merhaba dünya!",
+        "Quest completed"
+      ]
+    },
+    {
+      "file": "01_dark_dialogue.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Open the ancient gate",
+        "Görev tamamlandı",
+        "Press E to continue"
+      ],
+      "predicted": [
+        "Open the ancient gate",
+        "Görev tamamlandı",
+        "Press E to continue"
+      ]
+    },
+    {
+      "file": "01_dark_dialogue.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Open the ancient gate",
+        "Görev tamamlandı",
+        "Press E to continue"
+      ],
+      "predicted": [
+        "Open the ancient gate",
+        "Görev tamamlandı",
+        "Press E to continue"
+      ]
+    },
+    {
+      "file": "02_small_hud.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "LEVEL 27",
+        "Health 100%",
+        "Kalan süre 02:45"
+      ],
+      "predicted": [
+        "LEVEL 27",
+        "Health 100%",
+        "Kalan süre 02:45"
+      ]
+    },
+    {
+      "file": "02_small_hud.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "LEVEL 27",
+        "Health 100%",
+        "Kalan süre 02:45"
+      ],
+      "predicted": [
+        "LEVEL 27",
+        "Health 100%",
+        "Kalan süre 02:45"
+      ]
+    },
+    {
+      "file": "03_outline_shadow.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Düşman yaklaşıyor!",
+        "Run to the bridge",
+        "Bölüm başarıyla bitti"
+      ],
+      "predicted": [
+        "Düşman yaklaşıyor!",
+        "Run to the bridge",
+        "Bölüm başarıyla bitti"
+      ]
+    },
+    {
+      "file": "03_outline_shadow.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Düşman yaklaşıyor!",
+        "Run to the bridge",
+        "Bölüm başarıyla bitti"
+      ],
+      "predicted": [
+        "Düşman yaklaşıyor!",
+        "Run to the bridge",
+        "Bölüm başarıyla bitti"
+      ]
+    },
+    {
+      "file": "04_bright_menu.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Settings",
+        "Yeni oyun",
+        "Çıkış"
+      ],
+      "predicted": [
+        "Settings",
+        "Yeni oyun",
+        "Çıkış"
+      ]
+    },
+    {
+      "file": "04_bright_menu.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Settings",
+        "Yeni oyun",
+        "Çıkış"
+      ],
+      "predicted": [
+        "Settings",
+        "Yeni oyun",
+        "Çıkış"
+      ]
+    },
+    {
+      "file": "05_blurred_subtitles.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Can you hear me?",
+        "Kapıyı açmalıyız",
+        "Follow the signal"
+      ],
+      "predicted": [
+        "Can you hear me?",
+        "Kapıyı açmalıyız",
+        "Follow the signal"
+      ]
+    },
+    {
+      "file": "05_blurred_subtitles.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Can you hear me?",
+        "Kapıyı açmalıyız",
+        "Follow the signal"
+      ],
+      "predicted": [
+        "Can you hear me?",
+        "Kapıyı açmalıyız",
+        "Follow the signal"
+      ]
+    },
+    {
+      "file": "06_low_contrast.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "The mission begins",
+        "Yeni görev alındı",
+        "Return to base"
+      ],
+      "predicted": [
+        "The mission begins",
+        "Yeni görev alındı",
+        "Return to base"
+      ]
+    },
+    {
+      "file": "06_low_contrast.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "The mission begins",
+        "Yeni görev alındı",
+        "Return to base"
+      ],
+      "predicted": [
+        "The mission begins",
+        "Yeni görev alındı",
+        "Return to base"
+      ]
+    },
+    {
+      "file": "07_busy_background.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Main quest",
+        "İnceleme tamamlandı",
+        "Return to the village"
+      ],
+      "predicted": [
+        "Main quest",
+        "inceleme tamamlandı",
+        "Return to the village"
+      ]
+    },
+    {
+      "file": "07_busy_background.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Main quest",
+        "İnceleme tamamlandı",
+        "Return to the village"
+      ],
+      "predicted": [
+        "Main quest",
+        "inceleme tamamlandı",
+        "Return to the village"
+      ]
+    },
+    {
+      "file": "08_tilted_screen.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Victory is ours",
+        "Yeni bölge keşfedildi",
+        "Saving progress"
+      ],
+      "predicted": [
+        "Victory is ours",
+        "Yeni bölge keşfedildi",
+        "Saving progress"
+      ]
+    },
+    {
+      "file": "08_tilted_screen.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Victory is ours",
+        "Yeni bölge keşfedildi",
+        "Saving progress"
+      ],
+      "predicted": [
+        "Victory is ours",
+        "Yeni bölge keşfedildi",
+        "Saving progress"
+      ]
+    },
+    {
+      "file": "09_wide_720p.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "The final chapter",
+        "Karakter seviyesi 18",
+        "Continue playing"
+      ],
+      "predicted": [
+        "The final chapter",
+        "Karakter seviyesi 18",
+        "Continue playing"
+      ]
+    },
+    {
+      "file": "09_wide_720p.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "The final chapter",
+        "Karakter seviyesi 18",
+        "Continue playing"
+      ],
+      "predicted": [
+        "The final chapter",
+        "Karakter seviyesi 18",
+        "Continue playing"
+      ]
+    },
+    {
+      "file": "10_colored_ui.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "New achievement",
+        "Başarı kilidi açıldı",
+        "Collect your reward"
+      ],
+      "predicted": [
+        "New achievement",
+        "Başarı kilidi açıldı",
+        "Collect your reward"
+      ]
+    },
+    {
+      "file": "10_colored_ui.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "New achievement",
+        "Başarı kilidi açıldı",
+        "Collect your reward"
+      ],
+      "predicted": [
+        "New achievement",
+        "Başarı kilidi açıldı",
+        "Collect your reward"
+      ]
+    }
+  ]
+}

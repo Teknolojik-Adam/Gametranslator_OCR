@@ -1,0 +1,21 @@
+**/bin/
+**/obj/
+.vs/
+.idea/
+*.user
+*.suo
+.DS_Store
+models/**/*.onnx
+dist/
+
+# Local test images (keep on computer, exclude from Git)
+samples/**/*.png
+samples/**/*.jpg
+samples/**/*.jpeg
+samples/**/*.webp
+samples/**/*.bmp
+benchmarks/**/*.png
+benchmarks/**/*.jpg
+benchmarks/**/*.jpeg
+benchmarks/**/*.webp
+benchmarks/**/*.bmp

@@ -1,0 +1,436 @@
+{
+  "rapid_default": {
+    "title": "RapidOCR (hazır PP-OCRv6 modelleri)",
+    "metrics": {
+      "char_accuracy": 97.16,
+      "exact_line_recall": 95.24,
+      "exact_lines": 40,
+      "total_lines": 42,
+      "mean_ms": 345.8,
+      "median_ms": 328.3,
+      "p95_ms": 467.5,
+      "per_case": {
+        "S00_dialogue_turkish.png": {
+          "truth": [
+            "Şehrin kapıları açıldı",
+            "Işıklar yeniden yanıyor",
+            "Bütün görevler tamamlandı"
+          ],
+          "pred": [
+            "Şehrin kapıları açıldı",
+            "Işıklar yeniden yanıyor",
+            "Bütün görevler tamamlandı"
+          ],
+          "cer": 0.0,
+          "mean_ms": 340.5
+        },
+        "S01_english_subtitles.png": {
+          "truth": [
+            "Return to the shelter",
+            "Follow the glowing trail",
+            "The journey continues"
+          ],
+          "pred": [
+            "Return to the shelter",
+            "Follow the glowing trail",
+            "The journey continues"
+          ],
+          "cer": 0.0,
+          "mean_ms": 333.6
+        },
+        "S02_tiny_inventory.png": {
+          "truth": [
+            "Gümüş anahtar bulundu",
+            "Kılıç dayanıklılığı 70",
+            "Press F to inspect"
+          ],
+          "pred": [
+            "Gümüş anahtar bulundu",
+            "□",
+            "Kılıç dayanıklılığı 70",
+            "Press F to inspect",
+            "口"
+          ],
+          "cer": 0.0635,
+          "mean_ms": 377.4
+        },
+        "S03_bright_settings.png": {
+          "truth": [
+            "Görüntü ayarları",
+            "Ekran çözünürlüğü",
+            "Değişiklikleri kaydet"
+          ],
+          "pred": [
+            "Görüntü ayarları",
+            "Ekran çözünürlüğü",
+            "Değişiklikleri kaydet"
+          ],
+          "cer": 0.0,
+          "mean_ms": 331.9
+        },
+        "S04_orange_quest.png": {
+          "truth": [
+            "Yeni hedef belirlendi",
+            "Düşmanı etkisiz hale getir",
+            "Görev güncellendi"
+          ],
+          "pred": [
+            "Yeni hedef belirlendi",
+            "Düşmanı etkisiz hale getir",
+            "Görev güncellendi"
+          ],
+          "cer": 0.0,
+          "mean_ms": 337.0
+        },
+        "S05_contrasty_dark.png": {
+          "truth": [
+            "İlk bölüm başlıyor",
+            "Şimdi gizlenmeliyiz",
+            "Stay near the river"
+          ],
+          "pred": [
+            "ilk bölüm başlıyor",
+            "Şimdi gizlenmeliyiz",
+            "Stay near the river"
+          ],
+          "cer": 0.0169,
+          "mean_ms": 317.5
+        },
+        "S06_color_hud.png": {
+          "truth": [
+            "Can seviyesi 100",
+            "Zırh kapasitesi 45",
+            "Yeni yetenek açıldı"
+          ],
+          "pred": [
+            "Can seviyesi 100",
+            "_",
+            "_",
+            "Zırh kapasitesi 45",
+            "Yeni yetenek açıldı",
+            "__",
+            "□"
+          ],
+          "cer": 0.1636,
+          "mean_ms": 489.3
+        },
+        "S07_soft_subtitle.png": {
+          "truth": [
+            "Köprüden karşıya geç",
+            "İleride bir çıkış var",
+            "Don't look behind"
+          ],
+          "pred": [
+            "Köprüden karşıya geç",
+            "ileride bir çıkış var",
+            "Don't look behind"
+          ],
+          "cer": 0.0164,
+          "mean_ms": 322.9
+        },
+        "S08_slightly_rotated.png": {
+          "truth": [
+            "Kapıya doğru ilerle",
+            "Üçüncü bölüm başladı",
+            "Victory is near"
+          ],
+          "pred": [
+            "Kapıya doğru ilerle",
+            "Üçüncü bölüm başladı",
+            "Victory is near"
+          ],
+          "cer": 0.0,
+          "mean_ms": 317.6
+        },
+        "S09_small_resolution.png": {
+          "truth": [
+            "Çevrimdışı mod",
+            "Bir sonraki kayıt",
+            "Hikâyeye devam et"
+          ],
+          "pred": [
+            "Çevrimdışı mod",
+            "Bir sonraki kayıt",
+            "Hikâyeye devam et"
+          ],
+          "cer": 0.0,
+          "mean_ms": 317.8
+        },
+        "S10_low_contrast.png": {
+          "truth": [
+            "Sığınağa geri dön",
+            "Haritayı kontrol et",
+            "Gösterge açık"
+          ],
+          "pred": [
+            "Sığınağa geri dön",
+            "Haritayı kontrol et",
+            "Gösterge açık"
+          ],
+          "cer": 0.0,
+          "mean_ms": 307.8
+        },
+        "S11_wide_menu.png": {
+          "truth": [
+            "Kayıtlı oyunlar",
+            "Başarılar listesi",
+            "Ana menüye dön"
+          ],
+          "pred": [
+            "Kayıtlı oyunlar",
+            "Başarılar listesi",
+            "Ana menüye dön"
+          ],
+          "cer": 0.0,
+          "mean_ms": 314.9
+        },
+        "S12_outlined_subtitles.png": {
+          "truth": [
+            "Şüpheli bir ses var",
+            "Hızlı koşmalıyız",
+            "Hedefe ulaştık"
+          ],
+          "pred": [
+            "Şüpheli bir ses var",
+            "Hızlı koşmalıyız",
+            "Hedefe ulaştık"
+          ],
+          "cer": 0.0,
+          "mean_ms": 322.4
+        },
+        "S13_thin_font_ui.png": {
+          "truth": [
+            "Ödülleri topla",
+            "Köyün etrafını dolaş",
+            "Choose your weapon"
+          ],
+          "pred": [
+            "□",
+            "Ödülleri topla",
+            "□",
+            "□",
+            "Köyün etrafını dolaş",
+            "□",
+            "Choose your weapon"
+          ],
+          "cer": 0.1481,
+          "mean_ms": 410.3
+        }
+      },
+      "speed_score": 59.8,
+      "total_score": 93.0
+    }
+  },
+  "tesseract": {
+    "title": "Tesseract 5.5.3 (eng+turk, PSM 11)",
+    "metrics": {
+      "char_accuracy": 97.78,
+      "exact_line_recall": 80.95,
+      "exact_lines": 34,
+      "total_lines": 42,
+      "mean_ms": 206.8,
+      "median_ms": 205.2,
+      "p95_ms": 228.4,
+      "per_case": {
+        "S00_dialogue_turkish.png": {
+          "truth": [
+            "Şehrin kapıları açıldı",
+            "Işıklar yeniden yanıyor",
+            "Bütün görevler tamamlandı"
+          ],
+          "pred": [
+            "Şehrin kapıları açıldı",
+            "Işıklar yeniden yanıyor",
+            "Bütün görevler tamamlandı"
+          ],
+          "cer": 0.0,
+          "mean_ms": 227.0
+        },
+        "S01_english_subtitles.png": {
+          "truth": [
+            "Return to the shelter",
+            "Follow the glowing trail",
+            "The journey continues"
+          ],
+          "pred": [
+            "Return to the shelter",
+            "Follow the glowing trail",
+            "The journey continues"
+          ],
+          "cer": 0.0,
+          "mean_ms": 203.8
+        },
+        "S02_tiny_inventory.png": {
+          "truth": [
+            "Gümüş anahtar bulundu",
+            "Kılıç dayanıklılığı 70",
+            "Press F to inspect"
+          ],
+          "pred": [
+            "Gumus anahtar bulundu",
+            "Kılıç dayanıklılığı 70",
+            "Press F to inspect"
+          ],
+          "cer": 0.0476,
+          "mean_ms": 214.2
+        },
+        "S03_bright_settings.png": {
+          "truth": [
+            "Görüntü ayarları",
+            "Ekran çözünürlüğü",
+            "Değişiklikleri kaydet"
+          ],
+          "pred": [
+            "Görüntü ayarları",
+            "Ekran çözünürlüğü",
+            "Değişiklikleri kaydet"
+          ],
+          "cer": 0.0,
+          "mean_ms": 183.2
+        },
+        "S04_orange_quest.png": {
+          "truth": [
+            "Yeni hedef belirlendi",
+            "Düşmanı etkisiz hale getir",
+            "Görev güncellendi"
+          ],
+          "pred": [
+            "Yeni hedef belirlendi",
+            "Dusmani etkisiz hale getir",
+            "Gorev guncellendi"
+          ],
+          "cer": 0.0758,
+          "mean_ms": 206.8
+        },
+        "S05_contrasty_dark.png": {
+          "truth": [
+            "İlk bölüm başlıyor",
+            "Şimdi gizlenmeliyiz",
+            "Stay near the river"
+          ],
+          "pred": [
+            "İlk bölüm başlıyor",
+            "Şimdi gizlenmeliyiz",
+            "Stay near the river"
+          ],
+          "cer": 0.0,
+          "mean_ms": 206.5
+        },
+        "S06_color_hud.png": {
+          "truth": [
+            "Can seviyesi 100",
+            "Zırh kapasitesi 45",
+            "Yeni yetenek açıldı"
+          ],
+          "pred": [
+            "Can seviyesi 100",
+            "Zirh kapasitesi 45",
+            "Yeni yetenek acildi"
+          ],
+          "cer": 0.0727,
+          "mean_ms": 204.1
+        },
+        "S07_soft_subtitle.png": {
+          "truth": [
+            "Köprüden karşıya geç",
+            "İleride bir çıkış var",
+            "Don't look behind"
+          ],
+          "pred": [
+            "Köprüden karşıya geç",
+            "İleride bir çıkış var",
+            "Don't look behind"
+          ],
+          "cer": 0.0,
+          "mean_ms": 234.7
+        },
+        "S08_slightly_rotated.png": {
+          "truth": [
+            "Kapıya doğru ilerle",
+            "Üçüncü bölüm başladı",
+            "Victory is near"
+          ],
+          "pred": [
+            "Kapıya doğru ilerle",
+            "Üçüncü bölüm başladı",
+            "Victory is near"
+          ],
+          "cer": 0.0,
+          "mean_ms": 202.6
+        },
+        "S09_small_resolution.png": {
+          "truth": [
+            "Çevrimdışı mod",
+            "Bir sonraki kayıt",
+            "Hikâyeye devam et"
+          ],
+          "pred": [
+            "Çevrimdışı mod",
+            "Bir sonraki kayit",
+            "Hikayeye devam et"
+          ],
+          "cer": 0.04,
+          "mean_ms": 195.0
+        },
+        "S10_low_contrast.png": {
+          "truth": [
+            "Sığınağa geri dön",
+            "Haritayı kontrol et",
+            "Gösterge açık"
+          ],
+          "pred": [
+            "Siginaga geri dön",
+            "Haritayı kontrol et",
+            "Gösterge açık"
+          ],
+          "cer": 0.0784,
+          "mean_ms": 196.3
+        },
+        "S11_wide_menu.png": {
+          "truth": [
+            "Kayıtlı oyunlar",
+            "Başarılar listesi",
+            "Ana menüye dön"
+          ],
+          "pred": [
+            "Kayıtlı oyunlar",
+            "Başarılar listesi",
+            "Ana menüye dön"
+          ],
+          "cer": 0.0,
+          "mean_ms": 194.3
+        },
+        "S12_outlined_subtitles.png": {
+          "truth": [
+            "Şüpheli bir ses var",
+            "Hızlı koşmalıyız",
+            "Hedefe ulaştık"
+          ],
+          "pred": [
+            "Şüpheli bir ses var",
+            "Hızlı koşmalıyız",
+            "Hedefe ulaştık"
+          ],
+          "cer": 0.0,
+          "mean_ms": 215.9
+        },
+        "S13_thin_font_ui.png": {
+          "truth": [
+            "Ödülleri topla",
+            "Köyün etrafını dolaş",
+            "Choose your weapon"
+          ],
+          "pred": [
+            "Ödülleri topla",
+            "Köyün etrafını dolaş",
+            "Choose your weapon"
+          ],
+          "cer": 0.0,
+          "mean_ms": 210.6
+        }
+      },
+      "speed_score": 100,
+      "total_score": 94.6
+    }
+  }
+}

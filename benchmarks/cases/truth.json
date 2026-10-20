@@ -1,0 +1,57 @@
+{
+  "00_baseline.png": [
+    "GAME TRANSLATOR OCR",
+    "Merhaba dünya!",
+    "Quest completed"
+  ],
+  "01_dark_dialogue.png": [
+    "Open the ancient gate",
+    "Görev tamamlandı",
+    "Press E to continue"
+  ],
+  "02_small_hud.png": [
+    "LEVEL 27",
+    "Health 100%",
+    "Kalan süre 02:45"
+  ],
+  "03_outline_shadow.png": [
+    "Düşman yaklaşıyor!",
+    "Run to the bridge",
+    "Bölüm başarıyla bitti"
+  ],
+  "04_bright_menu.png": [
+    "Settings",
+    "Yeni oyun",
+    "Çıkış"
+  ],
+  "05_blurred_subtitles.png": [
+    "Can you hear me?",
+    "Kapıyı açmalıyız",
+    "Follow the signal"
+  ],
+  "06_low_contrast.png": [
+    "The mission begins",
+    "Yeni görev alındı",
+    "Return to base"
+  ],
+  "07_busy_background.png": [
+    "Main quest",
+    "İnceleme tamamlandı",
+    "Return to the village"
+  ],
+  "08_tilted_screen.png": [
+    "Victory is ours",
+    "Yeni bölge keşfedildi",
+    "Saving progress"
+  ],
+  "09_wide_720p.png": [
+    "The final chapter",
+    "Karakter seviyesi 18",
+    "Continue playing"
+  ],
+  "10_colored_ui.png": [
+    "New achievement",
+    "Başarı kilidi açıldı",
+    "Collect your reward"
+  ]
+}

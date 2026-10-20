@@ -1,0 +1,205 @@
+{
+  "engine": "tesseract",
+  "records": [
+    {
+      "name": "H00_unseen.png",
+      "pass": 0,
+      "texts": [
+        "Find the hidden key",
+        "Gorusuruz",
+        "Hızlı seyahat"
+      ],
+      "ms": 195.324
+    },
+    {
+      "name": "H01_unseen.png",
+      "pass": 0,
+      "texts": [
+        "Işığa doğru",
+        "Kapı kilitli",
+        "Run quickly"
+      ],
+      "ms": 184.12
+    },
+    {
+      "name": "H02_unseen.png",
+      "pass": 0,
+      "texts": [
+        "Şifre yanlış",
+        "Enemy spotted",
+        "Target acguired"
+      ],
+      "ms": 183.8
+    },
+    {
+      "name": "H03_unseen.png",
+      "pass": 0,
+      "texts": [
+        "Büyük ödül",
+        "Seviye yükseldi",
+        "Continue"
+      ],
+      "ms": 188.304
+    },
+    {
+      "name": "H04_unseen.png",
+      "pass": 0,
+      "texts": [
+        "Kılıç hasar gördü",
+        "Health restored",
+        "Görev iptal edildi"
+      ],
+      "ms": 204.23
+    },
+    {
+      "name": "H05_unseen.png",
+      "pass": 0,
+      "texts": [
+        "Inventory full",
+        "Çözüm bulundu",
+        "İkinci bölüm"
+      ],
+      "ms": 209.036
+    },
+    {
+      "name": "H06_unseen.png",
+      "pass": 0,
+      "texts": [
+        "Press SPACE",
+        "Hedefe yaklaşıyoruz",
+        "Karanlık çöktü"
+      ],
+      "ms": 205.027
+    },
+    {
+      "name": "H07_unseen.png",
+      "pass": 0,
+      "texts": [
+        "Cikisa ilerle",
+        "Find the map",
+        "Kopruye geri don"
+      ],
+      "ms": 169.814
+    },
+    {
+      "name": "H08_unseen.png",
+      "pass": 0,
+      "texts": [
+        "Üçüncü kapı",
+        "Gizli bölge keşfedildi",
+        "Mission complete"
+      ],
+      "ms": 205.285
+    },
+    {
+      "name": "H09_unseen.png",
+      "pass": 0,
+      "texts": [
+        "Ogrenci girisi",
+        "Yolculuk basliyor",
+        "Use magic"
+      ],
+      "ms": 177.788
+    },
+    {
+      "name": "H00_unseen.png",
+      "pass": 1,
+      "texts": [
+        "Find the hidden key",
+        "Gorusuruz",
+        "Hızlı seyahat"
+      ],
+      "ms": 198.084
+    },
+    {
+      "name": "H01_unseen.png",
+      "pass": 1,
+      "texts": [
+        "Işığa doğru",
+        "Kapı kilitli",
+        "Run quickly"
+      ],
+      "ms": 189.939
+    },
+    {
+      "name": "H02_unseen.png",
+      "pass": 1,
+      "texts": [
+        "Şifre yanlış",
+        "Enemy spotted",
+        "Target acguired"
+      ],
+      "ms": 182.792
+    },
+    {
+      "name": "H03_unseen.png",
+      "pass": 1,
+      "texts": [
+        "Büyük ödül",
+        "Seviye yükseldi",
+        "Continue"
+      ],
+      "ms": 179.535
+    },
+    {
+      "name": "H04_unseen.png",
+      "pass": 1,
+      "texts": [
+        "Kılıç hasar gördü",
+        "Health restored",
+        "Görev iptal edildi"
+      ],
+      "ms": 197.826
+    },
+    {
+      "name": "H05_unseen.png",
+      "pass": 1,
+      "texts": [
+        "Inventory full",
+        "Çözüm bulundu",
+        "İkinci bölüm"
+      ],
+      "ms": 203.203
+    },
+    {
+      "name": "H06_unseen.png",
+      "pass": 1,
+      "texts": [
+        "Press SPACE",
+        "Hedefe yaklaşıyoruz",
+        "Karanlık çöktü"
+      ],
+      "ms": 205.537
+    },
+    {
+      "name": "H07_unseen.png",
+      "pass": 1,
+      "texts": [
+        "Cikisa ilerle",
+        "Find the map",
+        "Kopruye geri don"
+      ],
+      "ms": 169.69
+    },
+    {
+      "name": "H08_unseen.png",
+      "pass": 1,
+      "texts": [
+        "Üçüncü kapı",
+        "Gizli bölge keşfedildi",
+        "Mission complete"
+      ],
+      "ms": 203.099
+    },
+    {
+      "name": "H09_unseen.png",
+      "pass": 1,
+      "texts": [
+        "Ogrenci girisi",
+        "Yolculuk basliyor",
+        "Use magic"
+      ],
+      "ms": 179.594
+    }
+  ]
+}

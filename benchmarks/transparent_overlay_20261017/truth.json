@@ -1,0 +1,82 @@
+{
+  "dark_panel85.png": [
+    "Görev tamamlandı",
+    "Sığınağa geri dön",
+    "Press E to continue"
+  ],
+  "dark_panel50.png": [
+    "Görev tamamlandı",
+    "Sığınağa geri dön",
+    "Press E to continue"
+  ],
+  "dark_panel20.png": [
+    "Görev tamamlandı",
+    "Sığınağa geri dön",
+    "Press E to continue"
+  ],
+  "no_panel_white.png": [
+    "Yeni yetenek açıldı",
+    "Kapıya doğru ilerle",
+    "Victory is near"
+  ],
+  "bright_panel85.png": [
+    "Ekran çözünürlüğü",
+    "Çevrimdışı mod",
+    "İlk Kurulum Başlıyor"
+  ],
+  "bright_panel50.png": [
+    "Ekran çözünürlüğü",
+    "Çevrimdışı mod",
+    "İlk Kurulum Başlıyor"
+  ],
+  "bright_panel20.png": [
+    "Ekran çözünürlüğü",
+    "Çevrimdışı mod",
+    "İlk Kurulum Başlıyor"
+  ],
+  "no_panel_dark.png": [
+    "HP 432 OCR Araştırması",
+    "GameTranslator Linux",
+    "Merhaba dünya!"
+  ],
+  "glass_blur70.png": [
+    "Kılıç dayanıklılığı 70",
+    "Zırh kapasitesi 45",
+    "Yeni görev alındı"
+  ],
+  "glass_blur35.png": [
+    "Kılıç dayanıklılığı 70",
+    "Zırh kapasitesi 45",
+    "Yeni görev alındı"
+  ],
+  "color_blue60.png": [
+    "Görev güncellendi",
+    "Bölüm başarıyla bitti",
+    "Return to the shelter"
+  ],
+  "color_blue25.png": [
+    "Görev güncellendi",
+    "Bölüm başarıyla bitti",
+    "Return to the shelter"
+  ],
+  "small_tabs_dark.png": [
+    "GameTranslator Linux",
+    "HP 432 OCR Araştırması",
+    "Bizim OCR — RapidOCR"
+  ],
+  "small_tabs_bright.png": [
+    "İlk Kurulum Başlıyor",
+    "Çevrimdışı mod",
+    "Sığınağa geri dön"
+  ],
+  "subtitle_shadow.png": [
+    "Sığınağa geri dön",
+    "Görev tamamlandı",
+    "Çevrimdışı mod"
+  ],
+  "subtitle_outline.png": [
+    "Sığınağa geri dön",
+    "Görev tamamlandı",
+    "Çevrimdışı mod"
+  ]
+}

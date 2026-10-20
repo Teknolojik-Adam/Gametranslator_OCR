@@ -1,0 +1,635 @@
+{
+  "suite": "independent_stress",
+  "profile": "fast",
+  "images": 14,
+  "passes": 2,
+  "reference_lines": 84,
+  "exact_lines": 78,
+  "detected_lines": 84,
+  "character_count": 1616,
+  "character_edit_distance": 8,
+  "character_accuracy_pct": 99.5,
+  "exact_line_recall_pct": 92.86,
+  "exact_line_precision_pct": 92.86,
+  "exact_line_f1_pct": 92.86,
+  "mean_ms": 164.5,
+  "median_ms": 159.1,
+  "p95_ms": 201.2,
+  "peak_process_rss_mib": 409.8,
+  "failures": [
+    {
+      "file": "S06_color_hud.png",
+      "pass_num": 0,
+      "matched": 2,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 1,
+      "truth": [
+        "Can seviyesi 100",
+        "Zırh kapasitesi 45",
+        "Yeni yetenek açıldı"
+      ],
+      "predicted": [
+        "Can seviyesi 100",
+        "Zırh kapašitesi 45",
+        "Yeni yetenek açıldı"
+      ]
+    },
+    {
+      "file": "S06_color_hud.png",
+      "pass_num": 1,
+      "matched": 2,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 1,
+      "truth": [
+        "Can seviyesi 100",
+        "Zırh kapasitesi 45",
+        "Yeni yetenek açıldı"
+      ],
+      "predicted": [
+        "Can seviyesi 100",
+        "Zırh kapašitesi 45",
+        "Yeni yetenek açıldı"
+      ]
+    },
+    {
+      "file": "S09_small_resolution.png",
+      "pass_num": 0,
+      "matched": 2,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 1,
+      "truth": [
+        "Çevrimdışı mod",
+        "Bir sonraki kayıt",
+        "Hikâyeye devam et"
+      ],
+      "predicted": [
+        "Çevrimdıșı mod",
+        "Bir sonraki kayıt",
+        "Hikâyeye devam et"
+      ]
+    },
+    {
+      "file": "S09_small_resolution.png",
+      "pass_num": 1,
+      "matched": 2,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 1,
+      "truth": [
+        "Çevrimdışı mod",
+        "Bir sonraki kayıt",
+        "Hikâyeye devam et"
+      ],
+      "predicted": [
+        "Çevrimdıșı mod",
+        "Bir sonraki kayıt",
+        "Hikâyeye devam et"
+      ]
+    },
+    {
+      "file": "S10_low_contrast.png",
+      "pass_num": 0,
+      "matched": 2,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 2,
+      "truth": [
+        "Sığınağa geri dön",
+        "Haritayı kontrol et",
+        "Gösterge açık"
+      ],
+      "predicted": [
+        "Siğinağa geri dön",
+        "Haritayı kontrol et",
+        "Gösterge açık"
+      ]
+    },
+    {
+      "file": "S10_low_contrast.png",
+      "pass_num": 1,
+      "matched": 2,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 2,
+      "truth": [
+        "Sığınağa geri dön",
+        "Haritayı kontrol et",
+        "Gösterge açık"
+      ],
+      "predicted": [
+        "Siğinağa geri dön",
+        "Haritayı kontrol et",
+        "Gösterge açık"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "file": "S00_dialogue_turkish.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Şehrin kapıları açıldı",
+        "Işıklar yeniden yanıyor",
+        "Bütün görevler tamamlandı"
+      ],
+      "predicted": [
+        "Şehrin kapıları açıldı",
+        "Işıklar yeniden yanıyor",
+        "Bütün görevler tamamlandı"
+      ]
+    },
+    {
+      "file": "S00_dialogue_turkish.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Şehrin kapıları açıldı",
+        "Işıklar yeniden yanıyor",
+        "Bütün görevler tamamlandı"
+      ],
+      "predicted": [
+        "Şehrin kapıları açıldı",
+        "Işıklar yeniden yanıyor",
+        "Bütün görevler tamamlandı"
+      ]
+    },
+    {
+      "file": "S01_english_subtitles.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Return to the shelter",
+        "Follow the glowing trail",
+        "The journey continues"
+      ],
+      "predicted": [
+        "Return to the shelter",
+        "Follow the glowing trail",
+        "The journey continues"
+      ]
+    },
+    {
+      "file": "S01_english_subtitles.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Return to the shelter",
+        "Follow the glowing trail",
+        "The journey continues"
+      ],
+      "predicted": [
+        "Return to the shelter",
+        "Follow the glowing trail",
+        "The journey continues"
+      ]
+    },
+    {
+      "file": "S02_tiny_inventory.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Gümüş anahtar bulundu",
+        "Kılıç dayanıklılığı 70",
+        "Press F to inspect"
+      ],
+      "predicted": [
+        "Gümüş anahtar bulundu",
+        "Kılıç dayanıklılığı 70",
+        "Press F to inspect"
+      ]
+    },
+    {
+      "file": "S02_tiny_inventory.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Gümüş anahtar bulundu",
+        "Kılıç dayanıklılığı 70",
+        "Press F to inspect"
+      ],
+      "predicted": [
+        "Gümüş anahtar bulundu",
+        "Kılıç dayanıklılığı 70",
+        "Press F to inspect"
+      ]
+    },
+    {
+      "file": "S03_bright_settings.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Görüntü ayarları",
+        "Ekran çözünürlüğü",
+        "Değişiklikleri kaydet"
+      ],
+      "predicted": [
+        "Görüntü ayarları",
+        "Ekran çözünürlüğü",
+        "Değişiklikleri kaydet"
+      ]
+    },
+    {
+      "file": "S03_bright_settings.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Görüntü ayarları",
+        "Ekran çözünürlüğü",
+        "Değişiklikleri kaydet"
+      ],
+      "predicted": [
+        "Görüntü ayarları",
+        "Ekran çözünürlüğü",
+        "Değişiklikleri kaydet"
+      ]
+    },
+    {
+      "file": "S04_orange_quest.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Yeni hedef belirlendi",
+        "Düşmanı etkisiz hale getir",
+        "Görev güncellendi"
+      ],
+      "predicted": [
+        "Yeni hedef belirlendi",
+        "Düşmanı etkisiz hale getir",
+        "Görev güncellendi"
+      ]
+    },
+    {
+      "file": "S04_orange_quest.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Yeni hedef belirlendi",
+        "Düşmanı etkisiz hale getir",
+        "Görev güncellendi"
+      ],
+      "predicted": [
+        "Yeni hedef belirlendi",
+        "Düşmanı etkisiz hale getir",
+        "Görev güncellendi"
+      ]
+    },
+    {
+      "file": "S05_contrasty_dark.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "İlk bölüm başlıyor",
+        "Şimdi gizlenmeliyiz",
+        "Stay near the river"
+      ],
+      "predicted": [
+        "ilk bölüm başlıyor",
+        "Şimdi gizlenmeliyiz",
+        "Stay near the river"
+      ]
+    },
+    {
+      "file": "S05_contrasty_dark.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "İlk bölüm başlıyor",
+        "Şimdi gizlenmeliyiz",
+        "Stay near the river"
+      ],
+      "predicted": [
+        "ilk bölüm başlıyor",
+        "Şimdi gizlenmeliyiz",
+        "Stay near the river"
+      ]
+    },
+    {
+      "file": "S06_color_hud.png",
+      "pass_num": 0,
+      "matched": 2,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 1,
+      "truth": [
+        "Can seviyesi 100",
+        "Zırh kapasitesi 45",
+        "Yeni yetenek açıldı"
+      ],
+      "predicted": [
+        "Can seviyesi 100",
+        "Zırh kapašitesi 45",
+        "Yeni yetenek açıldı"
+      ]
+    },
+    {
+      "file": "S06_color_hud.png",
+      "pass_num": 1,
+      "matched": 2,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 1,
+      "truth": [
+        "Can seviyesi 100",
+        "Zırh kapasitesi 45",
+        "Yeni yetenek açıldı"
+      ],
+      "predicted": [
+        "Can seviyesi 100",
+        "Zırh kapašitesi 45",
+        "Yeni yetenek açıldı"
+      ]
+    },
+    {
+      "file": "S07_soft_subtitle.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Köprüden karşıya geç",
+        "İleride bir çıkış var",
+        "Don't look behind"
+      ],
+      "predicted": [
+        "Köprüden karşıya geç",
+        "ileride bir çıkış var",
+        "Don't look behind"
+      ]
+    },
+    {
+      "file": "S07_soft_subtitle.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Köprüden karşıya geç",
+        "İleride bir çıkış var",
+        "Don't look behind"
+      ],
+      "predicted": [
+        "Köprüden karşıya geç",
+        "ileride bir çıkış var",
+        "Don't look behind"
+      ]
+    },
+    {
+      "file": "S08_slightly_rotated.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Kapıya doğru ilerle",
+        "Üçüncü bölüm başladı",
+        "Victory is near"
+      ],
+      "predicted": [
+        "Kapıya doğru ilerle",
+        "Üçüncü bölüm başladı",
+        "Victory is near"
+      ]
+    },
+    {
+      "file": "S08_slightly_rotated.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Kapıya doğru ilerle",
+        "Üçüncü bölüm başladı",
+        "Victory is near"
+      ],
+      "predicted": [
+        "Kapıya doğru ilerle",
+        "Üçüncü bölüm başladı",
+        "Victory is near"
+      ]
+    },
+    {
+      "file": "S09_small_resolution.png",
+      "pass_num": 0,
+      "matched": 2,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 1,
+      "truth": [
+        "Çevrimdışı mod",
+        "Bir sonraki kayıt",
+        "Hikâyeye devam et"
+      ],
+      "predicted": [
+        "Çevrimdıșı mod",
+        "Bir sonraki kayıt",
+        "Hikâyeye devam et"
+      ]
+    },
+    {
+      "file": "S09_small_resolution.png",
+      "pass_num": 1,
+      "matched": 2,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 1,
+      "truth": [
+        "Çevrimdışı mod",
+        "Bir sonraki kayıt",
+        "Hikâyeye devam et"
+      ],
+      "predicted": [
+        "Çevrimdıșı mod",
+        "Bir sonraki kayıt",
+        "Hikâyeye devam et"
+      ]
+    },
+    {
+      "file": "S10_low_contrast.png",
+      "pass_num": 0,
+      "matched": 2,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 2,
+      "truth": [
+        "Sığınağa geri dön",
+        "Haritayı kontrol et",
+        "Gösterge açık"
+      ],
+      "predicted": [
+        "Siğinağa geri dön",
+        "Haritayı kontrol et",
+        "Gösterge açık"
+      ]
+    },
+    {
+      "file": "S10_low_contrast.png",
+      "pass_num": 1,
+      "matched": 2,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 2,
+      "truth": [
+        "Sığınağa geri dön",
+        "Haritayı kontrol et",
+        "Gösterge açık"
+      ],
+      "predicted": [
+        "Siğinağa geri dön",
+        "Haritayı kontrol et",
+        "Gösterge açık"
+      ]
+    },
+    {
+      "file": "S11_wide_menu.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Kayıtlı oyunlar",
+        "Başarılar listesi",
+        "Ana menüye dön"
+      ],
+      "predicted": [
+        "Kayıtlı oyunlar",
+        "Başarılar listesi",
+        "Ana menüye dön"
+      ]
+    },
+    {
+      "file": "S11_wide_menu.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Kayıtlı oyunlar",
+        "Başarılar listesi",
+        "Ana menüye dön"
+      ],
+      "predicted": [
+        "Kayıtlı oyunlar",
+        "Başarılar listesi",
+        "Ana menüye dön"
+      ]
+    },
+    {
+      "file": "S12_outlined_subtitles.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Şüpheli bir ses var",
+        "Hızlı koşmalıyız",
+        "Hedefe ulaştık"
+      ],
+      "predicted": [
+        "Şüpheli bir ses var",
+        "Hızlı koşmalıyız",
+        "Hedefe ulaştık"
+      ]
+    },
+    {
+      "file": "S12_outlined_subtitles.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Şüpheli bir ses var",
+        "Hızlı koşmalıyız",
+        "Hedefe ulaştık"
+      ],
+      "predicted": [
+        "Şüpheli bir ses var",
+        "Hızlı koşmalıyız",
+        "Hedefe ulaştık"
+      ]
+    },
+    {
+      "file": "S13_thin_font_ui.png",
+      "pass_num": 0,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Ödülleri topla",
+        "Köyün etrafını dolaş",
+        "Choose your weapon"
+      ],
+      "predicted": [
+        "Ödülleri topla",
+        "Köyün etrafını dolaş",
+        "Choose your weapon"
+      ]
+    },
+    {
+      "file": "S13_thin_font_ui.png",
+      "pass_num": 1,
+      "matched": 3,
+      "needed": 3,
+      "total_detected": 3,
+      "edit_distance": 0,
+      "truth": [
+        "Ödülleri topla",
+        "Köyün etrafını dolaş",
+        "Choose your weapon"
+      ],
+      "predicted": [
+        "Ödülleri topla",
+        "Köyün etrafını dolaş",
+        "Choose your weapon"
+      ]
+    }
+  ]
+}

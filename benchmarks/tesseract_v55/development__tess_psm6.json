@@ -1,0 +1,420 @@
+{
+  "kind": "tess_psm6",
+  "dataset": "development",
+  "metrics": {
+    "char_accuracy_pct": 98.53,
+    "char_error_pct": 1.47,
+    "exact_lines": 29,
+    "reference_lines": 33,
+    "predicted_lines": 33,
+    "line_precision_pct": 87.88,
+    "line_recall_pct": 87.88,
+    "line_f1_pct": 87.88,
+    "mean_ms": 60.48,
+    "median_ms": 63.86,
+    "p95_ms": 74.55,
+    "min_ms": 23.08,
+    "max_ms": 75.03,
+    "per_image": [
+      {
+        "name": "00_baseline.png",
+        "reference": [
+          "GAME TRANSLATOR OCR",
+          "Merhaba dünya!",
+          "Quest completed"
+        ],
+        "predicted": [
+          "GAME TRANSLATOR OCR",
+          "Merhaba dunya!",
+          "Quest completed"
+        ],
+        "matched_lines": 2,
+        "total_lines": 3,
+        "edit_distance": 1
+      },
+      {
+        "name": "01_dark_dialogue.png",
+        "reference": [
+          "Open the ancient gate",
+          "Görev tamamlandı",
+          "Press E to continue"
+        ],
+        "predicted": [
+          "Open the ancient gate",
+          "Görev tamamlandı",
+          "Press E to continue"
+        ],
+        "matched_lines": 3,
+        "total_lines": 3,
+        "edit_distance": 0
+      },
+      {
+        "name": "02_small_hud.png",
+        "reference": [
+          "LEVEL 27",
+          "Health 100%",
+          "Kalan süre 02:45"
+        ],
+        "predicted": [
+          "LEVEL 27",
+          "Health 100%",
+          "Kalan süre 02:45"
+        ],
+        "matched_lines": 3,
+        "total_lines": 3,
+        "edit_distance": 0
+      },
+      {
+        "name": "03_outline_shadow.png",
+        "reference": [
+          "Düşman yaklaşıyor!",
+          "Run to the bridge",
+          "Bölüm başarıyla bitti"
+        ],
+        "predicted": [
+          "Düşman yaklaşıyor!",
+          "Run to the bridge",
+          "Bölüm başarıyla bitti"
+        ],
+        "matched_lines": 3,
+        "total_lines": 3,
+        "edit_distance": 0
+      },
+      {
+        "name": "04_bright_menu.png",
+        "reference": [
+          "Settings",
+          "Yeni oyun",
+          "Çıkış"
+        ],
+        "predicted": [
+          "Settings",
+          "Yeni oyun",
+          "Cikis"
+        ],
+        "matched_lines": 2,
+        "total_lines": 3,
+        "edit_distance": 4
+      },
+      {
+        "name": "05_blurred_subtitles.png",
+        "reference": [
+          "Can you hear me?",
+          "Kapıyı açmalıyız",
+          "Follow the signal"
+        ],
+        "predicted": [
+          "Can you hear me?",
+          "Kapıyı açmalıyız",
+          "Follow the signal"
+        ],
+        "matched_lines": 3,
+        "total_lines": 3,
+        "edit_distance": 0
+      },
+      {
+        "name": "06_low_contrast.png",
+        "reference": [
+          "The mission begins",
+          "Yeni görev alındı",
+          "Return to base"
+        ],
+        "predicted": [
+          "The mission begins",
+          "Yeni görev alındı",
+          "Return to base"
+        ],
+        "matched_lines": 3,
+        "total_lines": 3,
+        "edit_distance": 0
+      },
+      {
+        "name": "07_busy_background.png",
+        "reference": [
+          "Main quest",
+          "İnceleme tamamlandı",
+          "Return to the village"
+        ],
+        "predicted": [
+          "Main quest",
+          "inceleme tamamlandi",
+          "Return to the village"
+        ],
+        "matched_lines": 2,
+        "total_lines": 3,
+        "edit_distance": 1
+      },
+      {
+        "name": "08_tilted_screen.png",
+        "reference": [
+          "Victory is ours",
+          "Yeni bölge keşfedildi",
+          "Saving progress"
+        ],
+        "predicted": [
+          "Victory is ours",
+          "Yeni bolge kesfedildi",
+          "Saving progress"
+        ],
+        "matched_lines": 2,
+        "total_lines": 3,
+        "edit_distance": 2
+      },
+      {
+        "name": "09_wide_720p.png",
+        "reference": [
+          "The final chapter",
+          "Karakter seviyesi 18",
+          "Continue playing"
+        ],
+        "predicted": [
+          "The final chapter",
+          "Karakter seviyesi 18",
+          "Continue playing"
+        ],
+        "matched_lines": 3,
+        "total_lines": 3,
+        "edit_distance": 0
+      },
+      {
+        "name": "10_colored_ui.png",
+        "reference": [
+          "New achievement",
+          "Başarı kilidi açıldı",
+          "Collect your reward"
+        ],
+        "predicted": [
+          "New achievement",
+          "Başarı kilidi açıldı",
+          "Collect your reward"
+        ],
+        "matched_lines": 3,
+        "total_lines": 3,
+        "edit_distance": 0
+      }
+    ]
+  },
+  "peak_process_rss_mib": 104.6,
+  "records": [
+    {
+      "name": "00_baseline.png",
+      "pass": 0,
+      "texts": [
+        "GAME TRANSLATOR OCR",
+        "Merhaba dunya!",
+        "Quest completed"
+      ],
+      "ms": 62.2458340076264
+    },
+    {
+      "name": "01_dark_dialogue.png",
+      "pass": 0,
+      "texts": [
+        "Open the ancient gate",
+        "Görev tamamlandı",
+        "Press E to continue"
+      ],
+      "ms": 75.03341499250382
+    },
+    {
+      "name": "02_small_hud.png",
+      "pass": 0,
+      "texts": [
+        "LEVEL 27",
+        "Health 100%",
+        "Kalan süre 02:45"
+      ],
+      "ms": 63.93698700412642
+    },
+    {
+      "name": "03_outline_shadow.png",
+      "pass": 0,
+      "texts": [
+        "Düşman yaklaşıyor!",
+        "Run to the bridge",
+        "Bölüm başarıyla bitti"
+      ],
+      "ms": 72.96907999261748
+    },
+    {
+      "name": "04_bright_menu.png",
+      "pass": 0,
+      "texts": [
+        "Settings",
+        "Yeni oyun",
+        "Cikis"
+      ],
+      "ms": 23.082517000148073
+    },
+    {
+      "name": "05_blurred_subtitles.png",
+      "pass": 0,
+      "texts": [
+        "Can you hear me?",
+        "Kapıyı açmalıyız",
+        "Follow the signal"
+      ],
+      "ms": 63.00496499170549
+    },
+    {
+      "name": "06_low_contrast.png",
+      "pass": 0,
+      "texts": [
+        "The mission begins",
+        "Yeni görev alındı",
+        "Return to base"
+      ],
+      "ms": 68.9220700005535
+    },
+    {
+      "name": "07_busy_background.png",
+      "pass": 0,
+      "texts": [
+        "Main quest",
+        "inceleme tamamlandi",
+        "Return to the village"
+      ],
+      "ms": 51.61042799591087
+    },
+    {
+      "name": "08_tilted_screen.png",
+      "pass": 0,
+      "texts": [
+        "Victory is ours",
+        "Yeni bolge kesfedildi",
+        "Saving progress"
+      ],
+      "ms": 51.58958699030336
+    },
+    {
+      "name": "09_wide_720p.png",
+      "pass": 0,
+      "texts": [
+        "The final chapter",
+        "Karakter seviyesi 18",
+        "Continue playing"
+      ],
+      "ms": 64.03369699546602
+    },
+    {
+      "name": "10_colored_ui.png",
+      "pass": 0,
+      "texts": [
+        "New achievement",
+        "Başarı kilidi açıldı",
+        "Collect your reward"
+      ],
+      "ms": 68.27729899669066
+    },
+    {
+      "name": "00_baseline.png",
+      "pass": 1,
+      "texts": [
+        "GAME TRANSLATOR OCR",
+        "Merhaba dunya!",
+        "Quest completed"
+      ],
+      "ms": 60.972191000473686
+    },
+    {
+      "name": "01_dark_dialogue.png",
+      "pass": 1,
+      "texts": [
+        "Open the ancient gate",
+        "Görev tamamlandı",
+        "Press E to continue"
+      ],
+      "ms": 71.21865599765442
+    },
+    {
+      "name": "02_small_hud.png",
+      "pass": 1,
+      "texts": [
+        "LEVEL 27",
+        "Health 100%",
+        "Kalan süre 02:45"
+      ],
+      "ms": 61.09087998629548
+    },
+    {
+      "name": "03_outline_shadow.png",
+      "pass": 1,
+      "texts": [
+        "Düşman yaklaşıyor!",
+        "Run to the bridge",
+        "Bölüm başarıyla bitti"
+      ],
+      "ms": 74.55043400113937
+    },
+    {
+      "name": "04_bright_menu.png",
+      "pass": 1,
+      "texts": [
+        "Settings",
+        "Yeni oyun",
+        "Cikis"
+      ],
+      "ms": 23.971349000930786
+    },
+    {
+      "name": "05_blurred_subtitles.png",
+      "pass": 1,
+      "texts": [
+        "Can you hear me?",
+        "Kapıyı açmalıyız",
+        "Follow the signal"
+      ],
+      "ms": 63.83739800367039
+    },
+    {
+      "name": "06_low_contrast.png",
+      "pass": 1,
+      "texts": [
+        "The mission begins",
+        "Yeni görev alındı",
+        "Return to base"
+      ],
+      "ms": 68.39625899738166
+    },
+    {
+      "name": "07_busy_background.png",
+      "pass": 1,
+      "texts": [
+        "Main quest",
+        "inceleme tamamlandi",
+        "Return to the village"
+      ],
+      "ms": 52.53085998992901
+    },
+    {
+      "name": "08_tilted_screen.png",
+      "pass": 1,
+      "texts": [
+        "Victory is ours",
+        "Yeni bolge kesfedildi",
+        "Saving progress"
+      ],
+      "ms": 52.141738997306675
+    },
+    {
+      "name": "09_wide_720p.png",
+      "pass": 1,
+      "texts": [
+        "The final chapter",
+        "Karakter seviyesi 18",
+        "Continue playing"
+      ],
+      "ms": 63.88140798662789
+    },
+    {
+      "name": "10_colored_ui.png",
+      "pass": 1,
+      "texts": [
+        "New achievement",
+        "Başarı kilidi açıldı",
+        "Collect your reward"
+      ],
+      "ms": 73.20672999776434
+    }
+  ]
+}

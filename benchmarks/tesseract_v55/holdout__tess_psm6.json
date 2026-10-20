@@ -1,0 +1,384 @@
+{
+  "kind": "tess_psm6",
+  "dataset": "holdout",
+  "metrics": {
+    "char_accuracy_pct": 94.66,
+    "char_error_pct": 5.34,
+    "exact_lines": 22,
+    "reference_lines": 30,
+    "predicted_lines": 30,
+    "line_precision_pct": 73.33,
+    "line_recall_pct": 73.33,
+    "line_f1_pct": 73.33,
+    "mean_ms": 52.63,
+    "median_ms": 54.76,
+    "p95_ms": 67.14,
+    "min_ms": 31.52,
+    "max_ms": 68.72,
+    "per_image": [
+      {
+        "name": "H00_unseen.png",
+        "reference": [
+          "Find the hidden key",
+          "Görüşürüz",
+          "Hızlı seyahat"
+        ],
+        "predicted": [
+          "Find the hidden key",
+          "Gorusuruz",
+          "Hızlı seyahat"
+        ],
+        "matched_lines": 2,
+        "total_lines": 3,
+        "edit_distance": 5
+      },
+      {
+        "name": "H01_unseen.png",
+        "reference": [
+          "Işığa doğru",
+          "Kapı kilitli",
+          "Run quickly"
+        ],
+        "predicted": [
+          "Işığa doğru",
+          "Kapı kilitli",
+          "Run quickly"
+        ],
+        "matched_lines": 3,
+        "total_lines": 3,
+        "edit_distance": 0
+      },
+      {
+        "name": "H02_unseen.png",
+        "reference": [
+          "Şifre yanlış",
+          "Enemy spotted",
+          "Target acquired"
+        ],
+        "predicted": [
+          "Şifre yanlış",
+          "Enemy spotted",
+          "Target acguired"
+        ],
+        "matched_lines": 2,
+        "total_lines": 3,
+        "edit_distance": 1
+      },
+      {
+        "name": "H03_unseen.png",
+        "reference": [
+          "Büyük ödül",
+          "Seviye yükseldi",
+          "Continue"
+        ],
+        "predicted": [
+          "Buyuk odul",
+          "Seviye yukseldi",
+          "Continue"
+        ],
+        "matched_lines": 1,
+        "total_lines": 3,
+        "edit_distance": 5
+      },
+      {
+        "name": "H04_unseen.png",
+        "reference": [
+          "Kılıç hasar gördü",
+          "Health restored",
+          "Görev iptal edildi"
+        ],
+        "predicted": [
+          "Kılıç hasar gördü",
+          "Health restored",
+          "Görev iptal edildi"
+        ],
+        "matched_lines": 3,
+        "total_lines": 3,
+        "edit_distance": 0
+      },
+      {
+        "name": "H05_unseen.png",
+        "reference": [
+          "Inventory full",
+          "Çözüm bulundu",
+          "İkinci bölüm"
+        ],
+        "predicted": [
+          "Inventory full",
+          "Çözüm bulundu",
+          "İkinci bölüm"
+        ],
+        "matched_lines": 3,
+        "total_lines": 3,
+        "edit_distance": 0
+      },
+      {
+        "name": "H06_unseen.png",
+        "reference": [
+          "Press SPACE",
+          "Hedefe yaklaşıyoruz",
+          "Karanlık çöktü"
+        ],
+        "predicted": [
+          "Press SPACE",
+          "Hedefe yaklaşıyoruz",
+          "Karanlık çöktü"
+        ],
+        "matched_lines": 3,
+        "total_lines": 3,
+        "edit_distance": 0
+      },
+      {
+        "name": "H07_unseen.png",
+        "reference": [
+          "Çıkışa ilerle",
+          "Find the map",
+          "Köprüye geri dön"
+        ],
+        "predicted": [
+          "Cikisa ilerle",
+          "Find the map",
+          "Kopruye geri don"
+        ],
+        "matched_lines": 1,
+        "total_lines": 3,
+        "edit_distance": 7
+      },
+      {
+        "name": "H08_unseen.png",
+        "reference": [
+          "Üçüncü kapı",
+          "Gizli bölge keşfedildi",
+          "Mission complete"
+        ],
+        "predicted": [
+          "Üçüncü kapı",
+          "Gizli bölge keşfedildi",
+          "Mission complete"
+        ],
+        "matched_lines": 3,
+        "total_lines": 3,
+        "edit_distance": 0
+      },
+      {
+        "name": "H09_unseen.png",
+        "reference": [
+          "Öğrenci girişi",
+          "Yolculuk başlıyor",
+          "Use magic"
+        ],
+        "predicted": [
+          "Ogrenci girisi",
+          "Yolculuk basliyor",
+          "Use magic"
+        ],
+        "matched_lines": 1,
+        "total_lines": 3,
+        "edit_distance": 5
+      }
+    ]
+  },
+  "peak_process_rss_mib": 105.4,
+  "records": [
+    {
+      "name": "H00_unseen.png",
+      "pass": 0,
+      "texts": [
+        "Find the hidden key",
+        "Gorusuruz",
+        "Hızlı seyahat"
+      ],
+      "ms": 58.670504004112445
+    },
+    {
+      "name": "H01_unseen.png",
+      "pass": 0,
+      "texts": [
+        "Işığa doğru",
+        "Kapı kilitli",
+        "Run quickly"
+      ],
+      "ms": 49.52430201228708
+    },
+    {
+      "name": "H02_unseen.png",
+      "pass": 0,
+      "texts": [
+        "Şifre yanlış",
+        "Enemy spotted",
+        "Target acguired"
+      ],
+      "ms": 47.30206698877737
+    },
+    {
+      "name": "H03_unseen.png",
+      "pass": 0,
+      "texts": [
+        "Buyuk odul",
+        "Seviye yukseldi",
+        "Continue"
+      ],
+      "ms": 41.71195300295949
+    },
+    {
+      "name": "H04_unseen.png",
+      "pass": 0,
+      "texts": [
+        "Kılıç hasar gördü",
+        "Health restored",
+        "Görev iptal edildi"
+      ],
+      "ms": 63.24529700214043
+    },
+    {
+      "name": "H05_unseen.png",
+      "pass": 0,
+      "texts": [
+        "Inventory full",
+        "Çözüm bulundu",
+        "İkinci bölüm"
+      ],
+      "ms": 58.00322299182881
+    },
+    {
+      "name": "H06_unseen.png",
+      "pass": 0,
+      "texts": [
+        "Press SPACE",
+        "Hedefe yaklaşıyoruz",
+        "Karanlık çöktü"
+      ],
+      "ms": 68.7172100006137
+    },
+    {
+      "name": "H07_unseen.png",
+      "pass": 0,
+      "texts": [
+        "Cikisa ilerle",
+        "Find the map",
+        "Kopruye geri don"
+      ],
+      "ms": 31.52083800523542
+    },
+    {
+      "name": "H08_unseen.png",
+      "pass": 0,
+      "texts": [
+        "Üçüncü kapı",
+        "Gizli bölge keşfedildi",
+        "Mission complete"
+      ],
+      "ms": 64.50036900059786
+    },
+    {
+      "name": "H09_unseen.png",
+      "pass": 0,
+      "texts": [
+        "Ogrenci girisi",
+        "Yolculuk basliyor",
+        "Use magic"
+      ],
+      "ms": 40.705239996896125
+    },
+    {
+      "name": "H00_unseen.png",
+      "pass": 1,
+      "texts": [
+        "Find the hidden key",
+        "Gorusuruz",
+        "Hızlı seyahat"
+      ],
+      "ms": 59.21486599254422
+    },
+    {
+      "name": "H01_unseen.png",
+      "pass": 1,
+      "texts": [
+        "Işığa doğru",
+        "Kapı kilitli",
+        "Run quickly"
+      ],
+      "ms": 51.51130699960049
+    },
+    {
+      "name": "H02_unseen.png",
+      "pass": 1,
+      "texts": [
+        "Şifre yanlış",
+        "Enemy spotted",
+        "Target acguired"
+      ],
+      "ms": 46.834784996462986
+    },
+    {
+      "name": "H03_unseen.png",
+      "pass": 1,
+      "texts": [
+        "Buyuk odul",
+        "Seviye yukseldi",
+        "Continue"
+      ],
+      "ms": 42.84804601047654
+    },
+    {
+      "name": "H04_unseen.png",
+      "pass": 1,
+      "texts": [
+        "Kılıç hasar gördü",
+        "Health restored",
+        "Görev iptal edildi"
+      ],
+      "ms": 64.50714899983723
+    },
+    {
+      "name": "H05_unseen.png",
+      "pass": 1,
+      "texts": [
+        "Inventory full",
+        "Çözüm bulundu",
+        "İkinci bölüm"
+      ],
+      "ms": 59.293496000464074
+    },
+    {
+      "name": "H06_unseen.png",
+      "pass": 1,
+      "texts": [
+        "Press SPACE",
+        "Hedefe yaklaşıyoruz",
+        "Karanlık çöktü"
+      ],
+      "ms": 67.14335600554477
+    },
+    {
+      "name": "H07_unseen.png",
+      "pass": 1,
+      "texts": [
+        "Cikisa ilerle",
+        "Find the map",
+        "Kopruye geri don"
+      ],
+      "ms": 32.275760007905774
+    },
+    {
+      "name": "H08_unseen.png",
+      "pass": 1,
+      "texts": [
+        "Üçüncü kapı",
+        "Gizli bölge keşfedildi",
+        "Mission complete"
+      ],
+      "ms": 65.10105000052135
+    },
+    {
+      "name": "H09_unseen.png",
+      "pass": 1,
+      "texts": [
+        "Ogrenci girisi",
+        "Yolculuk basliyor",
+        "Use magic"
+      ],
+      "ms": 39.97397900093347
+    }
+  ]
+}

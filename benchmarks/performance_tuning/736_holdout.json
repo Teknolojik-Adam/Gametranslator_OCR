@@ -1,0 +1,44 @@
+{
+  "side": 736,
+  "set": "holdout",
+  "exact": 28,
+  "truth": 30,
+  "predicted": 30,
+  "mean": {
+    "DecodeMs": 1.8,
+    "PreprocessMs": 9.0,
+    "DetectionMs": 47.7,
+    "PostprocessMs": 5.7,
+    "CropMs": 1.5,
+    "RecognitionMs": 61.9,
+    "TotalMs": 127.6
+  },
+  "errors": [
+    {
+      "name": "H07_unseen.png",
+      "truth": [
+        "Çıkışa ilerle",
+        "Find the map",
+        "Köprüye geri dön"
+      ],
+      "guess": [
+        "Çıkıșa ilerle",
+        "Find the map",
+        "Köprüye geri dön"
+      ]
+    },
+    {
+      "name": "H08_unseen.png",
+      "truth": [
+        "Üçüncü kapı",
+        "Gizli bölge keşfedildi",
+        "Mission complete"
+      ],
+      "guess": [
+        "Üçünců kapı",
+        "Gizli bölge keşfedildi",
+        "Mission complete"
+      ]
+    }
+  ]
+}

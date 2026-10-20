@@ -1,0 +1,213 @@
+{
+  "engine": "game_tuned",
+  "records": [
+    {
+      "name": "H00_unseen.png",
+      "pass": 0,
+      "ms": 189.9481,
+      "texts": [
+        "Find the hidden key",
+        "Görüşürüz",
+        "Hizli seyahat"
+      ]
+    },
+    {
+      "name": "H01_unseen.png",
+      "pass": 0,
+      "ms": 183.5612,
+      "texts": [
+        "□",
+        "Işiğa doğru",
+        "□",
+        "□",
+        "Kapi kilitli",
+        "Run quickly"
+      ]
+    },
+    {
+      "name": "H02_unseen.png",
+      "pass": 0,
+      "ms": 191.3094,
+      "texts": [
+        "Şifre yanliş",
+        "Enemy spotted",
+        "Target acquired"
+      ]
+    },
+    {
+      "name": "H03_unseen.png",
+      "pass": 0,
+      "ms": 182.8672,
+      "texts": [
+        "Büyük ödül",
+        "Seviye yükseldi",
+        "Continue"
+      ]
+    },
+    {
+      "name": "H04_unseen.png",
+      "pass": 0,
+      "ms": 208.552,
+      "texts": [
+        "Kiliç hasar gördü",
+        "Health restored",
+        "Görev iptal edildi"
+      ]
+    },
+    {
+      "name": "H05_unseen.png",
+      "pass": 0,
+      "ms": 171.9096,
+      "texts": [
+        "Inventory full",
+        "Çözüm bulundu",
+        "ikinci bölüm"
+      ]
+    },
+    {
+      "name": "H06_unseen.png",
+      "pass": 0,
+      "ms": 195.7532,
+      "texts": [
+        "Press SPACE",
+        "Hedefe yaklaşiyoruz",
+        "Karanlik çöktü",
+        "□"
+      ]
+    },
+    {
+      "name": "H07_unseen.png",
+      "pass": 0,
+      "ms": 175.1565,
+      "texts": [
+        "Çikişa ilerle",
+        "Find the map",
+        "Köprüye geri dön"
+      ]
+    },
+    {
+      "name": "H08_unseen.png",
+      "pass": 0,
+      "ms": 177.2565,
+      "texts": [
+        "ςünc kapı",
+        "Gizli bölge keşfedildi",
+        "Mission complete"
+      ]
+    },
+    {
+      "name": "H09_unseen.png",
+      "pass": 0,
+      "ms": 173.058,
+      "texts": [
+        "Öğrenci girişi",
+        "Yolculuk başliyor",
+        "Use magic"
+      ]
+    },
+    {
+      "name": "H00_unseen.png",
+      "pass": 1,
+      "ms": 184.6614,
+      "texts": [
+        "Find the hidden key",
+        "Görüşürüz",
+        "Hizli seyahat"
+      ]
+    },
+    {
+      "name": "H01_unseen.png",
+      "pass": 1,
+      "ms": 177.4424,
+      "texts": [
+        "□",
+        "Işiğa doğru",
+        "□",
+        "□",
+        "Kapi kilitli",
+        "Run quickly"
+      ]
+    },
+    {
+      "name": "H02_unseen.png",
+      "pass": 1,
+      "ms": 185.1644,
+      "texts": [
+        "Şifre yanliş",
+        "Enemy spotted",
+        "Target acquired"
+      ]
+    },
+    {
+      "name": "H03_unseen.png",
+      "pass": 1,
+      "ms": 183.9059,
+      "texts": [
+        "Büyük ödül",
+        "Seviye yükseldi",
+        "Continue"
+      ]
+    },
+    {
+      "name": "H04_unseen.png",
+      "pass": 1,
+      "ms": 194.7516,
+      "texts": [
+        "Kiliç hasar gördü",
+        "Health restored",
+        "Görev iptal edildi"
+      ]
+    },
+    {
+      "name": "H05_unseen.png",
+      "pass": 1,
+      "ms": 164.1666,
+      "texts": [
+        "Inventory full",
+        "Çözüm bulundu",
+        "ikinci bölüm"
+      ]
+    },
+    {
+      "name": "H06_unseen.png",
+      "pass": 1,
+      "ms": 214.4995,
+      "texts": [
+        "Press SPACE",
+        "Hedefe yaklaşiyoruz",
+        "Karanlik çöktü",
+        "□"
+      ]
+    },
+    {
+      "name": "H07_unseen.png",
+      "pass": 1,
+      "ms": 185.9164,
+      "texts": [
+        "Çikişa ilerle",
+        "Find the map",
+        "Köprüye geri dön"
+      ]
+    },
+    {
+      "name": "H08_unseen.png",
+      "pass": 1,
+      "ms": 180.2796,
+      "texts": [
+        "ςünc kapı",
+        "Gizli bölge keşfedildi",
+        "Mission complete"
+      ]
+    },
+    {
+      "name": "H09_unseen.png",
+      "pass": 1,
+      "ms": 166.5098,
+      "texts": [
+        "Öğrenci girişi",
+        "Yolculuk başliyor",
+        "Use magic"
+      ]
+    }
+  ]
+}

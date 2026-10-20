@@ -1,0 +1,1192 @@
+{
+  "summary": {
+    "ours_raw": {
+      "exact_lines": 42,
+      "reference_lines": 48,
+      "extra_or_wrong_lines": 6,
+      "char_accuracy_pct": 99.33,
+      "mean_ocr_ms": 166.3,
+      "median_ocr_ms": 161.6,
+      "errors": [
+        {
+          "case": "dark_panel20.png",
+          "expected": [
+            "Görev tamamlandı",
+            "Sığınağa geri dön",
+            "Press E to continue"
+          ],
+          "actual": [
+            "Görev tamamlandı",
+            "Sığinağa geri dön",
+            "Press E to continue"
+          ]
+        },
+        {
+          "case": "bright_panel20.png",
+          "expected": [
+            "Ekran çözünürlüğü",
+            "Çevrimdışı mod",
+            "İlk Kurulum Başlıyor"
+          ],
+          "actual": [
+            "Ekrançözünürlüğü",
+            "Çevrimdışı mod",
+            "İlk Kurulum Başlıyor"
+          ]
+        },
+        {
+          "case": "no_panel_dark.png",
+          "expected": [
+            "HP 432 OCR Araştırması",
+            "GameTranslator Linux",
+            "Merhaba dünya!"
+          ],
+          "actual": [
+            "—HP 432 OCR Araştırması",
+            "GameTranslator Linux",
+            "Merhaba dünya!"
+          ]
+        },
+        {
+          "case": "color_blue25.png",
+          "expected": [
+            "Görev güncellendi",
+            "Bölüm başarıyla bitti",
+            "Return to the shelter"
+          ],
+          "actual": [
+            "Görevgüncellendi",
+            "Bölüm başarıyla bitti",
+            "Return to the shelter"
+          ]
+        },
+        {
+          "case": "subtitle_shadow.png",
+          "expected": [
+            "Sığınağa geri dön",
+            "Görev tamamlandı",
+            "Çevrimdışı mod"
+          ],
+          "actual": [
+            "Siğınağa geri dön",
+            "Görev tamamlandı",
+            "Çevrimdışı mod"
+          ]
+        },
+        {
+          "case": "subtitle_outline.png",
+          "expected": [
+            "Sığınağa geri dön",
+            "Görev tamamlandı",
+            "Çevrimdışı mod"
+          ],
+          "actual": [
+            "Siğınağa geri dön",
+            "Görev tamamlandı",
+            "Çevrimdışı mod"
+          ]
+        }
+      ]
+    },
+    "ours_improved": {
+      "exact_lines": 41,
+      "reference_lines": 48,
+      "extra_or_wrong_lines": 7,
+      "char_accuracy_pct": 99.1,
+      "mean_ocr_ms": 169.8,
+      "median_ocr_ms": 161.7,
+      "errors": [
+        {
+          "case": "dark_panel85.png",
+          "expected": [
+            "Görev tamamlandı",
+            "Sığınağa geri dön",
+            "Press E to continue"
+          ],
+          "actual": [
+            "Görev tamamlandı",
+            "Siğınağa geri dön",
+            "Press E to continue"
+          ]
+        },
+        {
+          "case": "dark_panel50.png",
+          "expected": [
+            "Görev tamamlandı",
+            "Sığınağa geri dön",
+            "Press E to continue"
+          ],
+          "actual": [
+            "Görev tamamlandı",
+            "Siğınağa geri dön",
+            "Press E to continue"
+          ]
+        },
+        {
+          "case": "dark_panel20.png",
+          "expected": [
+            "Görev tamamlandı",
+            "Sığınağa geri dön",
+            "Press E to continue"
+          ],
+          "actual": [
+            "Görev tamamlandı",
+            "Siğınağa geri dön",
+            "Press E to continue"
+          ]
+        },
+        {
+          "case": "color_blue25.png",
+          "expected": [
+            "Görev güncellendi",
+            "Bölüm başarıyla bitti",
+            "Return to the shelter"
+          ],
+          "actual": [
+            "Görevgüncellendi",
+            "Bölüm başarıyla bitti",
+            "Return to the shelter"
+          ]
+        },
+        {
+          "case": "small_tabs_bright.png",
+          "expected": [
+            "İlk Kurulum Başlıyor",
+            "Çevrimdışı mod",
+            "Sığınağa geri dön"
+          ],
+          "actual": [
+            "İlk Kurulum Başlıyor",
+            "Çevrimdışı mod",
+            "Siğınağa geri don"
+          ]
+        },
+        {
+          "case": "subtitle_shadow.png",
+          "expected": [
+            "Sığınağa geri dön",
+            "Görev tamamlandı",
+            "Çevrimdışı mod"
+          ],
+          "actual": [
+            "Siğınağa geri dön",
+            "Görev tamamlandı",
+            "Çevrimdışı mod"
+          ]
+        },
+        {
+          "case": "subtitle_outline.png",
+          "expected": [
+            "Sığınağa geri dön",
+            "Görev tamamlandı",
+            "Çevrimdışı mod"
+          ],
+          "actual": [
+            "Siğınağa geri dön",
+            "Görev tamamlandı",
+            "Çevrimdışı mod"
+          ]
+        }
+      ]
+    },
+    "rapid_raw": {
+      "exact_lines": 44,
+      "reference_lines": 48,
+      "extra_or_wrong_lines": 5,
+      "char_accuracy_pct": 99.33,
+      "mean_ocr_ms": 308.6,
+      "median_ocr_ms": 305.7,
+      "errors": [
+        {
+          "case": "bright_panel50.png",
+          "expected": [
+            "Ekran çözünürlüğü",
+            "Çevrimdışı mod",
+            "İlk Kurulum Başlıyor"
+          ],
+          "actual": [
+            "Ekrançözünürlüğü",
+            "Çevrimdışı mod",
+            "İlk Kurulum Başlıyor"
+          ]
+        },
+        {
+          "case": "bright_panel20.png",
+          "expected": [
+            "Ekran çözünürlüğü",
+            "Çevrimdışı mod",
+            "İlk Kurulum Başlıyor"
+          ],
+          "actual": [
+            "Ekrançözünürlüğü",
+            "Çevrimdışı mod",
+            "İlk Kurulum Başlıyor"
+          ]
+        },
+        {
+          "case": "color_blue25.png",
+          "expected": [
+            "Görev güncellendi",
+            "Bölüm başarıyla bitti",
+            "Return to the shelter"
+          ],
+          "actual": [
+            "Görevgüncellendi",
+            "Bölüm başarıyla bitti",
+            "Return to the shelter"
+          ]
+        },
+        {
+          "case": "small_tabs_bright.png",
+          "expected": [
+            "İlk Kurulum Başlıyor",
+            "Çevrimdışı mod",
+            "Sığınağa geri dön"
+          ],
+          "actual": [
+            "İlk Kurulum Başlıyor",
+            "Çevrimdışı mod",
+            "Siğınağa geri dön",
+            "1"
+          ]
+        }
+      ]
+    },
+    "rapid_improved": {
+      "exact_lines": 46,
+      "reference_lines": 48,
+      "extra_or_wrong_lines": 2,
+      "char_accuracy_pct": 99.78,
+      "mean_ocr_ms": 302.8,
+      "median_ocr_ms": 300.4,
+      "errors": [
+        {
+          "case": "dark_panel20.png",
+          "expected": [
+            "Görev tamamlandı",
+            "Sığınağa geri dön",
+            "Press E to continue"
+          ],
+          "actual": [
+            "Görev tamamlandı",
+            "Siğınağa geri dön",
+            "Press E to continue"
+          ]
+        },
+        {
+          "case": "subtitle_shadow.png",
+          "expected": [
+            "Sığınağa geri dön",
+            "Görev tamamlandı",
+            "Çevrimdışı mod"
+          ],
+          "actual": [
+            "Sığınağa geri dön",
+            "Görev tamamlandı",
+            "Çevrimdıșı mod"
+          ]
+        }
+      ]
+    },
+    "tesseract_raw": {
+      "exact_lines": 28,
+      "reference_lines": 48,
+      "extra_or_wrong_lines": 103,
+      "char_accuracy_pct": 69.07,
+      "mean_ocr_ms": 218.0,
+      "median_ocr_ms": 216.7,
+      "errors": [
+        {
+          "case": "dark_panel85.png",
+          "expected": [
+            "Görev tamamlandı",
+            "Sığınağa geri dön",
+            "Press E to continue"
+          ],
+          "actual": [
+            "Görev tamamlandı",
+            "Sığınağa geri dön",
+            "Press Eto continue"
+          ]
+        },
+        {
+          "case": "dark_panel50.png",
+          "expected": [
+            "Görev tamamlandı",
+            "Sığınağa geri dön",
+            "Press E to continue"
+          ],
+          "actual": [
+            "aS",
+            "ee",
+            "tamamlandı",
+            "Sığınağa geri dön",
+            "Press Eto continue",
+            "sz",
+            "sso"
+          ]
+        },
+        {
+          "case": "dark_panel20.png",
+          "expected": [
+            "Görev tamamlandı",
+            "Sığınağa geri dön",
+            "Press E to continue"
+          ],
+          "actual": [
+            "Be",
+            "s",
+            "ore’",
+            "landı",
+            "—",
+            "se",
+            ">",
+            "ğınağa g",
+            "es",
+            "2",
+            "ee",
+            "x",
+            "es E to continue",
+            ">",
+            "si"
+          ]
+        },
+        {
+          "case": "no_panel_white.png",
+          "expected": [
+            "Yeni yetenek açıldı",
+            "Kapıya doğru ilerle",
+            "Victory is near"
+          ],
+          "actual": [
+            "yeni",
+            "k açıldı",
+            "Kapıya do",
+            "o",
+            "Victory is near",
+            "."
+          ]
+        },
+        {
+          "case": "bright_panel20.png",
+          "expected": [
+            "Ekran çözünürlüğü",
+            "Çevrimdışı mod",
+            "İlk Kurulum Başlıyor"
+          ],
+          "actual": [
+            "ne",
+            "ao",
+            "5:",
+            "oF",
+            "\"",
+            "a",
+            ">",
+            "ae",
+            "2",
+            "is",
+            "ae",
+            "©",
+            "|",
+            "ae",
+            "=",
+            "eo",
+            "ae",
+            "oe",
+            "Cevrimdi",
+            "—",
+            ">",
+            ">",
+            "İlk Kurulu",
+            "se",
+            "oe",
+            "a",
+            ">",
+            "Bi",
+            "A",
+            "ot",
+            "se",
+            "2"
+          ]
+        },
+        {
+          "case": "no_panel_dark.png",
+          "expected": [
+            "HP 432 OCR Araştırması",
+            "GameTranslator Linux",
+            "Merhaba dünya!"
+          ],
+          "actual": [
+            "—_",
+            "raştırması",
+            "Gamelran",
+            "Merhaba dünya!",
+            "| ."
+          ]
+        },
+        {
+          "case": "glass_blur70.png",
+          "expected": [
+            "Kılıç dayanıklılığı 70",
+            "Zırh kapasitesi 45",
+            "Yeni görev alındı"
+          ],
+          "actual": [
+            "AS",
+            "oS",
+            "ens",
+            "ma",
+            "coe",
+            "Kılıç dayanıklılığı 70",
+            "|",
+            "Zırh kapasitesi 45",
+            "Yeni görev alındı",
+            "rsi",
+            "ss",
+            "hee",
+            "5"
+          ]
+        },
+        {
+          "case": "glass_blur35.png",
+          "expected": [
+            "Kılıç dayanıklılığı 70",
+            "Zırh kapasitesi 45",
+            "Yeni görev alındı"
+          ],
+          "actual": [
+            "Kılıç dayanıklılığı 70",
+            "Zırh kapasitesi 45",
+            "Yeni görev alındı",
+            "."
+          ]
+        },
+        {
+          "case": "color_blue60.png",
+          "expected": [
+            "Görev güncellendi",
+            "Bölüm başarıyla bitti",
+            "Return to the shelter"
+          ],
+          "actual": [
+            "Gorev güncellendi",
+            "i",
+            "Bölüm başarıyla bitti",
+            "Return to the shelter",
+            "ke"
+          ]
+        },
+        {
+          "case": "color_blue25.png",
+          "expected": [
+            "Görev güncellendi",
+            "Bölüm başarıyla bitti",
+            "Return to the shelter"
+          ],
+          "actual": [
+            "Görev güncellendi",
+            "Bölüm başarıyla bitti",
+            "Return to the shelter",
+            "."
+          ]
+        },
+        {
+          "case": "small_tabs_dark.png",
+          "expected": [
+            "GameTranslator Linux",
+            "HP 432 OCR Araştırması",
+            "Bizim OCR — RapidOCR"
+          ],
+          "actual": [
+            "«>",
+            "Mw...",
+            "G",
+            "ameTranslator Linux",
+            "HP 432 OCR Araştırması",
+            "Bizim OCR — RapidOCR",
+            "Ss ."
+          ]
+        },
+        {
+          "case": "small_tabs_bright.png",
+          "expected": [
+            "İlk Kurulum Başlıyor",
+            "Çevrimdışı mod",
+            "Sığınağa geri dön"
+          ],
+          "actual": [
+            "es",
+            "a",
+            "a",
+            "=",
+            "...",
+            "I",
+            "Ik Kurulum Başlıyor",
+            ">",
+            "Çevrimdışı mod",
+            "Sığınağa geri dön",
+            "e",
+            "©",
+            "e"
+          ]
+        },
+        {
+          "case": "subtitle_shadow.png",
+          "expected": [
+            "Sığınağa geri dön",
+            "Görev tamamlandı",
+            "Çevrimdışı mod"
+          ],
+          "actual": [
+            "=",
+            "dön",
+            "Ee",
+            "Görev tam",
+            "Çevrimdışı mod",
+            "|"
+          ]
+        },
+        {
+          "case": "subtitle_outline.png",
+          "expected": [
+            "Sığınağa geri dön",
+            "Görev tamamlandı",
+            "Çevrimdışı mod"
+          ],
+          "actual": [
+            "eet",
+            "Sığınağalgeni dön",
+            "Görev tamam",
+            "Çevrimdışı mod",
+            "."
+          ]
+        }
+      ]
+    },
+    "tesseract_improved": {
+      "exact_lines": 25,
+      "reference_lines": 48,
+      "extra_or_wrong_lines": 280,
+      "char_accuracy_pct": 19.46,
+      "mean_ocr_ms": 280.7,
+      "median_ocr_ms": 262.8,
+      "errors": [
+        {
+          "case": "dark_panel85.png",
+          "expected": [
+            "Görev tamamlandı",
+            "Sığınağa geri dön",
+            "Press E to continue"
+          ],
+          "actual": [
+            "ce",
+            "a",
+            "ess",
+            "si",
+            "—",
+            ">",
+            "2",
+            "ii",
+            "zi",
+            "Görev tamamlandı",
+            "Sığınağa geri dön",
+            "Press E to continue",
+            "=",
+            "7",
+            "|",
+            "ce",
+            "/",
+            "ae"
+          ]
+        },
+        {
+          "case": "dark_panel50.png",
+          "expected": [
+            "Görev tamamlandı",
+            "Sığınağa geri dön",
+            "Press E to continue"
+          ],
+          "actual": [
+            "eo",
+            "a",
+            "Si",
+            ">",
+            "2",
+            ">",
+            "tamamlandı",
+            ">",
+            "we",
+            "o",
+            "Sığınağa geri dön",
+            "o continue",
+            "oe",
+            "3",
+            "ee",
+            "a",
+            "=",
+            "a",
+            "m",
+            "iş"
+          ]
+        },
+        {
+          "case": "dark_panel20.png",
+          "expected": [
+            "Görev tamamlandı",
+            "Sığınağa geri dön",
+            "Press E to continue"
+          ],
+          "actual": [
+            "Ce",
+            "a",
+            "=",
+            "&",
+            "oS",
+            "ore",
+            "I",
+            "landı",
+            "yani",
+            ">",
+            "naga g",
+            "Bi",
+            "a",
+            "ag",
+            "m",
+            "e",
+            "Press E to continue",
+            "m",
+            "e",
+            "&",
+            "gaz",
+            "a",
+            "a"
+          ]
+        },
+        {
+          "case": "no_panel_white.png",
+          "expected": [
+            "Yeni yetenek açıldı",
+            "Kapıya doğru ilerle",
+            "Victory is near"
+          ],
+          "actual": [
+            "k açıldı",
+            "Kapıya do",
+            "Victory is near",
+            "5"
+          ]
+        },
+        {
+          "case": "bright_panel85.png",
+          "expected": [
+            "Ekran çözünürlüğü",
+            "Çevrimdışı mod",
+            "İlk Kurulum Başlıyor"
+          ],
+          "actual": [
+            "a",
+            "2",
+            "se",
+            "Ekran çözünürlüğü",
+            "Çevrimdışı mod",
+            "a",
+            "oe",
+            "İlk Kurulum Başlıyor",
+            ">",
+            "=e",
+            "—_=",
+            "a",
+            "as",
+            "oe"
+          ]
+        },
+        {
+          "case": "bright_panel50.png",
+          "expected": [
+            "Ekran çözünürlüğü",
+            "Çevrimdışı mod",
+            "İlk Kurulum Başlıyor"
+          ],
+          "actual": [
+            "aut",
+            "fae",
+            "e",
+            "ee",
+            "Ekran çözünürlüğü",
+            "Çevrimdışı mod",
+            "“İlk Kurulum Başlıyor",
+            "EZ",
+            ">",
+            "a"
+          ]
+        },
+        {
+          "case": "bright_panel20.png",
+          "expected": [
+            "Ekran çözünürlüğü",
+            "Çevrimdışı mod",
+            "İlk Kurulum Başlıyor"
+          ],
+          "actual": [
+            "cages",
+            "m",
+            "aes",
+            "tee",
+            "e",
+            "OF",
+            "ae",
+            ">",
+            "—",
+            "=",
+            "a",
+            ">",
+            "©",
+            "an (çözüm",
+            "ğü",
+            "Ae",
+            "o",
+            "ez",
+            "ç",
+            "is",
+            "Çevrim",
+            "od",
+            "—",
+            "e",
+            "a",
+            "oa",
+            "2",
+            "5",
+            "l",
+            "eae",
+            "|",
+            "İlk Kur",
+            "ey",
+            "=",
+            "©",
+            ">",
+            "es",
+            "ae",
+            "=",
+            "shee",
+            "os",
+            ".",
+            "S",
+            "oe",
+            "=",
+            "ae",
+            "=",
+            "o",
+            "ae",
+            "aa",
+            "wee"
+          ]
+        },
+        {
+          "case": "no_panel_dark.png",
+          "expected": [
+            "HP 432 OCR Araştırması",
+            "GameTranslator Linux",
+            "Merhaba dünya!"
+          ],
+          "actual": [
+            "Lees",
+            "Yin",
+            "ae",
+            "-",
+            "ec",
+            "©",
+            "pe",
+            ">",
+            ">",
+            "|",
+            "as",
+            "oe",
+            "a",
+            "s",
+            "S",
+            "-",
+            "Gamelra",
+            "EEE",
+            "se",
+            "i",
+            "a",
+            "es",
+            "a",
+            "ry",
+            "oe",
+            "<",
+            "Merhaba",
+            "e",
+            "ie",
+            "Se",
+            "oe",
+            "oe",
+            "=",
+            "=",
+            "me",
+            "e",
+            ">",
+            "ge",
+            "ae",
+            "EE",
+            "]",
+            "es",
+            "-",
+            "fe",
+            "oS"
+          ]
+        },
+        {
+          "case": "glass_blur70.png",
+          "expected": [
+            "Kılıç dayanıklılığı 70",
+            "Zırh kapasitesi 45",
+            "Yeni görev alındı"
+          ],
+          "actual": [
+            "Roe",
+            "vi",
+            ">",
+            "EN",
+            "ss",
+            "es",
+            "ee",
+            "E",
+            "e",
+            "ww",
+            "ens",
+            "SERIES",
+            "=",
+            "Kılıç dayanıklılığı 70",
+            "Zırh kapasitesi 45",
+            "Yeni görev alındı",
+            "a",
+            "e",
+            "=",
+            "ae",
+            "ae",
+            "SS",
+            "—",
+            "ai",
+            "Sie",
+            "kee"
+          ]
+        },
+        {
+          "case": "color_blue60.png",
+          "expected": [
+            "Görev güncellendi",
+            "Bölüm başarıyla bitti",
+            "Return to the shelter"
+          ],
+          "actual": [
+            "ae",
+            "2",
+            "uo",
+            "ss",
+            "ae",
+            "ve",
+            "i",
+            "a",
+            "ee",
+            "ee",
+            "a",
+            "esa",
+            "rev güncellendi",
+            "eee",
+            ">",
+            "Bölüm başarıyla bitti",
+            "he shelter",
+            "X",
+            "=",
+            "a",
+            "oe",
+            "ee",
+            "_",
+            "a",
+            "me",
+            "os",
+            "poco",
+            "5",
+            "vi",
+            "mr",
+            "e",
+            "a",
+            "me",
+            "-",
+            "oS",
+            "q",
+            "oe"
+          ]
+        },
+        {
+          "case": "color_blue25.png",
+          "expected": [
+            "Görev güncellendi",
+            "Bölüm başarıyla bitti",
+            "Return to the shelter"
+          ],
+          "actual": [
+            "Rie Fe",
+            "x",
+            "ip",
+            ">",
+            "ie",
+            "ce",
+            ">",
+            "gü",
+            "INC",
+            "Ne",
+            "lendi",
+            "we",
+            "oS",
+            ".",
+            "ği",
+            "m başarıyl:",
+            "tti",
+            "a",
+            "ne",
+            "turn to the shelter",
+            "Be",
+            "=",
+            "ne",
+            "=",
+            "ee",
+            "=",
+            "is"
+          ]
+        },
+        {
+          "case": "small_tabs_dark.png",
+          "expected": [
+            "GameTranslator Linux",
+            "HP 432 OCR Araştırması",
+            "Bizim OCR — RapidOCR"
+          ],
+          "actual": [
+            "=",
+            "q...",
+            "G",
+            "ameTranslator Linux",
+            "HP 432 OCR Araştırması",
+            "Bizim OCR — RapidOCR"
+          ]
+        },
+        {
+          "case": "small_tabs_bright.png",
+          "expected": [
+            "İlk Kurulum Başlıyor",
+            "Çevrimdışı mod",
+            "Sığınağa geri dön"
+          ],
+          "actual": [
+            "yer",
+            "&",
+            "—",
+            "İlk Kurulum Başlıyor",
+            ">",
+            "Çevrimdışı mod",
+            "Sığınağa geri dön",
+            "e",
+            "5",
+            "=",
+            "o",
+            "ae.",
+            "a"
+          ]
+        },
+        {
+          "case": "subtitle_shadow.png",
+          "expected": [
+            "Sığınağa geri dön",
+            "Görev tamamlandı",
+            "Çevrimdışı mod"
+          ],
+          "actual": [
+            "dön",
+            "Görev tam",
+            "Çevrimdışı mod"
+          ]
+        },
+        {
+          "case": "subtitle_outline.png",
+          "expected": [
+            "Sığınağa geri dön",
+            "Görev tamamlandı",
+            "Çevrimdışı mod"
+          ],
+          "actual": [
+            "en!",
+            "Siginagalgeni dén",
+            "revtamamlandı",
+            "çevrimdışı mod",
+            "5"
+          ]
+        }
+      ]
+    }
+  },
+  "case_specs": [
+    {
+      "name": "dark_panel85",
+      "alpha": 216,
+      "style": "dark",
+      "lines": [
+        "Görev tamamlandı",
+        "Sığınağa geri dön",
+        "Press E to continue"
+      ]
+    },
+    {
+      "name": "dark_panel50",
+      "alpha": 128,
+      "style": "dark",
+      "lines": [
+        "Görev tamamlandı",
+        "Sığınağa geri dön",
+        "Press E to continue"
+      ]
+    },
+    {
+      "name": "dark_panel20",
+      "alpha": 51,
+      "style": "dark",
+      "lines": [
+        "Görev tamamlandı",
+        "Sığınağa geri dön",
+        "Press E to continue"
+      ]
+    },
+    {
+      "name": "no_panel_white",
+      "alpha": 0,
+      "style": "dark",
+      "lines": [
+        "Yeni yetenek açıldı",
+        "Kapıya doğru ilerle",
+        "Victory is near"
+      ]
+    },
+    {
+      "name": "bright_panel85",
+      "alpha": 216,
+      "style": "bright",
+      "lines": [
+        "Ekran çözünürlüğü",
+        "Çevrimdışı mod",
+        "İlk Kurulum Başlıyor"
+      ]
+    },
+    {
+      "name": "bright_panel50",
+      "alpha": 128,
+      "style": "bright",
+      "lines": [
+        "Ekran çözünürlüğü",
+        "Çevrimdışı mod",
+        "İlk Kurulum Başlıyor"
+      ]
+    },
+    {
+      "name": "bright_panel20",
+      "alpha": 51,
+      "style": "bright",
+      "lines": [
+        "Ekran çözünürlüğü",
+        "Çevrimdışı mod",
+        "İlk Kurulum Başlıyor"
+      ]
+    },
+    {
+      "name": "no_panel_dark",
+      "alpha": 0,
+      "style": "bright",
+      "lines": [
+        "HP 432 OCR Araştırması",
+        "GameTranslator Linux",
+        "Merhaba dünya!"
+      ]
+    },
+    {
+      "name": "glass_blur70",
+      "alpha": 178,
+      "style": "blur",
+      "lines": [
+        "Kılıç dayanıklılığı 70",
+        "Zırh kapasitesi 45",
+        "Yeni görev alındı"
+      ]
+    },
+    {
+      "name": "glass_blur35",
+      "alpha": 89,
+      "style": "blur",
+      "lines": [
+        "Kılıç dayanıklılığı 70",
+        "Zırh kapasitesi 45",
+        "Yeni görev alındı"
+      ]
+    },
+    {
+      "name": "color_blue60",
+      "alpha": 153,
+      "style": "blue",
+      "lines": [
+        "Görev güncellendi",
+        "Bölüm başarıyla bitti",
+        "Return to the shelter"
+      ]
+    },
+    {
+      "name": "color_blue25",
+      "alpha": 64,
+      "style": "blue",
+      "lines": [
+        "Görev güncellendi",
+        "Bölüm başarıyla bitti",
+        "Return to the shelter"
+      ]
+    },
+    {
+      "name": "small_tabs_dark",
+      "alpha": 100,
+      "style": "dark",
+      "lines": [
+        "GameTranslator Linux",
+        "HP 432 OCR Araştırması",
+        "Bizim OCR — RapidOCR"
+      ]
+    },
+    {
+      "name": "small_tabs_bright",
+      "alpha": 120,
+      "style": "bright",
+      "lines": [
+        "İlk Kurulum Başlıyor",
+        "Çevrimdışı mod",
+        "Sığınağa geri dön"
+      ]
+    },
+    {
+      "name": "subtitle_shadow",
+      "alpha": 0,
+      "style": "dark",
+      "lines": [
+        "Sığınağa geri dön",
+        "Görev tamamlandı",
+        "Çevrimdışı mod"
+      ]
+    },
+    {
+      "name": "subtitle_outline",
+      "alpha": 0,
+      "style": "dark",
+      "lines": [
+        "Sığınağa geri dön",
+        "Görev tamamlandı",
+        "Çevrimdışı mod"
+      ]
+    }
+  ],
+  "notes": "Synthetic RGB screenshots with text over composited semi-transparent panels. 16 images x 3 lines. All engines same pixels per variant. OCR-only time, excludes Pillow preprocess and capture, Tesseract CLI startup included. No alpha-only raw-image benchmark."
+}

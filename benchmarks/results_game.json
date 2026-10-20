@@ -1,0 +1,225 @@
+{
+  "engine": "game",
+  "records": [
+    {
+      "name": "00_baseline.png",
+      "pass": 0,
+      "ms": 237.1395,
+      "texts": [
+        "GAME TRANSLATOR OCR",
+        "Merhaba dünya!",
+        "Quest completed"
+      ]
+    },
+    {
+      "name": "01_dark_dialogue.png",
+      "pass": 0,
+      "ms": 253.7424,
+      "texts": [
+        "Open the ancient gate",
+        "Gorev tamamlandi",
+        "Press E to continue"
+      ]
+    },
+    {
+      "name": "02_small_hud.png",
+      "pass": 0,
+      "ms": 190.8838,
+      "texts": [
+        "LEVEL 27",
+        "Health 100%",
+        "Kalan süre 02:45"
+      ]
+    },
+    {
+      "name": "03_outline_shadow.png",
+      "pass": 0,
+      "ms": 226.6277,
+      "texts": [
+        "Duşman yaklaşiyor!",
+        "Run to the bridge",
+        "Bölüm başariyla bitti"
+      ]
+    },
+    {
+      "name": "04_bright_menu.png",
+      "pass": 0,
+      "ms": 178.8399,
+      "texts": [
+        "Settings",
+        "Yeni oyun",
+        "CikiS"
+      ]
+    },
+    {
+      "name": "05_blurred_subtitles.png",
+      "pass": 0,
+      "ms": 227.0069,
+      "texts": [
+        "Can you hear me?",
+        "kapiyi açmaliyiz",
+        "Follow the signal"
+      ]
+    },
+    {
+      "name": "06_low_contrast.png",
+      "pass": 0,
+      "ms": 213.1883,
+      "texts": [
+        "The mission begins",
+        "Yeni gorev alindi",
+        "Return tobase"
+      ]
+    },
+    {
+      "name": "07_busy_background.png",
+      "pass": 0,
+      "ms": 218.019,
+      "texts": [
+        "Main quest",
+        "Inceleme tamamlandi",
+        "Return to the village"
+      ]
+    },
+    {
+      "name": "08_tilted_screen.png",
+      "pass": 0,
+      "ms": 196.2947,
+      "texts": [
+        "Victory is ours",
+        "Yeni bölge keşfedildi",
+        "Saving progress"
+      ]
+    },
+    {
+      "name": "09_wide_720p.png",
+      "pass": 0,
+      "ms": 214.0992,
+      "texts": [
+        "The final chapter",
+        "Karakter sevivesi 18",
+        "Continue playing"
+      ]
+    },
+    {
+      "name": "10_colored_ui.png",
+      "pass": 0,
+      "ms": 209.1587,
+      "texts": [
+        "New achievement",
+        "Başari killidi açildi",
+        "Collect your reward"
+      ]
+    },
+    {
+      "name": "00_baseline.png",
+      "pass": 1,
+      "ms": 227.1737,
+      "texts": [
+        "GAME TRANSLATOR OCR",
+        "Merhaba dünya!",
+        "Quest completed"
+      ]
+    },
+    {
+      "name": "01_dark_dialogue.png",
+      "pass": 1,
+      "ms": 242.2621,
+      "texts": [
+        "Open the ancient gate",
+        "Gorev tamamlandi",
+        "Press E to continue"
+      ]
+    },
+    {
+      "name": "02_small_hud.png",
+      "pass": 1,
+      "ms": 185.5077,
+      "texts": [
+        "LEVEL 27",
+        "Health 100%",
+        "Kalan süre 02:45"
+      ]
+    },
+    {
+      "name": "03_outline_shadow.png",
+      "pass": 1,
+      "ms": 207.7176,
+      "texts": [
+        "Duşman yaklaşiyor!",
+        "Run to the bridge",
+        "Bölüm başariyla bitti"
+      ]
+    },
+    {
+      "name": "04_bright_menu.png",
+      "pass": 1,
+      "ms": 177.2843,
+      "texts": [
+        "Settings",
+        "Yeni oyun",
+        "CikiS"
+      ]
+    },
+    {
+      "name": "05_blurred_subtitles.png",
+      "pass": 1,
+      "ms": 214.1061,
+      "texts": [
+        "Can you hear me?",
+        "kapiyi açmaliyiz",
+        "Follow the signal"
+      ]
+    },
+    {
+      "name": "06_low_contrast.png",
+      "pass": 1,
+      "ms": 218.3755,
+      "texts": [
+        "The mission begins",
+        "Yeni gorev alindi",
+        "Return tobase"
+      ]
+    },
+    {
+      "name": "07_busy_background.png",
+      "pass": 1,
+      "ms": 215.0077,
+      "texts": [
+        "Main quest",
+        "Inceleme tamamlandi",
+        "Return to the village"
+      ]
+    },
+    {
+      "name": "08_tilted_screen.png",
+      "pass": 1,
+      "ms": 189.7821,
+      "texts": [
+        "Victory is ours",
+        "Yeni bölge keşfedildi",
+        "Saving progress"
+      ]
+    },
+    {
+      "name": "09_wide_720p.png",
+      "pass": 1,
+      "ms": 216.6133,
+      "texts": [
+        "The final chapter",
+        "Karakter sevivesi 18",
+        "Continue playing"
+      ]
+    },
+    {
+      "name": "10_colored_ui.png",
+      "pass": 1,
+      "ms": 205.3513,
+      "texts": [
+        "New achievement",
+        "Başari killidi açildi",
+        "Collect your reward"
+      ]
+    }
+  ]
+}

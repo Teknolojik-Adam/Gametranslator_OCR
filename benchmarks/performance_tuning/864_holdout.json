@@ -1,0 +1,17 @@
+{
+  "side": 864,
+  "set": "holdout",
+  "exact": 30,
+  "truth": 30,
+  "predicted": 30,
+  "mean": {
+    "DecodeMs": 1.7,
+    "PreprocessMs": 11.0,
+    "DetectionMs": 66.6,
+    "PostprocessMs": 1.9,
+    "CropMs": 1.7,
+    "RecognitionMs": 62.9,
+    "TotalMs": 146.0
+  },
+  "errors": []
+}

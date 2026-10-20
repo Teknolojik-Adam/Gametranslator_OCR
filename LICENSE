@@ -1,0 +1,28 @@
+GameTranslatorOCR Non-Commercial Attribution License v1.0
+Copyright (c) 2026 GameTranslatorOCR Project Authors
+
+1. Scope
+This license applies only to original GameTranslatorOCR source code for which the project authors hold the necessary rights. Third-party software, libraries, model weights, datasets, and other third-party materials remain governed by their respective licenses. See THIRD_PARTY.md and licenses/.
+
+2. Permitted use
+You may access, study, copy, modify, run, and redistribute the licensed code and modified versions solely for non-commercial purposes, provided you comply with this license. You must include a complete copy of this license and preserve existing copyright and attribution notices in any redistributed copies.
+
+3. Prohibited commercial use
+You may not use, incorporate, distribute, sublicense, or otherwise exploit the licensed code or modified versions for any commercial purpose. This prohibition includes use in paid products or services, advertising-supported or revenue-generating products or services, commercial business operations, and software supplied as part of a commercial offering, whether or not a separate fee is charged for the OCR component.
+
+4. Prohibited sales
+You may not sell, rent, license for a fee, or otherwise commercially monetize the licensed code, its binaries, or modified versions, either separately or bundled with another product or service.
+
+5. Mandatory attribution
+Any application, product, or project that uses or incorporates the licensed code must clearly and visibly state: "Uses GameTranslatorOCR OCR engine" (or the equivalent in the application's primary language), together with the project name "GameTranslatorOCR". In an application with a user interface, show this attribution in an accessible About, Credits, or Licenses section. For command-line tools or libraries without a user interface, show it in the accompanying README or documentation. This obligation is in addition to preserving license and copyright notices.
+
+6. No trademark grant
+This license does not grant rights to project names, logos, or trademarks beyond the attribution required above.
+
+7. No warranty
+THE LICENSED CODE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE COPYRIGHT HOLDERS SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF THE LICENSED CODE.
+
+8. Termination
+Rights under this license terminate automatically upon violation of its conditions. Any use not expressly permitted is prohibited unless separately authorized by the relevant copyright holder.
+
+This is a custom source-available license, not an OSI-approved open-source license.

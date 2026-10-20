@@ -1,0 +1,5574 @@
+{
+  "normal": {
+    "summary": {
+      "lines": "78/84",
+      "exact": 78,
+      "total": 84,
+      "predicted": 84,
+      "character_accuracy": 99.505,
+      "mean_ms": 194.52,
+      "f1": 92.86,
+      "errors": [
+        {
+          "name": "S03_bright_settings.png",
+          "pass": 0,
+          "truth": [
+            "Görüntü ayarları",
+            "Ekran çözünürlüğü",
+            "Değişiklikleri kaydet"
+          ],
+          "observed": [
+            "Görüntü ayarları",
+            "Ekran çözünürlügü",
+            "Değişiklikleri kaydet"
+          ],
+          "confidences": [
+            0.9903629,
+            0.964202,
+            0.9761692
+          ],
+          "edits": 1
+        },
+        {
+          "name": "S08_slightly_rotated.png",
+          "pass": 0,
+          "truth": [
+            "Kapıya doğru ilerle",
+            "Üçüncü bölüm başladı",
+            "Victory is near"
+          ],
+          "observed": [
+            "Kapıya doğru ilerle",
+            "Üçünců bölüm başladı",
+            "Victory is near"
+          ],
+          "confidences": [
+            0.9747796,
+            0.9635831,
+            0.99991685
+          ],
+          "edits": 1
+        },
+        {
+          "name": "S10_low_contrast.png",
+          "pass": 0,
+          "truth": [
+            "Sığınağa geri dön",
+            "Haritayı kontrol et",
+            "Gösterge açık"
+          ],
+          "observed": [
+            "Siğinağa geri dön",
+            "Haritayı kontrol et",
+            "Gösterge açık"
+          ],
+          "confidences": [
+            0.9612546,
+            0.9948443,
+            0.9725228
+          ],
+          "edits": 2
+        },
+        {
+          "name": "S03_bright_settings.png",
+          "pass": 1,
+          "truth": [
+            "Görüntü ayarları",
+            "Ekran çözünürlüğü",
+            "Değişiklikleri kaydet"
+          ],
+          "observed": [
+            "Görüntü ayarları",
+            "Ekran çözünürlügü",
+            "Değişiklikleri kaydet"
+          ],
+          "confidences": [
+            0.9903629,
+            0.964202,
+            0.9761692
+          ],
+          "edits": 1
+        },
+        {
+          "name": "S08_slightly_rotated.png",
+          "pass": 1,
+          "truth": [
+            "Kapıya doğru ilerle",
+            "Üçüncü bölüm başladı",
+            "Victory is near"
+          ],
+          "observed": [
+            "Kapıya doğru ilerle",
+            "Üçünců bölüm başladı",
+            "Victory is near"
+          ],
+          "confidences": [
+            0.9747796,
+            0.9635831,
+            0.99991685
+          ],
+          "edits": 1
+        },
+        {
+          "name": "S10_low_contrast.png",
+          "pass": 1,
+          "truth": [
+            "Sığınağa geri dön",
+            "Haritayı kontrol et",
+            "Gösterge açık"
+          ],
+          "observed": [
+            "Siğinağa geri dön",
+            "Haritayı kontrol et",
+            "Gösterge açık"
+          ],
+          "confidences": [
+            0.9612546,
+            0.9948443,
+            0.9725228
+          ],
+          "edits": 2
+        }
+      ]
+    },
+    "records": [
+      {
+        "name": "S00_dialogue_turkish.png",
+        "pass": 0,
+        "ms": 249.99,
+        "texts": [
+          "Şehrin kapıları açıldı",
+          "Işıklar yeniden yanıyor",
+          "Bütün görevler tamamlandı"
+        ],
+        "confidences": [
+          0.98787314,
+          0.9886312,
+          0.9898534
+        ],
+        "bounds": [
+          {
+            "X": 45,
+            "Y": 123,
+            "Width": 456,
+            "Height": 29
+          },
+          {
+            "X": 41,
+            "Y": 260,
+            "Width": 512,
+            "Height": 29
+          },
+          {
+            "X": 34,
+            "Y": 401,
+            "Width": 618,
+            "Height": 24
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.2027,
+          "PreprocessMs": 16.4089,
+          "DetectionMs": 92.0199,
+          "PostprocessMs": 3.2364999999999924,
+          "CropMs": 3.9380000000000024,
+          "RecognitionMs": 133.18400000000003,
+          "TotalMs": 249.99
+        }
+      },
+      {
+        "name": "S01_english_subtitles.png",
+        "pass": 0,
+        "ms": 227.4869,
+        "texts": [
+          "Return to the shelter",
+          "Follow the glowing trail",
+          "The journey continues"
+        ],
+        "confidences": [
+          0.9995677,
+          0.99877644,
+          0.9998729
+        ],
+        "bounds": [
+          {
+            "X": 43,
+            "Y": 124,
+            "Width": 448,
+            "Height": 22
+          },
+          {
+            "X": 46,
+            "Y": 259,
+            "Width": 470,
+            "Height": 25
+          },
+          {
+            "X": 55,
+            "Y": 399,
+            "Width": 443,
+            "Height": 25
+          }
+        ],
+        "words": 11,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.1061,
+          "PreprocessMs": 23.1271,
+          "DetectionMs": 92.14110000000001,
+          "PostprocessMs": 3.97829999999999,
+          "CropMs": 1.7630000000000052,
+          "RecognitionMs": 104.37129999999999,
+          "TotalMs": 227.4869
+        }
+      },
+      {
+        "name": "S02_tiny_inventory.png",
+        "pass": 0,
+        "ms": 196.8918,
+        "texts": [
+          "Gümüş anahtar bulundu",
+          "Kılıç dayanıklılığı 70",
+          "Press F to inspect"
+        ],
+        "confidences": [
+          0.99318266,
+          0.9744176,
+          0.9976053
+        ],
+        "bounds": [
+          {
+            "X": 48,
+            "Y": 138,
+            "Width": 302,
+            "Height": 19
+          },
+          {
+            "X": 53,
+            "Y": 333,
+            "Width": 242,
+            "Height": 20
+          },
+          {
+            "X": 52,
+            "Y": 538,
+            "Width": 220,
+            "Height": 20
+          }
+        ],
+        "words": 10,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.4801,
+          "PreprocessMs": 18.1089,
+          "DetectionMs": 98.1484,
+          "PostprocessMs": 2.795900000000003,
+          "CropMs": 1.8695000000000022,
+          "RecognitionMs": 73.48899999999999,
+          "TotalMs": 196.8918
+        }
+      },
+      {
+        "name": "S03_bright_settings.png",
+        "pass": 0,
+        "ms": 210.725,
+        "texts": [
+          "Görüntü ayarları",
+          "Ekran çözünürlügü",
+          "Değişiklikleri kaydet"
+        ],
+        "confidences": [
+          0.9903629,
+          0.964202,
+          0.9761692
+        ],
+        "bounds": [
+          {
+            "X": 61,
+            "Y": 126,
+            "Width": 349,
+            "Height": 26
+          },
+          {
+            "X": 64,
+            "Y": 262,
+            "Width": 399,
+            "Height": 25
+          },
+          {
+            "X": 44,
+            "Y": 399,
+            "Width": 472,
+            "Height": 30
+          }
+        ],
+        "words": 6,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 3.3002,
+          "PreprocessMs": 20.8297,
+          "DetectionMs": 93.14689999999999,
+          "PostprocessMs": 3.0279000000000025,
+          "CropMs": 2.8907999999999987,
+          "RecognitionMs": 87.5295,
+          "TotalMs": 210.725
+        }
+      },
+      {
+        "name": "S04_orange_quest.png",
+        "pass": 0,
+        "ms": 215.3882,
+        "texts": [
+          "Yeni hedef belirlendi",
+          "Düşmanı etkisiz hale getir",
+          "Görev güncellendi"
+        ],
+        "confidences": [
+          0.9873794,
+          0.97157764,
+          0.99958533
+        ],
+        "bounds": [
+          {
+            "X": 48,
+            "Y": 124,
+            "Width": 408,
+            "Height": 18
+          },
+          {
+            "X": 39,
+            "Y": 260,
+            "Width": 521,
+            "Height": 22
+          },
+          {
+            "X": 51,
+            "Y": 399,
+            "Width": 355,
+            "Height": 23
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.1175,
+          "PreprocessMs": 12.1633,
+          "DetectionMs": 90.6084,
+          "PostprocessMs": 2.6795999999999935,
+          "CropMs": 1.5661000000000058,
+          "RecognitionMs": 107.25330000000001,
+          "TotalMs": 215.3882
+        }
+      },
+      {
+        "name": "S05_contrasty_dark.png",
+        "pass": 0,
+        "ms": 200.4947,
+        "texts": [
+          "ilk bölüm başlıyor",
+          "Şimdi gizlenmeliyiz",
+          "Stay near the river"
+        ],
+        "confidences": [
+          0.9933179,
+          0.98648244,
+          0.998633
+        ],
+        "bounds": [
+          {
+            "X": 50,
+            "Y": 141,
+            "Width": 321,
+            "Height": 23
+          },
+          {
+            "X": 48,
+            "Y": 338,
+            "Width": 347,
+            "Height": 21
+          },
+          {
+            "X": 49,
+            "Y": 544,
+            "Width": 340,
+            "Height": 19
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.424,
+          "PreprocessMs": 13.193200000000001,
+          "DetectionMs": 94.6738,
+          "PostprocessMs": 2.2657999999999987,
+          "CropMs": 1.7047000000000025,
+          "RecognitionMs": 87.2332,
+          "TotalMs": 200.4947
+        }
+      },
+      {
+        "name": "S06_color_hud.png",
+        "pass": 0,
+        "ms": 173.1265,
+        "texts": [
+          "Can seviyesi 100",
+          "Zırh kapasitesi 45",
+          "Yeni yetenek açıldı"
+        ],
+        "confidences": [
+          0.99953055,
+          0.9896291,
+          0.9948626
+        ],
+        "bounds": [
+          {
+            "X": 54,
+            "Y": 139,
+            "Width": 234,
+            "Height": 22
+          },
+          {
+            "X": 52,
+            "Y": 334,
+            "Width": 246,
+            "Height": 21
+          },
+          {
+            "X": 51,
+            "Y": 539,
+            "Width": 260,
+            "Height": 22
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.2965,
+          "PreprocessMs": 13.815700000000001,
+          "DetectionMs": 89.0261,
+          "PostprocessMs": 1.9853999999999985,
+          "CropMs": 1.7802999999999969,
+          "RecognitionMs": 64.2225,
+          "TotalMs": 173.1265
+        }
+      },
+      {
+        "name": "S07_soft_subtitle.png",
+        "pass": 0,
+        "ms": 197.1559,
+        "texts": [
+          "Köprüden karşıya geç",
+          "ileride bir çıkış var",
+          "Don't look behind"
+        ],
+        "confidences": [
+          0.9894255,
+          0.9781586,
+          0.99240685
+        ],
+        "bounds": [
+          {
+            "X": 46,
+            "Y": 123,
+            "Width": 444,
+            "Height": 29
+          },
+          {
+            "X": 47,
+            "Y": 256,
+            "Width": 385,
+            "Height": 29
+          },
+          {
+            "X": 50,
+            "Y": 398,
+            "Width": 357,
+            "Height": 21
+          }
+        ],
+        "words": 10,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.405,
+          "PreprocessMs": 11.3312,
+          "DetectionMs": 92.3144,
+          "PostprocessMs": 2.7670999999999992,
+          "CropMs": 1.5829999999999984,
+          "RecognitionMs": 87.7552,
+          "TotalMs": 197.1559
+        }
+      },
+      {
+        "name": "S08_slightly_rotated.png",
+        "pass": 0,
+        "ms": 177.5326,
+        "texts": [
+          "Kapıya doğru ilerle",
+          "Üçünců bölüm başladı",
+          "Victory is near"
+        ],
+        "confidences": [
+          0.9747796,
+          0.9635831,
+          0.99991685
+        ],
+        "bounds": [
+          {
+            "X": 59,
+            "Y": 127,
+            "Width": 398,
+            "Height": 43
+          },
+          {
+            "X": 64,
+            "Y": 260,
+            "Width": 460,
+            "Height": 42
+          },
+          {
+            "X": 68,
+            "Y": 406,
+            "Width": 305,
+            "Height": 34
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.7881,
+          "PreprocessMs": 13.0015,
+          "DetectionMs": 87.22370000000001,
+          "PostprocessMs": 2.498900000000006,
+          "CropMs": 1.9344999999999999,
+          "RecognitionMs": 71.0859,
+          "TotalMs": 177.5326
+        }
+      },
+      {
+        "name": "S09_small_resolution.png",
+        "pass": 0,
+        "ms": 192.1194,
+        "texts": [
+          "Çevrimdışı mod",
+          "Bir sonraki kayıt",
+          "Hikâyeye devam et"
+        ],
+        "confidences": [
+          0.9449819,
+          0.9981117,
+          0.99984324
+        ],
+        "bounds": [
+          {
+            "X": 55,
+            "Y": 82,
+            "Width": 220,
+            "Height": 15
+          },
+          {
+            "X": 54,
+            "Y": 207,
+            "Width": 234,
+            "Height": 14
+          },
+          {
+            "X": 52,
+            "Y": 334,
+            "Width": 273,
+            "Height": 15
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.0904,
+          "PreprocessMs": 15.5527,
+          "DetectionMs": 93.425,
+          "PostprocessMs": 2.143599999999992,
+          "CropMs": 0.9905000000000115,
+          "RecognitionMs": 78.91720000000001,
+          "TotalMs": 192.1194
+        }
+      },
+      {
+        "name": "S10_low_contrast.png",
+        "pass": 0,
+        "ms": 190.231,
+        "texts": [
+          "Siğinağa geri dön",
+          "Haritayı kontrol et",
+          "Gösterge açık"
+        ],
+        "confidences": [
+          0.9612546,
+          0.9948443,
+          0.9725228
+        ],
+        "bounds": [
+          {
+            "X": 53,
+            "Y": 124,
+            "Width": 304,
+            "Height": 23
+          },
+          {
+            "X": 52,
+            "Y": 259,
+            "Width": 315,
+            "Height": 21
+          },
+          {
+            "X": 58,
+            "Y": 399,
+            "Width": 237,
+            "Height": 23
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.1721,
+          "PreprocessMs": 13.4968,
+          "DetectionMs": 98.5265,
+          "PostprocessMs": 2.2872999999999877,
+          "CropMs": 2.1543000000000063,
+          "RecognitionMs": 72.594,
+          "TotalMs": 190.231
+        }
+      },
+      {
+        "name": "S11_wide_menu.png",
+        "pass": 0,
+        "ms": 190.0124,
+        "texts": [
+          "Kayıtlı oyunlar",
+          "Başarılar listesi",
+          "Ana menüye dön"
+        ],
+        "confidences": [
+          0.9897011,
+          0.99172086,
+          0.9682699
+        ],
+        "bounds": [
+          {
+            "X": 52,
+            "Y": 146,
+            "Width": 336,
+            "Height": 31
+          },
+          {
+            "X": 49,
+            "Y": 340,
+            "Width": 363,
+            "Height": 30
+          },
+          {
+            "X": 48,
+            "Y": 549,
+            "Width": 392,
+            "Height": 25
+          }
+        ],
+        "words": 7,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 3.1056,
+          "PreprocessMs": 12.133500000000002,
+          "DetectionMs": 92.7139,
+          "PostprocessMs": 2.130899999999997,
+          "CropMs": 5.035600000000002,
+          "RecognitionMs": 74.89290000000001,
+          "TotalMs": 190.0124
+        }
+      },
+      {
+        "name": "S12_outlined_subtitles.png",
+        "pass": 0,
+        "ms": 180.6867,
+        "texts": [
+          "Şüpheli bir ses var",
+          "Hızlı koşmalıyız",
+          "Hedefe ulaştık"
+        ],
+        "confidences": [
+          0.97216403,
+          0.971621,
+          0.96393913
+        ],
+        "bounds": [
+          {
+            "X": 49,
+            "Y": 125,
+            "Width": 392,
+            "Height": 24
+          },
+          {
+            "X": 52,
+            "Y": 259,
+            "Width": 322,
+            "Height": 25
+          },
+          {
+            "X": 52,
+            "Y": 398,
+            "Width": 305,
+            "Height": 24
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.3547,
+          "PreprocessMs": 14.7694,
+          "DetectionMs": 90.0397,
+          "PostprocessMs": 2.336200000000005,
+          "CropMs": 1.7771000000000043,
+          "RecognitionMs": 69.4096,
+          "TotalMs": 180.6867
+        }
+      },
+      {
+        "name": "S13_thin_font_ui.png",
+        "pass": 0,
+        "ms": 190.6011,
+        "texts": [
+          "Ödülleri topla",
+          "Köyün etrafını dolaş",
+          "Choose your weapon"
+        ],
+        "confidences": [
+          0.9995021,
+          0.99522096,
+          0.9999094
+        ],
+        "bounds": [
+          {
+            "X": 56,
+            "Y": 138,
+            "Width": 214,
+            "Height": 24
+          },
+          {
+            "X": 49,
+            "Y": 336,
+            "Width": 321,
+            "Height": 23
+          },
+          {
+            "X": 50,
+            "Y": 542,
+            "Width": 336,
+            "Height": 22
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.0676,
+          "PreprocessMs": 14.120199999999999,
+          "DetectionMs": 96.5173,
+          "PostprocessMs": 2.0370999999999952,
+          "CropMs": 1.6578000000000088,
+          "RecognitionMs": 74.2011,
+          "TotalMs": 190.6011
+        }
+      },
+      {
+        "name": "S00_dialogue_turkish.png",
+        "pass": 1,
+        "ms": 217.4792,
+        "texts": [
+          "Şehrin kapıları açıldı",
+          "Işıklar yeniden yanıyor",
+          "Bütün görevler tamamlandı"
+        ],
+        "confidences": [
+          0.98787314,
+          0.9886312,
+          0.9898534
+        ],
+        "bounds": [
+          {
+            "X": 45,
+            "Y": 123,
+            "Width": 456,
+            "Height": 29
+          },
+          {
+            "X": 41,
+            "Y": 260,
+            "Width": 512,
+            "Height": 29
+          },
+          {
+            "X": 34,
+            "Y": 401,
+            "Width": 618,
+            "Height": 24
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.3296,
+          "PreprocessMs": 10.967300000000002,
+          "DetectionMs": 95.83869999999999,
+          "PostprocessMs": 2.6554,
+          "CropMs": 2.189000000000007,
+          "RecognitionMs": 104.49919999999999,
+          "TotalMs": 217.4792
+        }
+      },
+      {
+        "name": "S01_english_subtitles.png",
+        "pass": 1,
+        "ms": 222.1812,
+        "texts": [
+          "Return to the shelter",
+          "Follow the glowing trail",
+          "The journey continues"
+        ],
+        "confidences": [
+          0.9995677,
+          0.99877644,
+          0.9998729
+        ],
+        "bounds": [
+          {
+            "X": 43,
+            "Y": 124,
+            "Width": 448,
+            "Height": 22
+          },
+          {
+            "X": 46,
+            "Y": 259,
+            "Width": 470,
+            "Height": 25
+          },
+          {
+            "X": 55,
+            "Y": 399,
+            "Width": 443,
+            "Height": 25
+          }
+        ],
+        "words": 11,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.2546,
+          "PreprocessMs": 14.485,
+          "DetectionMs": 106.7209,
+          "PostprocessMs": 2.4898000000000025,
+          "CropMs": 1.6466000000000065,
+          "RecognitionMs": 95.58429999999998,
+          "TotalMs": 222.1812
+        }
+      },
+      {
+        "name": "S02_tiny_inventory.png",
+        "pass": 1,
+        "ms": 179.1593,
+        "texts": [
+          "Gümüş anahtar bulundu",
+          "Kılıç dayanıklılığı 70",
+          "Press F to inspect"
+        ],
+        "confidences": [
+          0.99318266,
+          0.9744176,
+          0.9976053
+        ],
+        "bounds": [
+          {
+            "X": 48,
+            "Y": 138,
+            "Width": 302,
+            "Height": 19
+          },
+          {
+            "X": 53,
+            "Y": 333,
+            "Width": 242,
+            "Height": 20
+          },
+          {
+            "X": 52,
+            "Y": 538,
+            "Width": 220,
+            "Height": 20
+          }
+        ],
+        "words": 10,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.976,
+          "PreprocessMs": 13.2107,
+          "DetectionMs": 95.7734,
+          "PostprocessMs": 1.9415000000000049,
+          "CropMs": 1.687899999999999,
+          "RecognitionMs": 64.5698,
+          "TotalMs": 179.1593
+        }
+      },
+      {
+        "name": "S03_bright_settings.png",
+        "pass": 1,
+        "ms": 189.8546,
+        "texts": [
+          "Görüntü ayarları",
+          "Ekran çözünürlügü",
+          "Değişiklikleri kaydet"
+        ],
+        "confidences": [
+          0.9903629,
+          0.964202,
+          0.9761692
+        ],
+        "bounds": [
+          {
+            "X": 61,
+            "Y": 126,
+            "Width": 349,
+            "Height": 26
+          },
+          {
+            "X": 64,
+            "Y": 262,
+            "Width": 399,
+            "Height": 25
+          },
+          {
+            "X": 44,
+            "Y": 399,
+            "Width": 472,
+            "Height": 30
+          }
+        ],
+        "words": 6,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.9423,
+          "PreprocessMs": 12.441600000000001,
+          "DetectionMs": 93.68820000000001,
+          "PostprocessMs": 2.7494999999999976,
+          "CropMs": 1.6835999999999984,
+          "RecognitionMs": 77.3494,
+          "TotalMs": 189.8546
+        }
+      },
+      {
+        "name": "S04_orange_quest.png",
+        "pass": 1,
+        "ms": 212.921,
+        "texts": [
+          "Yeni hedef belirlendi",
+          "Düşmanı etkisiz hale getir",
+          "Görev güncellendi"
+        ],
+        "confidences": [
+          0.9873794,
+          0.97157764,
+          0.99958533
+        ],
+        "bounds": [
+          {
+            "X": 48,
+            "Y": 124,
+            "Width": 408,
+            "Height": 18
+          },
+          {
+            "X": 39,
+            "Y": 260,
+            "Width": 521,
+            "Height": 22
+          },
+          {
+            "X": 51,
+            "Y": 399,
+            "Width": 355,
+            "Height": 23
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.1864,
+          "PreprocessMs": 12.973600000000001,
+          "DetectionMs": 94.7288,
+          "PostprocessMs": 2.2051999999999907,
+          "CropMs": 1.3503000000000043,
+          "RecognitionMs": 100.4767,
+          "TotalMs": 212.921
+        }
+      },
+      {
+        "name": "S05_contrasty_dark.png",
+        "pass": 1,
+        "ms": 189.9928,
+        "texts": [
+          "ilk bölüm başlıyor",
+          "Şimdi gizlenmeliyiz",
+          "Stay near the river"
+        ],
+        "confidences": [
+          0.9933179,
+          0.98648244,
+          0.998633
+        ],
+        "bounds": [
+          {
+            "X": 50,
+            "Y": 141,
+            "Width": 321,
+            "Height": 23
+          },
+          {
+            "X": 48,
+            "Y": 338,
+            "Width": 347,
+            "Height": 21
+          },
+          {
+            "X": 49,
+            "Y": 544,
+            "Width": 340,
+            "Height": 19
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.4117,
+          "PreprocessMs": 11.5473,
+          "DetectionMs": 94.0621,
+          "PostprocessMs": 2.656499999999994,
+          "CropMs": 1.6557999999999993,
+          "RecognitionMs": 78.65939999999999,
+          "TotalMs": 189.9928
+        }
+      },
+      {
+        "name": "S06_color_hud.png",
+        "pass": 1,
+        "ms": 168.5124,
+        "texts": [
+          "Can seviyesi 100",
+          "Zırh kapasitesi 45",
+          "Yeni yetenek açıldı"
+        ],
+        "confidences": [
+          0.99953055,
+          0.9896291,
+          0.9948626
+        ],
+        "bounds": [
+          {
+            "X": 54,
+            "Y": 139,
+            "Width": 234,
+            "Height": 22
+          },
+          {
+            "X": 52,
+            "Y": 334,
+            "Width": 246,
+            "Height": 21
+          },
+          {
+            "X": 51,
+            "Y": 539,
+            "Width": 260,
+            "Height": 22
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.3209,
+          "PreprocessMs": 13.4586,
+          "DetectionMs": 89.0269,
+          "PostprocessMs": 2.3016999999999967,
+          "CropMs": 1.915700000000001,
+          "RecognitionMs": 59.48860000000002,
+          "TotalMs": 168.5124
+        }
+      },
+      {
+        "name": "S07_soft_subtitle.png",
+        "pass": 1,
+        "ms": 191.5015,
+        "texts": [
+          "Köprüden karşıya geç",
+          "ileride bir çıkış var",
+          "Don't look behind"
+        ],
+        "confidences": [
+          0.9894255,
+          0.9781586,
+          0.99240685
+        ],
+        "bounds": [
+          {
+            "X": 46,
+            "Y": 123,
+            "Width": 444,
+            "Height": 29
+          },
+          {
+            "X": 47,
+            "Y": 256,
+            "Width": 385,
+            "Height": 29
+          },
+          {
+            "X": 50,
+            "Y": 398,
+            "Width": 357,
+            "Height": 21
+          }
+        ],
+        "words": 10,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.3662,
+          "PreprocessMs": 13.5122,
+          "DetectionMs": 87.7855,
+          "PostprocessMs": 2.316500000000005,
+          "CropMs": 1.4789999999999992,
+          "RecognitionMs": 85.04209999999999,
+          "TotalMs": 191.5015
+        }
+      },
+      {
+        "name": "S08_slightly_rotated.png",
+        "pass": 1,
+        "ms": 169.8519,
+        "texts": [
+          "Kapıya doğru ilerle",
+          "Üçünců bölüm başladı",
+          "Victory is near"
+        ],
+        "confidences": [
+          0.9747796,
+          0.9635831,
+          0.99991685
+        ],
+        "bounds": [
+          {
+            "X": 59,
+            "Y": 127,
+            "Width": 398,
+            "Height": 43
+          },
+          {
+            "X": 64,
+            "Y": 260,
+            "Width": 460,
+            "Height": 42
+          },
+          {
+            "X": 68,
+            "Y": 406,
+            "Width": 305,
+            "Height": 34
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.8272,
+          "PreprocessMs": 11.106200000000001,
+          "DetectionMs": 93.2234,
+          "PostprocessMs": 2.2741999999999933,
+          "CropMs": 1.630899999999997,
+          "RecognitionMs": 59.790000000000006,
+          "TotalMs": 169.8519
+        }
+      },
+      {
+        "name": "S09_small_resolution.png",
+        "pass": 1,
+        "ms": 179.1226,
+        "texts": [
+          "Çevrimdışı mod",
+          "Bir sonraki kayıt",
+          "Hikâyeye devam et"
+        ],
+        "confidences": [
+          0.9449819,
+          0.9981117,
+          0.99984324
+        ],
+        "bounds": [
+          {
+            "X": 55,
+            "Y": 82,
+            "Width": 220,
+            "Height": 15
+          },
+          {
+            "X": 54,
+            "Y": 207,
+            "Width": 234,
+            "Height": 14
+          },
+          {
+            "X": 52,
+            "Y": 334,
+            "Width": 273,
+            "Height": 15
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 0.7711,
+          "PreprocessMs": 12.4703,
+          "DetectionMs": 87.0147,
+          "PostprocessMs": 2.8571000000000026,
+          "CropMs": 1.2085000000000008,
+          "RecognitionMs": 74.8009,
+          "TotalMs": 179.1226
+        }
+      },
+      {
+        "name": "S10_low_contrast.png",
+        "pass": 1,
+        "ms": 178.4316,
+        "texts": [
+          "Siğinağa geri dön",
+          "Haritayı kontrol et",
+          "Gösterge açık"
+        ],
+        "confidences": [
+          0.9612546,
+          0.9948443,
+          0.9725228
+        ],
+        "bounds": [
+          {
+            "X": 53,
+            "Y": 124,
+            "Width": 304,
+            "Height": 23
+          },
+          {
+            "X": 52,
+            "Y": 259,
+            "Width": 315,
+            "Height": 21
+          },
+          {
+            "X": 58,
+            "Y": 399,
+            "Width": 237,
+            "Height": 23
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.2044,
+          "PreprocessMs": 13.5789,
+          "DetectionMs": 90.4323,
+          "PostprocessMs": 2.076999999999998,
+          "CropMs": 1.634200000000007,
+          "RecognitionMs": 69.5048,
+          "TotalMs": 178.4316
+        }
+      },
+      {
+        "name": "S11_wide_menu.png",
+        "pass": 1,
+        "ms": 186.3554,
+        "texts": [
+          "Kayıtlı oyunlar",
+          "Başarılar listesi",
+          "Ana menüye dön"
+        ],
+        "confidences": [
+          0.9897011,
+          0.99172086,
+          0.9682699
+        ],
+        "bounds": [
+          {
+            "X": 52,
+            "Y": 146,
+            "Width": 336,
+            "Height": 31
+          },
+          {
+            "X": 49,
+            "Y": 340,
+            "Width": 363,
+            "Height": 30
+          },
+          {
+            "X": 48,
+            "Y": 549,
+            "Width": 392,
+            "Height": 25
+          }
+        ],
+        "words": 7,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 3.1196,
+          "PreprocessMs": 12.1833,
+          "DetectionMs": 93.1435,
+          "PostprocessMs": 2.1521000000000043,
+          "CropMs": 1.7416999999999945,
+          "RecognitionMs": 74.01520000000001,
+          "TotalMs": 186.3554
+        }
+      },
+      {
+        "name": "S12_outlined_subtitles.png",
+        "pass": 1,
+        "ms": 185.2865,
+        "texts": [
+          "Şüpheli bir ses var",
+          "Hızlı koşmalıyız",
+          "Hedefe ulaştık"
+        ],
+        "confidences": [
+          0.97216403,
+          0.971621,
+          0.96393913
+        ],
+        "bounds": [
+          {
+            "X": 49,
+            "Y": 125,
+            "Width": 392,
+            "Height": 24
+          },
+          {
+            "X": 52,
+            "Y": 259,
+            "Width": 322,
+            "Height": 25
+          },
+          {
+            "X": 52,
+            "Y": 398,
+            "Width": 305,
+            "Height": 24
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.1247,
+          "PreprocessMs": 12.957899999999999,
+          "DetectionMs": 95.0787,
+          "PostprocessMs": 2.5982000000000056,
+          "CropMs": 1.689300000000003,
+          "RecognitionMs": 71.83769999999998,
+          "TotalMs": 185.2865
+        }
+      },
+      {
+        "name": "S13_thin_font_ui.png",
+        "pass": 1,
+        "ms": 183.4194,
+        "texts": [
+          "Ödülleri topla",
+          "Köyün etrafını dolaş",
+          "Choose your weapon"
+        ],
+        "confidences": [
+          0.9995021,
+          0.99522096,
+          0.9999094
+        ],
+        "bounds": [
+          {
+            "X": 56,
+            "Y": 138,
+            "Width": 214,
+            "Height": 24
+          },
+          {
+            "X": 49,
+            "Y": 336,
+            "Width": 321,
+            "Height": 23
+          },
+          {
+            "X": 50,
+            "Y": 542,
+            "Width": 336,
+            "Height": 22
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.1962,
+          "PreprocessMs": 15.105899999999998,
+          "DetectionMs": 92.00030000000001,
+          "PostprocessMs": 3.267399999999995,
+          "CropMs": 1.6512000000000029,
+          "RecognitionMs": 69.19839999999999,
+          "TotalMs": 183.4194
+        }
+      }
+    ]
+  },
+  "fast": {
+    "summary": {
+      "lines": "78/84",
+      "exact": 78,
+      "total": 84,
+      "predicted": 84,
+      "character_accuracy": 99.505,
+      "mean_ms": 165.59,
+      "f1": 92.86,
+      "errors": [
+        {
+          "name": "S06_color_hud.png",
+          "pass": 0,
+          "truth": [
+            "Can seviyesi 100",
+            "Zırh kapasitesi 45",
+            "Yeni yetenek açıldı"
+          ],
+          "observed": [
+            "Can seviyesi 100",
+            "Zırh kapašitesi 45",
+            "Yeni yetenek açıldı"
+          ],
+          "confidences": [
+            0.98803806,
+            0.97792244,
+            0.9862179
+          ],
+          "edits": 1
+        },
+        {
+          "name": "S09_small_resolution.png",
+          "pass": 0,
+          "truth": [
+            "Çevrimdışı mod",
+            "Bir sonraki kayıt",
+            "Hikâyeye devam et"
+          ],
+          "observed": [
+            "Çevrimdıșı mod",
+            "Bir sonraki kayıt",
+            "Hikâyeye devam et"
+          ],
+          "confidences": [
+            0.9696169,
+            0.9954137,
+            0.99980253
+          ],
+          "edits": 1
+        },
+        {
+          "name": "S10_low_contrast.png",
+          "pass": 0,
+          "truth": [
+            "Sığınağa geri dön",
+            "Haritayı kontrol et",
+            "Gösterge açık"
+          ],
+          "observed": [
+            "Siğinağa geri dön",
+            "Haritayı kontrol et",
+            "Gösterge açık"
+          ],
+          "confidences": [
+            0.9802208,
+            0.98680097,
+            0.9949055
+          ],
+          "edits": 2
+        },
+        {
+          "name": "S06_color_hud.png",
+          "pass": 1,
+          "truth": [
+            "Can seviyesi 100",
+            "Zırh kapasitesi 45",
+            "Yeni yetenek açıldı"
+          ],
+          "observed": [
+            "Can seviyesi 100",
+            "Zırh kapašitesi 45",
+            "Yeni yetenek açıldı"
+          ],
+          "confidences": [
+            0.98803806,
+            0.97792244,
+            0.9862179
+          ],
+          "edits": 1
+        },
+        {
+          "name": "S09_small_resolution.png",
+          "pass": 1,
+          "truth": [
+            "Çevrimdışı mod",
+            "Bir sonraki kayıt",
+            "Hikâyeye devam et"
+          ],
+          "observed": [
+            "Çevrimdıșı mod",
+            "Bir sonraki kayıt",
+            "Hikâyeye devam et"
+          ],
+          "confidences": [
+            0.9696169,
+            0.9954137,
+            0.99980253
+          ],
+          "edits": 1
+        },
+        {
+          "name": "S10_low_contrast.png",
+          "pass": 1,
+          "truth": [
+            "Sığınağa geri dön",
+            "Haritayı kontrol et",
+            "Gösterge açık"
+          ],
+          "observed": [
+            "Siğinağa geri dön",
+            "Haritayı kontrol et",
+            "Gösterge açık"
+          ],
+          "confidences": [
+            0.9802208,
+            0.98680097,
+            0.9949055
+          ],
+          "edits": 2
+        }
+      ]
+    },
+    "records": [
+      {
+        "name": "S00_dialogue_turkish.png",
+        "pass": 0,
+        "ms": 218.3088,
+        "texts": [
+          "Şehrin kapıları açıldı",
+          "Işıklar yeniden yanıyor",
+          "Bütün görevler tamamlandı"
+        ],
+        "confidences": [
+          0.99249095,
+          0.99604315,
+          0.9842564
+        ],
+        "bounds": [
+          {
+            "X": 63,
+            "Y": 121,
+            "Width": 429,
+            "Height": 32
+          },
+          {
+            "X": 41,
+            "Y": 258,
+            "Width": 512,
+            "Height": 33
+          },
+          {
+            "X": 34,
+            "Y": 399,
+            "Width": 619,
+            "Height": 27
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.1644,
+          "PreprocessMs": 13.3026,
+          "DetectionMs": 64.4848,
+          "PostprocessMs": 2.78179999999999,
+          "CropMs": 2.421199999999999,
+          "RecognitionMs": 134.154,
+          "TotalMs": 218.3088
+        }
+      },
+      {
+        "name": "S01_english_subtitles.png",
+        "pass": 0,
+        "ms": 200.3128,
+        "texts": [
+          "Return to the shelter",
+          "Follow the glowing trail",
+          "The journey continues"
+        ],
+        "confidences": [
+          0.9965383,
+          0.99990064,
+          0.99555033
+        ],
+        "bounds": [
+          {
+            "X": 43,
+            "Y": 124,
+            "Width": 447,
+            "Height": 22
+          },
+          {
+            "X": 40,
+            "Y": 258,
+            "Width": 502,
+            "Height": 26
+          },
+          {
+            "X": 41,
+            "Y": 399,
+            "Width": 474,
+            "Height": 24
+          }
+        ],
+        "words": 11,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.0502,
+          "PreprocessMs": 12.8743,
+          "DetectionMs": 67.87490000000001,
+          "PostprocessMs": 1.8977999999999895,
+          "CropMs": 2.5286000000000115,
+          "RecognitionMs": 114.087,
+          "TotalMs": 200.3128
+        }
+      },
+      {
+        "name": "S02_tiny_inventory.png",
+        "pass": 0,
+        "ms": 163.8501,
+        "texts": [
+          "Gümüş anahtar bulundu",
+          "Kılıç dayanıklılığı 70",
+          "Press F to inspect"
+        ],
+        "confidences": [
+          0.98101133,
+          0.97757775,
+          0.99906826
+        ],
+        "bounds": [
+          {
+            "X": 48,
+            "Y": 138,
+            "Width": 302,
+            "Height": 20
+          },
+          {
+            "X": 50,
+            "Y": 333,
+            "Width": 247,
+            "Height": 20
+          },
+          {
+            "X": 50,
+            "Y": 538,
+            "Width": 222,
+            "Height": 20
+          }
+        ],
+        "words": 10,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 3.5029,
+          "PreprocessMs": 13.043700000000001,
+          "DetectionMs": 67.7882,
+          "PostprocessMs": 1.6144000000000034,
+          "CropMs": 1.6313999999999993,
+          "RecognitionMs": 76.2695,
+          "TotalMs": 163.8501
+        }
+      },
+      {
+        "name": "S03_bright_settings.png",
+        "pass": 0,
+        "ms": 171.0678,
+        "texts": [
+          "Görüntü ayarları",
+          "Ekran çözünürlüğü",
+          "Değişiklikleri kaydet"
+        ],
+        "confidences": [
+          0.9925628,
+          0.9947384,
+          0.99361336
+        ],
+        "bounds": [
+          {
+            "X": 61,
+            "Y": 127,
+            "Width": 350,
+            "Height": 29
+          },
+          {
+            "X": 64,
+            "Y": 261,
+            "Width": 398,
+            "Height": 29
+          },
+          {
+            "X": 55,
+            "Y": 400,
+            "Width": 441,
+            "Height": 30
+          }
+        ],
+        "words": 6,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.6804,
+          "PreprocessMs": 11.7808,
+          "DetectionMs": 70.00519999999999,
+          "PostprocessMs": 1.7954000000000008,
+          "CropMs": 1.8185000000000002,
+          "RecognitionMs": 82.98750000000001,
+          "TotalMs": 171.0678
+        }
+      },
+      {
+        "name": "S04_orange_quest.png",
+        "pass": 0,
+        "ms": 195.9646,
+        "texts": [
+          "Yeni hedef belirlendi",
+          "Düşmanı etkisiz hale getir",
+          "Görev güncellendi"
+        ],
+        "confidences": [
+          0.99387914,
+          0.95697856,
+          0.99966097
+        ],
+        "bounds": [
+          {
+            "X": 45,
+            "Y": 123,
+            "Width": 412,
+            "Height": 19
+          },
+          {
+            "X": 38,
+            "Y": 261,
+            "Width": 524,
+            "Height": 21
+          },
+          {
+            "X": 63,
+            "Y": 398,
+            "Width": 334,
+            "Height": 24
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.0925,
+          "PreprocessMs": 9.276900000000001,
+          "DetectionMs": 64.627,
+          "PostprocessMs": 1.62530000000001,
+          "CropMs": 1.4200999999999908,
+          "RecognitionMs": 117.9228,
+          "TotalMs": 195.9646
+        }
+      },
+      {
+        "name": "S05_contrasty_dark.png",
+        "pass": 0,
+        "ms": 168.6421,
+        "texts": [
+          "ilk bölüm başlıyor",
+          "Şimdi gizlenmeliyiz",
+          "Stay near the river"
+        ],
+        "confidences": [
+          0.99465823,
+          0.9847462,
+          0.99991065
+        ],
+        "bounds": [
+          {
+            "X": 49,
+            "Y": 141,
+            "Width": 323,
+            "Height": 24
+          },
+          {
+            "X": 49,
+            "Y": 337,
+            "Width": 347,
+            "Height": 21
+          },
+          {
+            "X": 48,
+            "Y": 542,
+            "Width": 342,
+            "Height": 19
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.393,
+          "PreprocessMs": 11.0176,
+          "DetectionMs": 63.53229999999999,
+          "PostprocessMs": 1.6550000000000011,
+          "CropMs": 1.4673000000000087,
+          "RecognitionMs": 89.5769,
+          "TotalMs": 168.6421
+        }
+      },
+      {
+        "name": "S06_color_hud.png",
+        "pass": 0,
+        "ms": 149.4996,
+        "texts": [
+          "Can seviyesi 100",
+          "Zırh kapašitesi 45",
+          "Yeni yetenek açıldı"
+        ],
+        "confidences": [
+          0.98803806,
+          0.97792244,
+          0.9862179
+        ],
+        "bounds": [
+          {
+            "X": 52,
+            "Y": 139,
+            "Width": 238,
+            "Height": 21
+          },
+          {
+            "X": 52,
+            "Y": 334,
+            "Width": 247,
+            "Height": 20
+          },
+          {
+            "X": 50,
+            "Y": 539,
+            "Width": 264,
+            "Height": 21
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.2181,
+          "PreprocessMs": 10.2517,
+          "DetectionMs": 64.5002,
+          "PostprocessMs": 1.5253000000000014,
+          "CropMs": 1.789900000000003,
+          "RecognitionMs": 69.21439999999998,
+          "TotalMs": 149.4996
+        }
+      },
+      {
+        "name": "S07_soft_subtitle.png",
+        "pass": 0,
+        "ms": 166.6877,
+        "texts": [
+          "Köprüden karşıya geç",
+          "ileride bir çıkış var",
+          "Don't look behind"
+        ],
+        "confidences": [
+          0.98645365,
+          0.9772606,
+          0.99937034
+        ],
+        "bounds": [
+          {
+            "X": 43,
+            "Y": 123,
+            "Width": 447,
+            "Height": 28
+          },
+          {
+            "X": 47,
+            "Y": 256,
+            "Width": 385,
+            "Height": 29
+          },
+          {
+            "X": 48,
+            "Y": 398,
+            "Width": 360,
+            "Height": 21
+          }
+        ],
+        "words": 10,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.6442,
+          "PreprocessMs": 10.195400000000001,
+          "DetectionMs": 61.164199999999994,
+          "PostprocessMs": 2.159400000000005,
+          "CropMs": 1.4527999999999963,
+          "RecognitionMs": 90.0717,
+          "TotalMs": 166.6877
+        }
+      },
+      {
+        "name": "S08_slightly_rotated.png",
+        "pass": 0,
+        "ms": 155.353,
+        "texts": [
+          "Kapıya doğru ilerle",
+          "Üçüncü bölüm başladı",
+          "Victory is near"
+        ],
+        "confidences": [
+          0.99730414,
+          0.9660953,
+          0.9998198
+        ],
+        "bounds": [
+          {
+            "X": 48,
+            "Y": 126,
+            "Width": 408,
+            "Height": 42
+          },
+          {
+            "X": 64,
+            "Y": 259,
+            "Width": 460,
+            "Height": 41
+          },
+          {
+            "X": 68,
+            "Y": 407,
+            "Width": 305,
+            "Height": 31
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.4414,
+          "PreprocessMs": 10.5294,
+          "DetectionMs": 64.023,
+          "PostprocessMs": 1.7650000000000006,
+          "CropMs": 1.6198000000000121,
+          "RecognitionMs": 75.9744,
+          "TotalMs": 155.353
+        }
+      },
+      {
+        "name": "S09_small_resolution.png",
+        "pass": 0,
+        "ms": 151.6013,
+        "texts": [
+          "Çevrimdıșı mod",
+          "Bir sonraki kayıt",
+          "Hikâyeye devam et"
+        ],
+        "confidences": [
+          0.9696169,
+          0.9954137,
+          0.99980253
+        ],
+        "bounds": [
+          {
+            "X": 55,
+            "Y": 81,
+            "Width": 219,
+            "Height": 17
+          },
+          {
+            "X": 54,
+            "Y": 207,
+            "Width": 234,
+            "Height": 16
+          },
+          {
+            "X": 51,
+            "Y": 332,
+            "Width": 275,
+            "Height": 16
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 0.6931,
+          "PreprocessMs": 8.8254,
+          "DetectionMs": 67.90979999999999,
+          "PostprocessMs": 1.5897000000000077,
+          "CropMs": 0.9384000000000015,
+          "RecognitionMs": 71.6449,
+          "TotalMs": 151.6013
+        }
+      },
+      {
+        "name": "S10_low_contrast.png",
+        "pass": 0,
+        "ms": 160.1116,
+        "texts": [
+          "Siğinağa geri dön",
+          "Haritayı kontrol et",
+          "Gösterge açık"
+        ],
+        "confidences": [
+          0.9802208,
+          0.98680097,
+          0.9949055
+        ],
+        "bounds": [
+          {
+            "X": 51,
+            "Y": 122,
+            "Width": 307,
+            "Height": 26
+          },
+          {
+            "X": 50,
+            "Y": 258,
+            "Width": 320,
+            "Height": 21
+          },
+          {
+            "X": 55,
+            "Y": 397,
+            "Width": 241,
+            "Height": 26
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.2422,
+          "PreprocessMs": 10.8307,
+          "DetectionMs": 67.326,
+          "PostprocessMs": 1.8353000000000037,
+          "CropMs": 1.2188000000000017,
+          "RecognitionMs": 77.6586,
+          "TotalMs": 160.1116
+        }
+      },
+      {
+        "name": "S11_wide_menu.png",
+        "pass": 0,
+        "ms": 164.9667,
+        "texts": [
+          "Kayıtlı oyunlar",
+          "Başarılar listesi",
+          "Ana menüye dön"
+        ],
+        "confidences": [
+          0.9809619,
+          0.98878604,
+          0.9750665
+        ],
+        "bounds": [
+          {
+            "X": 51,
+            "Y": 147,
+            "Width": 339,
+            "Height": 26
+          },
+          {
+            "X": 50,
+            "Y": 340,
+            "Width": 364,
+            "Height": 26
+          },
+          {
+            "X": 47,
+            "Y": 546,
+            "Width": 392,
+            "Height": 26
+          }
+        ],
+        "words": 7,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 3.2815,
+          "PreprocessMs": 11.1067,
+          "DetectionMs": 65.34360000000001,
+          "PostprocessMs": 1.6751999999999896,
+          "CropMs": 1.7990000000000066,
+          "RecognitionMs": 81.7607,
+          "TotalMs": 164.9667
+        }
+      },
+      {
+        "name": "S12_outlined_subtitles.png",
+        "pass": 0,
+        "ms": 157.6987,
+        "texts": [
+          "Şüpheli bir ses var",
+          "Hızlı koşmalıyız",
+          "Hedefe ulaştık"
+        ],
+        "confidences": [
+          0.9798021,
+          0.9864627,
+          0.9950118
+        ],
+        "bounds": [
+          {
+            "X": 46,
+            "Y": 123,
+            "Width": 396,
+            "Height": 27
+          },
+          {
+            "X": 51,
+            "Y": 258,
+            "Width": 323,
+            "Height": 26
+          },
+          {
+            "X": 52,
+            "Y": 397,
+            "Width": 304,
+            "Height": 26
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.1183,
+          "PreprocessMs": 9.0772,
+          "DetectionMs": 65.5647,
+          "PostprocessMs": 1.8547000000000082,
+          "CropMs": 4.473699999999994,
+          "RecognitionMs": 75.6101,
+          "TotalMs": 157.6987
+        }
+      },
+      {
+        "name": "S13_thin_font_ui.png",
+        "pass": 0,
+        "ms": 153.982,
+        "texts": [
+          "Ödülleri topla",
+          "Köyün etrafını dolaş",
+          "Choose your weapon"
+        ],
+        "confidences": [
+          0.9987984,
+          0.9965352,
+          0.99994224
+        ],
+        "bounds": [
+          {
+            "X": 54,
+            "Y": 138,
+            "Width": 216,
+            "Height": 24
+          },
+          {
+            "X": 47,
+            "Y": 334,
+            "Width": 322,
+            "Height": 26
+          },
+          {
+            "X": 47,
+            "Y": 543,
+            "Width": 340,
+            "Height": 21
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.0812,
+          "PreprocessMs": 11.145,
+          "DetectionMs": 66.5963,
+          "PostprocessMs": 1.61099999999999,
+          "CropMs": 1.6263000000000005,
+          "RecognitionMs": 70.9222,
+          "TotalMs": 153.982
+        }
+      },
+      {
+        "name": "S00_dialogue_turkish.png",
+        "pass": 1,
+        "ms": 182.3113,
+        "texts": [
+          "Şehrin kapıları açıldı",
+          "Işıklar yeniden yanıyor",
+          "Bütün görevler tamamlandı"
+        ],
+        "confidences": [
+          0.99249095,
+          0.99604315,
+          0.9842564
+        ],
+        "bounds": [
+          {
+            "X": 63,
+            "Y": 121,
+            "Width": 429,
+            "Height": 32
+          },
+          {
+            "X": 41,
+            "Y": 258,
+            "Width": 512,
+            "Height": 33
+          },
+          {
+            "X": 34,
+            "Y": 399,
+            "Width": 619,
+            "Height": 27
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.1876,
+          "PreprocessMs": 9.0641,
+          "DetectionMs": 68.4171,
+          "PostprocessMs": 2.3362999999999943,
+          "CropMs": 1.9928000000000026,
+          "RecognitionMs": 99.31339999999999,
+          "TotalMs": 182.3113
+        }
+      },
+      {
+        "name": "S01_english_subtitles.png",
+        "pass": 1,
+        "ms": 177.7313,
+        "texts": [
+          "Return to the shelter",
+          "Follow the glowing trail",
+          "The journey continues"
+        ],
+        "confidences": [
+          0.9965383,
+          0.99990064,
+          0.99555033
+        ],
+        "bounds": [
+          {
+            "X": 43,
+            "Y": 124,
+            "Width": 447,
+            "Height": 22
+          },
+          {
+            "X": 40,
+            "Y": 258,
+            "Width": 502,
+            "Height": 26
+          },
+          {
+            "X": 41,
+            "Y": 399,
+            "Width": 474,
+            "Height": 24
+          }
+        ],
+        "words": 11,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.2675,
+          "PreprocessMs": 10.6584,
+          "DetectionMs": 66.1833,
+          "PostprocessMs": 1.9852999999999952,
+          "CropMs": 2.2974000000000103,
+          "RecognitionMs": 95.3394,
+          "TotalMs": 177.7313
+        }
+      },
+      {
+        "name": "S02_tiny_inventory.png",
+        "pass": 1,
+        "ms": 153.0631,
+        "texts": [
+          "Gümüş anahtar bulundu",
+          "Kılıç dayanıklılığı 70",
+          "Press F to inspect"
+        ],
+        "confidences": [
+          0.98101133,
+          0.97757775,
+          0.99906826
+        ],
+        "bounds": [
+          {
+            "X": 48,
+            "Y": 138,
+            "Width": 302,
+            "Height": 20
+          },
+          {
+            "X": 50,
+            "Y": 333,
+            "Width": 247,
+            "Height": 20
+          },
+          {
+            "X": 50,
+            "Y": 538,
+            "Width": 222,
+            "Height": 20
+          }
+        ],
+        "words": 10,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.0829,
+          "PreprocessMs": 11.6801,
+          "DetectionMs": 64.5783,
+          "PostprocessMs": 1.7218000000000018,
+          "CropMs": 1.9555000000000007,
+          "RecognitionMs": 71.04449999999999,
+          "TotalMs": 153.0631
+        }
+      },
+      {
+        "name": "S03_bright_settings.png",
+        "pass": 1,
+        "ms": 162.0831,
+        "texts": [
+          "Görüntü ayarları",
+          "Ekran çözünürlüğü",
+          "Değişiklikleri kaydet"
+        ],
+        "confidences": [
+          0.9925628,
+          0.9947384,
+          0.99361336
+        ],
+        "bounds": [
+          {
+            "X": 61,
+            "Y": 127,
+            "Width": 350,
+            "Height": 29
+          },
+          {
+            "X": 64,
+            "Y": 261,
+            "Width": 398,
+            "Height": 29
+          },
+          {
+            "X": 55,
+            "Y": 400,
+            "Width": 441,
+            "Height": 30
+          }
+        ],
+        "words": 6,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.2072,
+          "PreprocessMs": 8.9284,
+          "DetectionMs": 67.9743,
+          "PostprocessMs": 2.4158000000000044,
+          "CropMs": 1.643500000000003,
+          "RecognitionMs": 78.9139,
+          "TotalMs": 162.0831
+        }
+      },
+      {
+        "name": "S04_orange_quest.png",
+        "pass": 1,
+        "ms": 187.4713,
+        "texts": [
+          "Yeni hedef belirlendi",
+          "Düşmanı etkisiz hale getir",
+          "Görev güncellendi"
+        ],
+        "confidences": [
+          0.99387914,
+          0.95697856,
+          0.99966097
+        ],
+        "bounds": [
+          {
+            "X": 45,
+            "Y": 123,
+            "Width": 412,
+            "Height": 19
+          },
+          {
+            "X": 38,
+            "Y": 261,
+            "Width": 524,
+            "Height": 21
+          },
+          {
+            "X": 63,
+            "Y": 398,
+            "Width": 334,
+            "Height": 24
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.206,
+          "PreprocessMs": 10.1324,
+          "DetectionMs": 67.1489,
+          "PostprocessMs": 1.9407999999999959,
+          "CropMs": 1.4295000000000044,
+          "RecognitionMs": 105.61370000000001,
+          "TotalMs": 187.4713
+        }
+      },
+      {
+        "name": "S05_contrasty_dark.png",
+        "pass": 1,
+        "ms": 163.1197,
+        "texts": [
+          "ilk bölüm başlıyor",
+          "Şimdi gizlenmeliyiz",
+          "Stay near the river"
+        ],
+        "confidences": [
+          0.99465823,
+          0.9847462,
+          0.99991065
+        ],
+        "bounds": [
+          {
+            "X": 49,
+            "Y": 141,
+            "Width": 323,
+            "Height": 24
+          },
+          {
+            "X": 49,
+            "Y": 337,
+            "Width": 347,
+            "Height": 21
+          },
+          {
+            "X": 48,
+            "Y": 542,
+            "Width": 342,
+            "Height": 19
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.3282,
+          "PreprocessMs": 10.549199999999999,
+          "DetectionMs": 67.6011,
+          "PostprocessMs": 1.6509000000000071,
+          "CropMs": 1.4380999999999915,
+          "RecognitionMs": 80.5522,
+          "TotalMs": 163.1197
+        }
+      },
+      {
+        "name": "S06_color_hud.png",
+        "pass": 1,
+        "ms": 150.9218,
+        "texts": [
+          "Can seviyesi 100",
+          "Zırh kapašitesi 45",
+          "Yeni yetenek açıldı"
+        ],
+        "confidences": [
+          0.98803806,
+          0.97792244,
+          0.9862179
+        ],
+        "bounds": [
+          {
+            "X": 52,
+            "Y": 139,
+            "Width": 238,
+            "Height": 21
+          },
+          {
+            "X": 52,
+            "Y": 334,
+            "Width": 247,
+            "Height": 20
+          },
+          {
+            "X": 50,
+            "Y": 539,
+            "Width": 264,
+            "Height": 21
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.1519,
+          "PreprocessMs": 10.1674,
+          "DetectionMs": 67.5861,
+          "PostprocessMs": 1.7095999999999947,
+          "CropMs": 1.9939999999999998,
+          "RecognitionMs": 67.3128,
+          "TotalMs": 150.9218
+        }
+      },
+      {
+        "name": "S07_soft_subtitle.png",
+        "pass": 1,
+        "ms": 168.2662,
+        "texts": [
+          "Köprüden karşıya geç",
+          "ileride bir çıkış var",
+          "Don't look behind"
+        ],
+        "confidences": [
+          0.98645365,
+          0.9772606,
+          0.99937034
+        ],
+        "bounds": [
+          {
+            "X": 43,
+            "Y": 123,
+            "Width": 447,
+            "Height": 28
+          },
+          {
+            "X": 47,
+            "Y": 256,
+            "Width": 385,
+            "Height": 29
+          },
+          {
+            "X": 48,
+            "Y": 398,
+            "Width": 360,
+            "Height": 21
+          }
+        ],
+        "words": 10,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.3381,
+          "PreprocessMs": 10.046399999999998,
+          "DetectionMs": 63.697199999999995,
+          "PostprocessMs": 2.2454000000000036,
+          "CropMs": 1.5810999999999922,
+          "RecognitionMs": 89.358,
+          "TotalMs": 168.2662
+        }
+      },
+      {
+        "name": "S08_slightly_rotated.png",
+        "pass": 1,
+        "ms": 152.3831,
+        "texts": [
+          "Kapıya doğru ilerle",
+          "Üçüncü bölüm başladı",
+          "Victory is near"
+        ],
+        "confidences": [
+          0.99730414,
+          0.9660953,
+          0.9998198
+        ],
+        "bounds": [
+          {
+            "X": 48,
+            "Y": 126,
+            "Width": 408,
+            "Height": 42
+          },
+          {
+            "X": 64,
+            "Y": 259,
+            "Width": 460,
+            "Height": 41
+          },
+          {
+            "X": 68,
+            "Y": 407,
+            "Width": 305,
+            "Height": 31
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.3793,
+          "PreprocessMs": 10.525599999999999,
+          "DetectionMs": 62.8528,
+          "PostprocessMs": 1.7861000000000047,
+          "CropMs": 1.4047999999999945,
+          "RecognitionMs": 74.43450000000001,
+          "TotalMs": 152.3831
+        }
+      },
+      {
+        "name": "S09_small_resolution.png",
+        "pass": 1,
+        "ms": 144.0171,
+        "texts": [
+          "Çevrimdıșı mod",
+          "Bir sonraki kayıt",
+          "Hikâyeye devam et"
+        ],
+        "confidences": [
+          0.9696169,
+          0.9954137,
+          0.99980253
+        ],
+        "bounds": [
+          {
+            "X": 55,
+            "Y": 81,
+            "Width": 219,
+            "Height": 17
+          },
+          {
+            "X": 54,
+            "Y": 207,
+            "Width": 234,
+            "Height": 16
+          },
+          {
+            "X": 51,
+            "Y": 332,
+            "Width": 275,
+            "Height": 16
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 0.7436,
+          "PreprocessMs": 9.3713,
+          "DetectionMs": 63.719100000000005,
+          "PostprocessMs": 1.6162999999999954,
+          "CropMs": 0.8718999999999966,
+          "RecognitionMs": 67.6949,
+          "TotalMs": 144.0171
+        }
+      },
+      {
+        "name": "S10_low_contrast.png",
+        "pass": 1,
+        "ms": 149.8623,
+        "texts": [
+          "Siğinağa geri dön",
+          "Haritayı kontrol et",
+          "Gösterge açık"
+        ],
+        "confidences": [
+          0.9802208,
+          0.98680097,
+          0.9949055
+        ],
+        "bounds": [
+          {
+            "X": 51,
+            "Y": 122,
+            "Width": 307,
+            "Height": 26
+          },
+          {
+            "X": 50,
+            "Y": 258,
+            "Width": 320,
+            "Height": 21
+          },
+          {
+            "X": 55,
+            "Y": 397,
+            "Width": 241,
+            "Height": 26
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.0894,
+          "PreprocessMs": 10.2818,
+          "DetectionMs": 65.42269999999999,
+          "PostprocessMs": 2.2025000000000006,
+          "CropMs": 1.052500000000009,
+          "RecognitionMs": 69.8134,
+          "TotalMs": 149.8623
+        }
+      },
+      {
+        "name": "S11_wide_menu.png",
+        "pass": 1,
+        "ms": 159.7929,
+        "texts": [
+          "Kayıtlı oyunlar",
+          "Başarılar listesi",
+          "Ana menüye dön"
+        ],
+        "confidences": [
+          0.9809619,
+          0.98878604,
+          0.9750665
+        ],
+        "bounds": [
+          {
+            "X": 51,
+            "Y": 147,
+            "Width": 339,
+            "Height": 26
+          },
+          {
+            "X": 50,
+            "Y": 340,
+            "Width": 364,
+            "Height": 26
+          },
+          {
+            "X": 47,
+            "Y": 546,
+            "Width": 392,
+            "Height": 26
+          }
+        ],
+        "words": 7,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 3.3145,
+          "PreprocessMs": 11.019200000000001,
+          "DetectionMs": 66.5216,
+          "PostprocessMs": 1.7310999999999979,
+          "CropMs": 1.7295000000000016,
+          "RecognitionMs": 75.477,
+          "TotalMs": 159.7929
+        }
+      },
+      {
+        "name": "S12_outlined_subtitles.png",
+        "pass": 1,
+        "ms": 153.6838,
+        "texts": [
+          "Şüpheli bir ses var",
+          "Hızlı koşmalıyız",
+          "Hedefe ulaştık"
+        ],
+        "confidences": [
+          0.9798021,
+          0.9864627,
+          0.9950118
+        ],
+        "bounds": [
+          {
+            "X": 46,
+            "Y": 123,
+            "Width": 396,
+            "Height": 27
+          },
+          {
+            "X": 51,
+            "Y": 258,
+            "Width": 323,
+            "Height": 26
+          },
+          {
+            "X": 52,
+            "Y": 397,
+            "Width": 304,
+            "Height": 26
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.0663,
+          "PreprocessMs": 8.7262,
+          "DetectionMs": 64.24799999999999,
+          "PostprocessMs": 1.7143000000000086,
+          "CropMs": 1.2930999999999955,
+          "RecognitionMs": 76.63589999999999,
+          "TotalMs": 153.6838
+        }
+      },
+      {
+        "name": "S13_thin_font_ui.png",
+        "pass": 1,
+        "ms": 153.8247,
+        "texts": [
+          "Ödülleri topla",
+          "Köyün etrafını dolaş",
+          "Choose your weapon"
+        ],
+        "confidences": [
+          0.9987984,
+          0.9965352,
+          0.99994224
+        ],
+        "bounds": [
+          {
+            "X": 54,
+            "Y": 138,
+            "Width": 216,
+            "Height": 24
+          },
+          {
+            "X": 47,
+            "Y": 334,
+            "Width": 322,
+            "Height": 26
+          },
+          {
+            "X": 47,
+            "Y": 543,
+            "Width": 340,
+            "Height": 21
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.1852,
+          "PreprocessMs": 9.8128,
+          "DetectionMs": 65.90299999999999,
+          "PostprocessMs": 2.0923000000000087,
+          "CropMs": 1.4928999999999917,
+          "RecognitionMs": 72.33850000000001,
+          "TotalMs": 153.8247
+        }
+      }
+    ]
+  },
+  "normal_tr": {
+    "summary": {
+      "lines": "80/84",
+      "exact": 80,
+      "total": 84,
+      "predicted": 84,
+      "character_accuracy": 99.629,
+      "mean_ms": 173.36,
+      "f1": 95.24,
+      "errors": [
+        {
+          "name": "S03_bright_settings.png",
+          "pass": 0,
+          "truth": [
+            "Görüntü ayarları",
+            "Ekran çözünürlüğü",
+            "Değişiklikleri kaydet"
+          ],
+          "observed": [
+            "Görüntü ayarları",
+            "Ekran çözünürlügü",
+            "Değişiklikleri kaydet"
+          ],
+          "confidences": [
+            0.9903629,
+            0.964202,
+            0.9761692
+          ],
+          "edits": 1
+        },
+        {
+          "name": "S10_low_contrast.png",
+          "pass": 0,
+          "truth": [
+            "Sığınağa geri dön",
+            "Haritayı kontrol et",
+            "Gösterge açık"
+          ],
+          "observed": [
+            "Siğinağa geri dön",
+            "Haritayı kontrol et",
+            "Gösterge açık"
+          ],
+          "confidences": [
+            0.9612546,
+            0.9948443,
+            0.9725228
+          ],
+          "edits": 2
+        },
+        {
+          "name": "S03_bright_settings.png",
+          "pass": 1,
+          "truth": [
+            "Görüntü ayarları",
+            "Ekran çözünürlüğü",
+            "Değişiklikleri kaydet"
+          ],
+          "observed": [
+            "Görüntü ayarları",
+            "Ekran çözünürlügü",
+            "Değişiklikleri kaydet"
+          ],
+          "confidences": [
+            0.9903629,
+            0.964202,
+            0.9761692
+          ],
+          "edits": 1
+        },
+        {
+          "name": "S10_low_contrast.png",
+          "pass": 1,
+          "truth": [
+            "Sığınağa geri dön",
+            "Haritayı kontrol et",
+            "Gösterge açık"
+          ],
+          "observed": [
+            "Siğinağa geri dön",
+            "Haritayı kontrol et",
+            "Gösterge açık"
+          ],
+          "confidences": [
+            0.9612546,
+            0.9948443,
+            0.9725228
+          ],
+          "edits": 2
+        }
+      ]
+    },
+    "records": [
+      {
+        "name": "S00_dialogue_turkish.png",
+        "pass": 0,
+        "ms": 192.8112,
+        "texts": [
+          "Şehrin kapıları açıldı",
+          "Işıklar yeniden yanıyor",
+          "Bütün görevler tamamlandı"
+        ],
+        "confidences": [
+          0.98787314,
+          0.9886312,
+          0.9898534
+        ],
+        "bounds": [
+          {
+            "X": 45,
+            "Y": 123,
+            "Width": 456,
+            "Height": 29
+          },
+          {
+            "X": 41,
+            "Y": 260,
+            "Width": 512,
+            "Height": 29
+          },
+          {
+            "X": 34,
+            "Y": 401,
+            "Width": 618,
+            "Height": 24
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.21,
+          "PreprocessMs": 16.295099999999998,
+          "DetectionMs": 93.0264,
+          "PostprocessMs": 3.1887000000000114,
+          "CropMs": 3.557299999999998,
+          "RecognitionMs": 75.53370000000001,
+          "TotalMs": 192.8112
+        }
+      },
+      {
+        "name": "S01_english_subtitles.png",
+        "pass": 0,
+        "ms": 190.0534,
+        "texts": [
+          "Return to the shelter",
+          "Follow the glowing trail",
+          "The journey continues"
+        ],
+        "confidences": [
+          0.9995677,
+          0.99877644,
+          0.9998729
+        ],
+        "bounds": [
+          {
+            "X": 43,
+            "Y": 124,
+            "Width": 448,
+            "Height": 22
+          },
+          {
+            "X": 46,
+            "Y": 259,
+            "Width": 470,
+            "Height": 25
+          },
+          {
+            "X": 55,
+            "Y": 399,
+            "Width": 443,
+            "Height": 25
+          }
+        ],
+        "words": 11,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.1578,
+          "PreprocessMs": 19.076,
+          "DetectionMs": 96.4526,
+          "PostprocessMs": 4.142399999999995,
+          "CropMs": 1.6216000000000008,
+          "RecognitionMs": 66.60300000000001,
+          "TotalMs": 190.0534
+        }
+      },
+      {
+        "name": "S02_tiny_inventory.png",
+        "pass": 0,
+        "ms": 184.8676,
+        "texts": [
+          "Gümüş anahtar bulundu",
+          "Kılıç dayanıklılığı 70",
+          "Press F to inspect"
+        ],
+        "confidences": [
+          0.99318266,
+          0.9744176,
+          0.9976053
+        ],
+        "bounds": [
+          {
+            "X": 48,
+            "Y": 138,
+            "Width": 302,
+            "Height": 19
+          },
+          {
+            "X": 53,
+            "Y": 333,
+            "Width": 242,
+            "Height": 20
+          },
+          {
+            "X": 52,
+            "Y": 538,
+            "Width": 220,
+            "Height": 20
+          }
+        ],
+        "words": 10,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 3.1004,
+          "PreprocessMs": 17.4118,
+          "DetectionMs": 107.17859999999999,
+          "PostprocessMs": 2.7635999999999967,
+          "CropMs": 1.5836000000000183,
+          "RecognitionMs": 52.8296,
+          "TotalMs": 184.8676
+        }
+      },
+      {
+        "name": "S03_bright_settings.png",
+        "pass": 0,
+        "ms": 207.9755,
+        "texts": [
+          "Görüntü ayarları",
+          "Ekran çözünürlügü",
+          "Değişiklikleri kaydet"
+        ],
+        "confidences": [
+          0.9903629,
+          0.964202,
+          0.9761692
+        ],
+        "bounds": [
+          {
+            "X": 61,
+            "Y": 126,
+            "Width": 349,
+            "Height": 26
+          },
+          {
+            "X": 64,
+            "Y": 262,
+            "Width": 399,
+            "Height": 25
+          },
+          {
+            "X": 44,
+            "Y": 399,
+            "Width": 472,
+            "Height": 30
+          }
+        ],
+        "words": 6,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 4.4672,
+          "PreprocessMs": 15.526100000000001,
+          "DetectionMs": 120.2219,
+          "PostprocessMs": 3.058099999999996,
+          "CropMs": 5.460399999999993,
+          "RecognitionMs": 59.24180000000001,
+          "TotalMs": 207.9755
+        }
+      },
+      {
+        "name": "S04_orange_quest.png",
+        "pass": 0,
+        "ms": 181.8973,
+        "texts": [
+          "Yeni hedef belirlendi",
+          "Düşmanı etkisiz hale getir",
+          "Görev güncellendi"
+        ],
+        "confidences": [
+          0.9873794,
+          0.97157764,
+          0.99958533
+        ],
+        "bounds": [
+          {
+            "X": 48,
+            "Y": 124,
+            "Width": 408,
+            "Height": 18
+          },
+          {
+            "X": 39,
+            "Y": 260,
+            "Width": 521,
+            "Height": 22
+          },
+          {
+            "X": 51,
+            "Y": 399,
+            "Width": 355,
+            "Height": 23
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.3373,
+          "PreprocessMs": 13.278099999999998,
+          "DetectionMs": 95.03670000000001,
+          "PostprocessMs": 2.8170999999999964,
+          "CropMs": 1.9080000000000013,
+          "RecognitionMs": 67.5201,
+          "TotalMs": 181.8973
+        }
+      },
+      {
+        "name": "S05_contrasty_dark.png",
+        "pass": 0,
+        "ms": 168.0863,
+        "texts": [
+          "ilk bölüm başlıyor",
+          "Şimdi gizlenmeliyiz",
+          "Stay near the river"
+        ],
+        "confidences": [
+          0.9933179,
+          0.98648244,
+          0.998633
+        ],
+        "bounds": [
+          {
+            "X": 50,
+            "Y": 141,
+            "Width": 321,
+            "Height": 23
+          },
+          {
+            "X": 48,
+            "Y": 338,
+            "Width": 347,
+            "Height": 21
+          },
+          {
+            "X": 49,
+            "Y": 544,
+            "Width": 340,
+            "Height": 19
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.813,
+          "PreprocessMs": 17.4871,
+          "DetectionMs": 90.8275,
+          "PostprocessMs": 2.167500000000004,
+          "CropMs": 1.5482999999999976,
+          "RecognitionMs": 54.24289999999999,
+          "TotalMs": 168.0863
+        }
+      },
+      {
+        "name": "S06_color_hud.png",
+        "pass": 0,
+        "ms": 170.388,
+        "texts": [
+          "Can seviyesi 100",
+          "Zırh kapasitesi 45",
+          "Yeni yetenek açıldı"
+        ],
+        "confidences": [
+          0.99953055,
+          0.9896291,
+          0.9948626
+        ],
+        "bounds": [
+          {
+            "X": 54,
+            "Y": 139,
+            "Width": 234,
+            "Height": 22
+          },
+          {
+            "X": 52,
+            "Y": 334,
+            "Width": 246,
+            "Height": 21
+          },
+          {
+            "X": 51,
+            "Y": 539,
+            "Width": 260,
+            "Height": 22
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.4003,
+          "PreprocessMs": 13.8725,
+          "DetectionMs": 104.63369999999999,
+          "PostprocessMs": 2.3188999999999993,
+          "CropMs": 2.156400000000005,
+          "RecognitionMs": 45.00620000000001,
+          "TotalMs": 170.388
+        }
+      },
+      {
+        "name": "S07_soft_subtitle.png",
+        "pass": 0,
+        "ms": 181.2308,
+        "texts": [
+          "Köprüden karşıya geç",
+          "ileride bir çıkış var",
+          "Don't look behind"
+        ],
+        "confidences": [
+          0.9894255,
+          0.9781586,
+          0.99240685
+        ],
+        "bounds": [
+          {
+            "X": 46,
+            "Y": 123,
+            "Width": 444,
+            "Height": 29
+          },
+          {
+            "X": 47,
+            "Y": 256,
+            "Width": 385,
+            "Height": 29
+          },
+          {
+            "X": 50,
+            "Y": 398,
+            "Width": 357,
+            "Height": 21
+          }
+        ],
+        "words": 10,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.4492,
+          "PreprocessMs": 14.0484,
+          "DetectionMs": 105.3077,
+          "PostprocessMs": 2.764099999999999,
+          "CropMs": 1.9488999999999947,
+          "RecognitionMs": 55.71249999999999,
+          "TotalMs": 181.2308
+        }
+      },
+      {
+        "name": "S08_slightly_rotated.png",
+        "pass": 0,
+        "ms": 158.7824,
+        "texts": [
+          "Kapıya doğru ilerle",
+          "Üçüncü bölüm başladı",
+          "Victory is near"
+        ],
+        "confidences": [
+          0.9747796,
+          0.9619468,
+          0.99991685
+        ],
+        "bounds": [
+          {
+            "X": 59,
+            "Y": 127,
+            "Width": 398,
+            "Height": 43
+          },
+          {
+            "X": 64,
+            "Y": 260,
+            "Width": 460,
+            "Height": 42
+          },
+          {
+            "X": 68,
+            "Y": 406,
+            "Width": 305,
+            "Height": 34
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.525,
+          "PreprocessMs": 12.6591,
+          "DetectionMs": 96.3973,
+          "PostprocessMs": 2.290999999999997,
+          "CropMs": 1.8619000000000057,
+          "RecognitionMs": 44.04809999999999,
+          "TotalMs": 158.7824
+        }
+      },
+      {
+        "name": "S09_small_resolution.png",
+        "pass": 0,
+        "ms": 167.6942,
+        "texts": [
+          "Çevrimdışı mod",
+          "Bir sonraki kayıt",
+          "Hikâyeye devam et"
+        ],
+        "confidences": [
+          0.9449819,
+          0.9981117,
+          0.99984324
+        ],
+        "bounds": [
+          {
+            "X": 55,
+            "Y": 82,
+            "Width": 220,
+            "Height": 15
+          },
+          {
+            "X": 54,
+            "Y": 207,
+            "Width": 234,
+            "Height": 14
+          },
+          {
+            "X": 52,
+            "Y": 334,
+            "Width": 273,
+            "Height": 15
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 0.9695,
+          "PreprocessMs": 13.5288,
+          "DetectionMs": 96.2143,
+          "PostprocessMs": 2.105000000000004,
+          "CropMs": 0.9923000000000002,
+          "RecognitionMs": 53.884299999999996,
+          "TotalMs": 167.6942
+        }
+      },
+      {
+        "name": "S10_low_contrast.png",
+        "pass": 0,
+        "ms": 166.4882,
+        "texts": [
+          "Siğinağa geri dön",
+          "Haritayı kontrol et",
+          "Gösterge açık"
+        ],
+        "confidences": [
+          0.9612546,
+          0.9948443,
+          0.9725228
+        ],
+        "bounds": [
+          {
+            "X": 53,
+            "Y": 124,
+            "Width": 304,
+            "Height": 23
+          },
+          {
+            "X": 52,
+            "Y": 259,
+            "Width": 315,
+            "Height": 21
+          },
+          {
+            "X": 58,
+            "Y": 399,
+            "Width": 237,
+            "Height": 23
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.1217,
+          "PreprocessMs": 13.5647,
+          "DetectionMs": 97.0197,
+          "PostprocessMs": 2.160999999999987,
+          "CropMs": 1.8207000000000022,
+          "RecognitionMs": 50.80040000000001,
+          "TotalMs": 166.4882
+        }
+      },
+      {
+        "name": "S11_wide_menu.png",
+        "pass": 0,
+        "ms": 164.1165,
+        "texts": [
+          "Kayıtlı oyunlar",
+          "Başarılar listesi",
+          "Ana menüye dön"
+        ],
+        "confidences": [
+          0.9897011,
+          0.99172086,
+          0.9682699
+        ],
+        "bounds": [
+          {
+            "X": 52,
+            "Y": 146,
+            "Width": 336,
+            "Height": 31
+          },
+          {
+            "X": 49,
+            "Y": 340,
+            "Width": 363,
+            "Height": 30
+          },
+          {
+            "X": 48,
+            "Y": 549,
+            "Width": 392,
+            "Height": 25
+          }
+        ],
+        "words": 7,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.9633,
+          "PreprocessMs": 11.4729,
+          "DetectionMs": 95.062,
+          "PostprocessMs": 2.3273999999999972,
+          "CropMs": 4.6311000000000035,
+          "RecognitionMs": 47.659800000000004,
+          "TotalMs": 164.1165
+        }
+      },
+      {
+        "name": "S12_outlined_subtitles.png",
+        "pass": 0,
+        "ms": 171.4071,
+        "texts": [
+          "Şüpheli bir ses var",
+          "Hızlı koşmalıyız",
+          "Hedefe ulaştık"
+        ],
+        "confidences": [
+          0.97216403,
+          0.971621,
+          0.96393913
+        ],
+        "bounds": [
+          {
+            "X": 49,
+            "Y": 125,
+            "Width": 392,
+            "Height": 24
+          },
+          {
+            "X": 52,
+            "Y": 259,
+            "Width": 322,
+            "Height": 25
+          },
+          {
+            "X": 52,
+            "Y": 398,
+            "Width": 305,
+            "Height": 24
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.133,
+          "PreprocessMs": 13.177,
+          "DetectionMs": 99.143,
+          "PostprocessMs": 2.2714,
+          "CropMs": 1.4055999999999926,
+          "RecognitionMs": 54.27710000000002,
+          "TotalMs": 171.4071
+        }
+      },
+      {
+        "name": "S13_thin_font_ui.png",
+        "pass": 0,
+        "ms": 164.5676,
+        "texts": [
+          "Ödülleri topla",
+          "Köyün etrafını dolaş",
+          "Choose your weapon"
+        ],
+        "confidences": [
+          0.9995021,
+          0.99522096,
+          0.9999094
+        ],
+        "bounds": [
+          {
+            "X": 56,
+            "Y": 138,
+            "Width": 214,
+            "Height": 24
+          },
+          {
+            "X": 49,
+            "Y": 336,
+            "Width": 321,
+            "Height": 23
+          },
+          {
+            "X": 50,
+            "Y": 542,
+            "Width": 336,
+            "Height": 22
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.0207,
+          "PreprocessMs": 13.5,
+          "DetectionMs": 94.2901,
+          "PostprocessMs": 2.1647999999999996,
+          "CropMs": 1.6212000000000018,
+          "RecognitionMs": 50.9708,
+          "TotalMs": 164.5676
+        }
+      },
+      {
+        "name": "S00_dialogue_turkish.png",
+        "pass": 1,
+        "ms": 190.1634,
+        "texts": [
+          "Şehrin kapıları açıldı",
+          "Işıklar yeniden yanıyor",
+          "Bütün görevler tamamlandı"
+        ],
+        "confidences": [
+          0.98787314,
+          0.9886312,
+          0.9898534
+        ],
+        "bounds": [
+          {
+            "X": 45,
+            "Y": 123,
+            "Width": 456,
+            "Height": 29
+          },
+          {
+            "X": 41,
+            "Y": 260,
+            "Width": 512,
+            "Height": 29
+          },
+          {
+            "X": 34,
+            "Y": 401,
+            "Width": 618,
+            "Height": 24
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.4075,
+          "PreprocessMs": 11.5907,
+          "DetectionMs": 96.6451,
+          "PostprocessMs": 2.4040999999999997,
+          "CropMs": 1.7742000000000075,
+          "RecognitionMs": 76.34179999999999,
+          "TotalMs": 190.1634
+        }
+      },
+      {
+        "name": "S01_english_subtitles.png",
+        "pass": 1,
+        "ms": 178.9195,
+        "texts": [
+          "Return to the shelter",
+          "Follow the glowing trail",
+          "The journey continues"
+        ],
+        "confidences": [
+          0.9995677,
+          0.99877644,
+          0.9998729
+        ],
+        "bounds": [
+          {
+            "X": 43,
+            "Y": 124,
+            "Width": 448,
+            "Height": 22
+          },
+          {
+            "X": 46,
+            "Y": 259,
+            "Width": 470,
+            "Height": 25
+          },
+          {
+            "X": 55,
+            "Y": 399,
+            "Width": 443,
+            "Height": 25
+          }
+        ],
+        "words": 11,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.2064,
+          "PreprocessMs": 13.7227,
+          "DetectionMs": 98.35029999999999,
+          "PostprocessMs": 2.2028999999999996,
+          "CropMs": 1.7154000000000025,
+          "RecognitionMs": 61.7218,
+          "TotalMs": 178.9195
+        }
+      },
+      {
+        "name": "S02_tiny_inventory.png",
+        "pass": 1,
+        "ms": 156.4579,
+        "texts": [
+          "Gümüş anahtar bulundu",
+          "Kılıç dayanıklılığı 70",
+          "Press F to inspect"
+        ],
+        "confidences": [
+          0.99318266,
+          0.9744176,
+          0.9976053
+        ],
+        "bounds": [
+          {
+            "X": 48,
+            "Y": 138,
+            "Width": 302,
+            "Height": 19
+          },
+          {
+            "X": 53,
+            "Y": 333,
+            "Width": 242,
+            "Height": 20
+          },
+          {
+            "X": 52,
+            "Y": 538,
+            "Width": 220,
+            "Height": 20
+          }
+        ],
+        "words": 10,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.1583,
+          "PreprocessMs": 12.2402,
+          "DetectionMs": 91.699,
+          "PostprocessMs": 1.8068999999999988,
+          "CropMs": 1.8579000000000008,
+          "RecognitionMs": 46.6956,
+          "TotalMs": 156.4579
+        }
+      },
+      {
+        "name": "S03_bright_settings.png",
+        "pass": 1,
+        "ms": 172.8065,
+        "texts": [
+          "Görüntü ayarları",
+          "Ekran çözünürlügü",
+          "Değişiklikleri kaydet"
+        ],
+        "confidences": [
+          0.9903629,
+          0.964202,
+          0.9761692
+        ],
+        "bounds": [
+          {
+            "X": 61,
+            "Y": 126,
+            "Width": 349,
+            "Height": 26
+          },
+          {
+            "X": 64,
+            "Y": 262,
+            "Width": 399,
+            "Height": 25
+          },
+          {
+            "X": 44,
+            "Y": 399,
+            "Width": 472,
+            "Height": 30
+          }
+        ],
+        "words": 6,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.9994,
+          "PreprocessMs": 15.451100000000002,
+          "DetectionMs": 93.92049999999999,
+          "PostprocessMs": 2.8662000000000063,
+          "CropMs": 1.817300000000003,
+          "RecognitionMs": 56.751999999999995,
+          "TotalMs": 172.8065
+        }
+      },
+      {
+        "name": "S04_orange_quest.png",
+        "pass": 1,
+        "ms": 183.2474,
+        "texts": [
+          "Yeni hedef belirlendi",
+          "Düşmanı etkisiz hale getir",
+          "Görev güncellendi"
+        ],
+        "confidences": [
+          0.9873794,
+          0.97157764,
+          0.99958533
+        ],
+        "bounds": [
+          {
+            "X": 48,
+            "Y": 124,
+            "Width": 408,
+            "Height": 18
+          },
+          {
+            "X": 39,
+            "Y": 260,
+            "Width": 521,
+            "Height": 22
+          },
+          {
+            "X": 51,
+            "Y": 399,
+            "Width": 355,
+            "Height": 23
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.2918,
+          "PreprocessMs": 13.8468,
+          "DetectionMs": 97.1118,
+          "PostprocessMs": 2.346199999999996,
+          "CropMs": 1.5666000000000082,
+          "RecognitionMs": 67.0842,
+          "TotalMs": 183.2474
+        }
+      },
+      {
+        "name": "S05_contrasty_dark.png",
+        "pass": 1,
+        "ms": 165.0553,
+        "texts": [
+          "ilk bölüm başlıyor",
+          "Şimdi gizlenmeliyiz",
+          "Stay near the river"
+        ],
+        "confidences": [
+          0.9933179,
+          0.98648244,
+          0.998633
+        ],
+        "bounds": [
+          {
+            "X": 50,
+            "Y": 141,
+            "Width": 321,
+            "Height": 23
+          },
+          {
+            "X": 48,
+            "Y": 338,
+            "Width": 347,
+            "Height": 21
+          },
+          {
+            "X": 49,
+            "Y": 544,
+            "Width": 340,
+            "Height": 19
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.5194,
+          "PreprocessMs": 11.668399999999998,
+          "DetectionMs": 96.52720000000001,
+          "PostprocessMs": 2.615099999999998,
+          "CropMs": 1.4561999999999955,
+          "RecognitionMs": 51.26899999999999,
+          "TotalMs": 165.0553
+        }
+      },
+      {
+        "name": "S06_color_hud.png",
+        "pass": 1,
+        "ms": 164.7764,
+        "texts": [
+          "Can seviyesi 100",
+          "Zırh kapasitesi 45",
+          "Yeni yetenek açıldı"
+        ],
+        "confidences": [
+          0.99953055,
+          0.9896291,
+          0.9948626
+        ],
+        "bounds": [
+          {
+            "X": 54,
+            "Y": 139,
+            "Width": 234,
+            "Height": 22
+          },
+          {
+            "X": 52,
+            "Y": 334,
+            "Width": 246,
+            "Height": 21
+          },
+          {
+            "X": 51,
+            "Y": 539,
+            "Width": 260,
+            "Height": 22
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.3928,
+          "PreprocessMs": 13.9538,
+          "DetectionMs": 100.43520000000001,
+          "PostprocessMs": 2.13539999999999,
+          "CropMs": 1.822100000000006,
+          "RecognitionMs": 44.037099999999995,
+          "TotalMs": 164.7764
+        }
+      },
+      {
+        "name": "S07_soft_subtitle.png",
+        "pass": 1,
+        "ms": 169.725,
+        "texts": [
+          "Köprüden karşıya geç",
+          "ileride bir çıkış var",
+          "Don't look behind"
+        ],
+        "confidences": [
+          0.9894255,
+          0.9781586,
+          0.99240685
+        ],
+        "bounds": [
+          {
+            "X": 46,
+            "Y": 123,
+            "Width": 444,
+            "Height": 29
+          },
+          {
+            "X": 47,
+            "Y": 256,
+            "Width": 385,
+            "Height": 29
+          },
+          {
+            "X": 50,
+            "Y": 398,
+            "Width": 357,
+            "Height": 21
+          }
+        ],
+        "words": 10,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.3999,
+          "PreprocessMs": 13.510299999999999,
+          "DetectionMs": 94.3389,
+          "PostprocessMs": 2.221900000000005,
+          "CropMs": 1.3903999999999996,
+          "RecognitionMs": 56.86359999999999,
+          "TotalMs": 169.725
+        }
+      },
+      {
+        "name": "S08_slightly_rotated.png",
+        "pass": 1,
+        "ms": 154.2848,
+        "texts": [
+          "Kapıya doğru ilerle",
+          "Üçüncü bölüm başladı",
+          "Victory is near"
+        ],
+        "confidences": [
+          0.9747796,
+          0.9619468,
+          0.99991685
+        ],
+        "bounds": [
+          {
+            "X": 59,
+            "Y": 127,
+            "Width": 398,
+            "Height": 43
+          },
+          {
+            "X": 64,
+            "Y": 260,
+            "Width": 460,
+            "Height": 42
+          },
+          {
+            "X": 68,
+            "Y": 406,
+            "Width": 305,
+            "Height": 34
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.7579,
+          "PreprocessMs": 11.6019,
+          "DetectionMs": 95.82409999999999,
+          "PostprocessMs": 2.3726000000000056,
+          "CropMs": 1.9756,
+          "RecognitionMs": 40.75269999999999,
+          "TotalMs": 154.2848
+        }
+      },
+      {
+        "name": "S09_small_resolution.png",
+        "pass": 1,
+        "ms": 164.9698,
+        "texts": [
+          "Çevrimdışı mod",
+          "Bir sonraki kayıt",
+          "Hikâyeye devam et"
+        ],
+        "confidences": [
+          0.9449819,
+          0.9981117,
+          0.99984324
+        ],
+        "bounds": [
+          {
+            "X": 55,
+            "Y": 82,
+            "Width": 220,
+            "Height": 15
+          },
+          {
+            "X": 54,
+            "Y": 207,
+            "Width": 234,
+            "Height": 14
+          },
+          {
+            "X": 52,
+            "Y": 334,
+            "Width": 273,
+            "Height": 15
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 0.7295,
+          "PreprocessMs": 15.819899999999999,
+          "DetectionMs": 94.67240000000001,
+          "PostprocessMs": 2.170500000000004,
+          "CropMs": 0.8681999999999874,
+          "RecognitionMs": 50.7093,
+          "TotalMs": 164.9698
+        }
+      },
+      {
+        "name": "S10_low_contrast.png",
+        "pass": 1,
+        "ms": 159.5875,
+        "texts": [
+          "Siğinağa geri dön",
+          "Haritayı kontrol et",
+          "Gösterge açık"
+        ],
+        "confidences": [
+          0.9612546,
+          0.9948443,
+          0.9725228
+        ],
+        "bounds": [
+          {
+            "X": 53,
+            "Y": 124,
+            "Width": 304,
+            "Height": 23
+          },
+          {
+            "X": 52,
+            "Y": 259,
+            "Width": 315,
+            "Height": 21
+          },
+          {
+            "X": 58,
+            "Y": 399,
+            "Width": 237,
+            "Height": 23
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.1846,
+          "PreprocessMs": 14.4101,
+          "DetectionMs": 91.0279,
+          "PostprocessMs": 2.1632999999999925,
+          "CropMs": 2.1047000000000082,
+          "RecognitionMs": 48.6969,
+          "TotalMs": 159.5875
+        }
+      },
+      {
+        "name": "S11_wide_menu.png",
+        "pass": 1,
+        "ms": 170.1165,
+        "texts": [
+          "Kayıtlı oyunlar",
+          "Başarılar listesi",
+          "Ana menüye dön"
+        ],
+        "confidences": [
+          0.9897011,
+          0.99172086,
+          0.9682699
+        ],
+        "bounds": [
+          {
+            "X": 52,
+            "Y": 146,
+            "Width": 336,
+            "Height": 31
+          },
+          {
+            "X": 49,
+            "Y": 340,
+            "Width": 363,
+            "Height": 30
+          },
+          {
+            "X": 48,
+            "Y": 549,
+            "Width": 392,
+            "Height": 25
+          }
+        ],
+        "words": 7,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 3.1572,
+          "PreprocessMs": 11.532,
+          "DetectionMs": 96.4242,
+          "PostprocessMs": 2.1337000000000046,
+          "CropMs": 1.7510999999999939,
+          "RecognitionMs": 55.118300000000005,
+          "TotalMs": 170.1165
+        }
+      },
+      {
+        "name": "S12_outlined_subtitles.png",
+        "pass": 1,
+        "ms": 178.4942,
+        "texts": [
+          "Şüpheli bir ses var",
+          "Hızlı koşmalıyız",
+          "Hedefe ulaştık"
+        ],
+        "confidences": [
+          0.97216403,
+          0.971621,
+          0.96393913
+        ],
+        "bounds": [
+          {
+            "X": 49,
+            "Y": 125,
+            "Width": 392,
+            "Height": 24
+          },
+          {
+            "X": 52,
+            "Y": 259,
+            "Width": 322,
+            "Height": 25
+          },
+          {
+            "X": 52,
+            "Y": 398,
+            "Width": 305,
+            "Height": 24
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.2628,
+          "PreprocessMs": 14.2305,
+          "DetectionMs": 100.6138,
+          "PostprocessMs": 2.2276999999999987,
+          "CropMs": 1.7104999999999961,
+          "RecognitionMs": 58.44890000000001,
+          "TotalMs": 178.4942
+        }
+      },
+      {
+        "name": "S13_thin_font_ui.png",
+        "pass": 1,
+        "ms": 175.0443,
+        "texts": [
+          "Ödülleri topla",
+          "Köyün etrafını dolaş",
+          "Choose your weapon"
+        ],
+        "confidences": [
+          0.9995021,
+          0.99522096,
+          0.9999094
+        ],
+        "bounds": [
+          {
+            "X": 56,
+            "Y": 138,
+            "Width": 214,
+            "Height": 24
+          },
+          {
+            "X": 49,
+            "Y": 336,
+            "Width": 321,
+            "Height": 23
+          },
+          {
+            "X": 50,
+            "Y": 542,
+            "Width": 336,
+            "Height": 22
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.1362,
+          "PreprocessMs": 13.937499999999998,
+          "DetectionMs": 102.3472,
+          "PostprocessMs": 2.1473999999999904,
+          "CropMs": 1.6418000000000035,
+          "RecognitionMs": 52.834199999999996,
+          "TotalMs": 175.0443
+        }
+      }
+    ]
+  },
+  "fast_tr": {
+    "summary": {
+      "lines": "82/84",
+      "exact": 82,
+      "total": 84,
+      "predicted": 84,
+      "character_accuracy": 99.752,
+      "mean_ms": 138.63,
+      "f1": 97.62,
+      "errors": [
+        {
+          "name": "S10_low_contrast.png",
+          "pass": 0,
+          "truth": [
+            "Sığınağa geri dön",
+            "Haritayı kontrol et",
+            "Gösterge açık"
+          ],
+          "observed": [
+            "Siğinağa geri dön",
+            "Haritayı kontrol et",
+            "Gösterge açık"
+          ],
+          "confidences": [
+            0.9802208,
+            0.98680097,
+            0.9949055
+          ],
+          "edits": 2
+        },
+        {
+          "name": "S10_low_contrast.png",
+          "pass": 1,
+          "truth": [
+            "Sığınağa geri dön",
+            "Haritayı kontrol et",
+            "Gösterge açık"
+          ],
+          "observed": [
+            "Siğinağa geri dön",
+            "Haritayı kontrol et",
+            "Gösterge açık"
+          ],
+          "confidences": [
+            0.9802208,
+            0.98680097,
+            0.9949055
+          ],
+          "edits": 2
+        }
+      ]
+    },
+    "records": [
+      {
+        "name": "S00_dialogue_turkish.png",
+        "pass": 0,
+        "ms": 156.3634,
+        "texts": [
+          "Şehrin kapıları açıldı",
+          "Işıklar yeniden yanıyor",
+          "Bütün görevler tamamlandı"
+        ],
+        "confidences": [
+          0.99249095,
+          0.99604315,
+          0.9842564
+        ],
+        "bounds": [
+          {
+            "X": 63,
+            "Y": 121,
+            "Width": 429,
+            "Height": 32
+          },
+          {
+            "X": 41,
+            "Y": 258,
+            "Width": 512,
+            "Height": 33
+          },
+          {
+            "X": 34,
+            "Y": 399,
+            "Width": 619,
+            "Height": 27
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.1572,
+          "PreprocessMs": 13.2551,
+          "DetectionMs": 66.85589999999999,
+          "PostprocessMs": 2.635300000000001,
+          "CropMs": 2.3593000000000046,
+          "RecognitionMs": 70.10060000000001,
+          "TotalMs": 156.3634
+        }
+      },
+      {
+        "name": "S01_english_subtitles.png",
+        "pass": 0,
+        "ms": 154.7499,
+        "texts": [
+          "Return to the shelter",
+          "Follow the glowing trail",
+          "The journey continues"
+        ],
+        "confidences": [
+          0.9965383,
+          0.99990064,
+          0.99555033
+        ],
+        "bounds": [
+          {
+            "X": 43,
+            "Y": 124,
+            "Width": 447,
+            "Height": 22
+          },
+          {
+            "X": 40,
+            "Y": 258,
+            "Width": 502,
+            "Height": 26
+          },
+          {
+            "X": 41,
+            "Y": 399,
+            "Width": 474,
+            "Height": 24
+          }
+        ],
+        "words": 11,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.1109,
+          "PreprocessMs": 14.9131,
+          "DetectionMs": 68.8261,
+          "PostprocessMs": 2.0823000000000036,
+          "CropMs": 2.6454999999999984,
+          "RecognitionMs": 64.172,
+          "TotalMs": 154.7499
+        }
+      },
+      {
+        "name": "S02_tiny_inventory.png",
+        "pass": 0,
+        "ms": 139.1386,
+        "texts": [
+          "Gümüş anahtar bulundu",
+          "Kılıç dayanıklılığı 70",
+          "Press F to inspect"
+        ],
+        "confidences": [
+          0.98101133,
+          0.97757775,
+          0.99906826
+        ],
+        "bounds": [
+          {
+            "X": 48,
+            "Y": 138,
+            "Width": 302,
+            "Height": 20
+          },
+          {
+            "X": 50,
+            "Y": 333,
+            "Width": 247,
+            "Height": 20
+          },
+          {
+            "X": 50,
+            "Y": 538,
+            "Width": 222,
+            "Height": 20
+          }
+        ],
+        "words": 10,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 3.1349,
+          "PreprocessMs": 13.3821,
+          "DetectionMs": 66.8079,
+          "PostprocessMs": 1.569100000000006,
+          "CropMs": 2.3641999999999967,
+          "RecognitionMs": 51.880399999999995,
+          "TotalMs": 139.1386
+        }
+      },
+      {
+        "name": "S03_bright_settings.png",
+        "pass": 0,
+        "ms": 142.5907,
+        "texts": [
+          "Görüntü ayarları",
+          "Ekran çözünürlüğü",
+          "Değişiklikleri kaydet"
+        ],
+        "confidences": [
+          0.9925628,
+          0.9947384,
+          0.99361336
+        ],
+        "bounds": [
+          {
+            "X": 61,
+            "Y": 127,
+            "Width": 350,
+            "Height": 29
+          },
+          {
+            "X": 64,
+            "Y": 261,
+            "Width": 398,
+            "Height": 29
+          },
+          {
+            "X": 55,
+            "Y": 400,
+            "Width": 441,
+            "Height": 30
+          }
+        ],
+        "words": 6,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 3.254,
+          "PreprocessMs": 15.9813,
+          "DetectionMs": 66.37,
+          "PostprocessMs": 1.9183000000000021,
+          "CropMs": 1.5999999999999943,
+          "RecognitionMs": 53.4671,
+          "TotalMs": 142.5907
+        }
+      },
+      {
+        "name": "S04_orange_quest.png",
+        "pass": 0,
+        "ms": 153.8146,
+        "texts": [
+          "Yeni hedef belirlendi",
+          "Düşmanı etkisiz hale getir",
+          "Görev güncellendi"
+        ],
+        "confidences": [
+          0.99387914,
+          0.95697856,
+          0.99966097
+        ],
+        "bounds": [
+          {
+            "X": 45,
+            "Y": 123,
+            "Width": 412,
+            "Height": 19
+          },
+          {
+            "X": 38,
+            "Y": 261,
+            "Width": 524,
+            "Height": 21
+          },
+          {
+            "X": 63,
+            "Y": 398,
+            "Width": 334,
+            "Height": 24
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.1516,
+          "PreprocessMs": 12.5043,
+          "DetectionMs": 70.36489999999999,
+          "PostprocessMs": 1.8478000000000065,
+          "CropMs": 1.3581999999999965,
+          "RecognitionMs": 66.58780000000002,
+          "TotalMs": 153.8146
+        }
+      },
+      {
+        "name": "S05_contrasty_dark.png",
+        "pass": 0,
+        "ms": 139.8465,
+        "texts": [
+          "ilk bölüm başlıyor",
+          "Şimdi gizlenmeliyiz",
+          "Stay near the river"
+        ],
+        "confidences": [
+          0.99465823,
+          0.9847462,
+          0.99991065
+        ],
+        "bounds": [
+          {
+            "X": 49,
+            "Y": 141,
+            "Width": 323,
+            "Height": 24
+          },
+          {
+            "X": 49,
+            "Y": 337,
+            "Width": 347,
+            "Height": 21
+          },
+          {
+            "X": 48,
+            "Y": 542,
+            "Width": 342,
+            "Height": 19
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.6432,
+          "PreprocessMs": 12.8245,
+          "DetectionMs": 68.84100000000001,
+          "PostprocessMs": 1.6238000000000028,
+          "CropMs": 1.507799999999989,
+          "RecognitionMs": 53.4062,
+          "TotalMs": 139.8465
+        }
+      },
+      {
+        "name": "S06_color_hud.png",
+        "pass": 0,
+        "ms": 126.2179,
+        "texts": [
+          "Can seviyesi 100",
+          "Zırh kapasitesi 45",
+          "Yeni yetenek açıldı"
+        ],
+        "confidences": [
+          0.98803806,
+          0.9549728,
+          0.9862179
+        ],
+        "bounds": [
+          {
+            "X": 52,
+            "Y": 139,
+            "Width": 238,
+            "Height": 21
+          },
+          {
+            "X": 52,
+            "Y": 334,
+            "Width": 247,
+            "Height": 20
+          },
+          {
+            "X": 50,
+            "Y": 539,
+            "Width": 264,
+            "Height": 21
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.7962,
+          "PreprocessMs": 10.618100000000002,
+          "DetectionMs": 66.1318,
+          "PostprocessMs": 1.6533000000000015,
+          "CropMs": 1.9328000000000003,
+          "RecognitionMs": 43.0857,
+          "TotalMs": 126.2179
+        }
+      },
+      {
+        "name": "S07_soft_subtitle.png",
+        "pass": 0,
+        "ms": 143.5385,
+        "texts": [
+          "Köprüden karşıya geç",
+          "ileride bir çıkış var",
+          "Don't look behind"
+        ],
+        "confidences": [
+          0.98645365,
+          0.9772606,
+          0.99937034
+        ],
+        "bounds": [
+          {
+            "X": 43,
+            "Y": 123,
+            "Width": 447,
+            "Height": 28
+          },
+          {
+            "X": 47,
+            "Y": 256,
+            "Width": 385,
+            "Height": 29
+          },
+          {
+            "X": 48,
+            "Y": 398,
+            "Width": 360,
+            "Height": 21
+          }
+        ],
+        "words": 10,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.3635,
+          "PreprocessMs": 10.9965,
+          "DetectionMs": 68.8192,
+          "PostprocessMs": 1.8198000000000008,
+          "CropMs": 1.4288000000000096,
+          "RecognitionMs": 59.110699999999994,
+          "TotalMs": 143.5385
+        }
+      },
+      {
+        "name": "S08_slightly_rotated.png",
+        "pass": 0,
+        "ms": 132.4514,
+        "texts": [
+          "Kapıya doğru ilerle",
+          "Üçüncü bölüm başladı",
+          "Victory is near"
+        ],
+        "confidences": [
+          0.99730414,
+          0.9660953,
+          0.9998198
+        ],
+        "bounds": [
+          {
+            "X": 48,
+            "Y": 126,
+            "Width": 408,
+            "Height": 42
+          },
+          {
+            "X": 64,
+            "Y": 259,
+            "Width": 460,
+            "Height": 41
+          },
+          {
+            "X": 68,
+            "Y": 407,
+            "Width": 305,
+            "Height": 31
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.4555,
+          "PreprocessMs": 9.1732,
+          "DetectionMs": 67.2745,
+          "PostprocessMs": 1.8606000000000051,
+          "CropMs": 1.6439000000000021,
+          "RecognitionMs": 51.0437,
+          "TotalMs": 132.4514
+        }
+      },
+      {
+        "name": "S09_small_resolution.png",
+        "pass": 0,
+        "ms": 132.0337,
+        "texts": [
+          "Çevrimdışı mod",
+          "Bir sonraki kayıt",
+          "Hikâyeye devam et"
+        ],
+        "confidences": [
+          0.9435399,
+          0.9954137,
+          0.99980253
+        ],
+        "bounds": [
+          {
+            "X": 55,
+            "Y": 81,
+            "Width": 219,
+            "Height": 17
+          },
+          {
+            "X": 54,
+            "Y": 207,
+            "Width": 234,
+            "Height": 16
+          },
+          {
+            "X": 51,
+            "Y": 332,
+            "Width": 275,
+            "Height": 16
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 0.8644,
+          "PreprocessMs": 10.6653,
+          "DetectionMs": 66.2118,
+          "PostprocessMs": 1.772599999999997,
+          "CropMs": 0.9142999999999972,
+          "RecognitionMs": 51.605300000000014,
+          "TotalMs": 132.0337
+        }
+      },
+      {
+        "name": "S10_low_contrast.png",
+        "pass": 0,
+        "ms": 124.5505,
+        "texts": [
+          "Siğinağa geri dön",
+          "Haritayı kontrol et",
+          "Gösterge açık"
+        ],
+        "confidences": [
+          0.9802208,
+          0.98680097,
+          0.9949055
+        ],
+        "bounds": [
+          {
+            "X": 51,
+            "Y": 122,
+            "Width": 307,
+            "Height": 26
+          },
+          {
+            "X": 50,
+            "Y": 258,
+            "Width": 320,
+            "Height": 21
+          },
+          {
+            "X": 55,
+            "Y": 397,
+            "Width": 241,
+            "Height": 26
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.2376,
+          "PreprocessMs": 9.0047,
+          "DetectionMs": 63.48309999999999,
+          "PostprocessMs": 2.178900000000013,
+          "CropMs": 1.4854999999999876,
+          "RecognitionMs": 47.160700000000006,
+          "TotalMs": 124.5505
+        }
+      },
+      {
+        "name": "S11_wide_menu.png",
+        "pass": 0,
+        "ms": 138.2067,
+        "texts": [
+          "Kayıtlı oyunlar",
+          "Başarılar listesi",
+          "Ana menüye dön"
+        ],
+        "confidences": [
+          0.9809619,
+          0.98878604,
+          0.9750665
+        ],
+        "bounds": [
+          {
+            "X": 51,
+            "Y": 147,
+            "Width": 339,
+            "Height": 26
+          },
+          {
+            "X": 50,
+            "Y": 340,
+            "Width": 364,
+            "Height": 26
+          },
+          {
+            "X": 47,
+            "Y": 546,
+            "Width": 392,
+            "Height": 26
+          }
+        ],
+        "words": 7,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.9643,
+          "PreprocessMs": 12.3592,
+          "DetectionMs": 66.6858,
+          "PostprocessMs": 1.7353999999999985,
+          "CropMs": 1.7712000000000074,
+          "RecognitionMs": 52.69080000000001,
+          "TotalMs": 138.2067
+        }
+      },
+      {
+        "name": "S12_outlined_subtitles.png",
+        "pass": 0,
+        "ms": 135.6851,
+        "texts": [
+          "Şüpheli bir ses var",
+          "Hızlı koşmalıyız",
+          "Hedefe ulaştık"
+        ],
+        "confidences": [
+          0.9798021,
+          0.9864627,
+          0.9950118
+        ],
+        "bounds": [
+          {
+            "X": 46,
+            "Y": 123,
+            "Width": 396,
+            "Height": 27
+          },
+          {
+            "X": 51,
+            "Y": 258,
+            "Width": 323,
+            "Height": 26
+          },
+          {
+            "X": 52,
+            "Y": 397,
+            "Width": 304,
+            "Height": 26
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.3477,
+          "PreprocessMs": 10.0388,
+          "DetectionMs": 66.1871,
+          "PostprocessMs": 1.6670000000000016,
+          "CropMs": 3.9705000000000013,
+          "RecognitionMs": 52.474000000000004,
+          "TotalMs": 135.6851
+        }
+      },
+      {
+        "name": "S13_thin_font_ui.png",
+        "pass": 0,
+        "ms": 141.6096,
+        "texts": [
+          "Ödülleri topla",
+          "Köyün etrafını dolaş",
+          "Choose your weapon"
+        ],
+        "confidences": [
+          0.9987984,
+          0.9965352,
+          0.99994224
+        ],
+        "bounds": [
+          {
+            "X": 54,
+            "Y": 138,
+            "Width": 216,
+            "Height": 24
+          },
+          {
+            "X": 47,
+            "Y": 334,
+            "Width": 322,
+            "Height": 26
+          },
+          {
+            "X": 47,
+            "Y": 543,
+            "Width": 340,
+            "Height": 21
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.1674,
+          "PreprocessMs": 11.4081,
+          "DetectionMs": 71.984,
+          "PostprocessMs": 1.616500000000002,
+          "CropMs": 2.0241000000000042,
+          "RecognitionMs": 52.409499999999994,
+          "TotalMs": 141.6096
+        }
+      },
+      {
+        "name": "S00_dialogue_turkish.png",
+        "pass": 1,
+        "ms": 141.5497,
+        "texts": [
+          "Şehrin kapıları açıldı",
+          "Işıklar yeniden yanıyor",
+          "Bütün görevler tamamlandı"
+        ],
+        "confidences": [
+          0.99249095,
+          0.99604315,
+          0.9842564
+        ],
+        "bounds": [
+          {
+            "X": 63,
+            "Y": 121,
+            "Width": 429,
+            "Height": 32
+          },
+          {
+            "X": 41,
+            "Y": 258,
+            "Width": 512,
+            "Height": 33
+          },
+          {
+            "X": 34,
+            "Y": 399,
+            "Width": 619,
+            "Height": 27
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.2542,
+          "PreprocessMs": 9.527999999999999,
+          "DetectionMs": 66.22019999999999,
+          "PostprocessMs": 2.552900000000008,
+          "CropMs": 1.937899999999999,
+          "RecognitionMs": 60.0565,
+          "TotalMs": 141.5497
+        }
+      },
+      {
+        "name": "S01_english_subtitles.png",
+        "pass": 1,
+        "ms": 151.03,
+        "texts": [
+          "Return to the shelter",
+          "Follow the glowing trail",
+          "The journey continues"
+        ],
+        "confidences": [
+          0.9965383,
+          0.99990064,
+          0.99555033
+        ],
+        "bounds": [
+          {
+            "X": 43,
+            "Y": 124,
+            "Width": 447,
+            "Height": 22
+          },
+          {
+            "X": 40,
+            "Y": 258,
+            "Width": 502,
+            "Height": 26
+          },
+          {
+            "X": 41,
+            "Y": 399,
+            "Width": 474,
+            "Height": 24
+          }
+        ],
+        "words": 11,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.8883,
+          "PreprocessMs": 11.6568,
+          "DetectionMs": 64.6395,
+          "PostprocessMs": 1.9351999999999947,
+          "CropMs": 1.8397999999999968,
+          "RecognitionMs": 69.0704,
+          "TotalMs": 151.03
+        }
+      },
+      {
+        "name": "S02_tiny_inventory.png",
+        "pass": 1,
+        "ms": 137.2833,
+        "texts": [
+          "Gümüş anahtar bulundu",
+          "Kılıç dayanıklılığı 70",
+          "Press F to inspect"
+        ],
+        "confidences": [
+          0.98101133,
+          0.97757775,
+          0.99906826
+        ],
+        "bounds": [
+          {
+            "X": 48,
+            "Y": 138,
+            "Width": 302,
+            "Height": 20
+          },
+          {
+            "X": 50,
+            "Y": 333,
+            "Width": 247,
+            "Height": 20
+          },
+          {
+            "X": 50,
+            "Y": 538,
+            "Width": 222,
+            "Height": 20
+          }
+        ],
+        "words": 10,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.514,
+          "PreprocessMs": 12.456800000000001,
+          "DetectionMs": 66.1934,
+          "PostprocessMs": 1.6706000000000074,
+          "CropMs": 1.750399999999999,
+          "RecognitionMs": 52.6981,
+          "TotalMs": 137.2833
+        }
+      },
+      {
+        "name": "S03_bright_settings.png",
+        "pass": 1,
+        "ms": 139.9408,
+        "texts": [
+          "Görüntü ayarları",
+          "Ekran çözünürlüğü",
+          "Değişiklikleri kaydet"
+        ],
+        "confidences": [
+          0.9925628,
+          0.9947384,
+          0.99361336
+        ],
+        "bounds": [
+          {
+            "X": 61,
+            "Y": 127,
+            "Width": 350,
+            "Height": 29
+          },
+          {
+            "X": 64,
+            "Y": 261,
+            "Width": 398,
+            "Height": 29
+          },
+          {
+            "X": 55,
+            "Y": 400,
+            "Width": 441,
+            "Height": 30
+          }
+        ],
+        "words": 6,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.9537,
+          "PreprocessMs": 9.1218,
+          "DetectionMs": 70.3899,
+          "PostprocessMs": 2.170900000000003,
+          "CropMs": 1.5987999999999971,
+          "RecognitionMs": 54.70569999999999,
+          "TotalMs": 139.9408
+        }
+      },
+      {
+        "name": "S04_orange_quest.png",
+        "pass": 1,
+        "ms": 154.2261,
+        "texts": [
+          "Yeni hedef belirlendi",
+          "Düşmanı etkisiz hale getir",
+          "Görev güncellendi"
+        ],
+        "confidences": [
+          0.99387914,
+          0.95697856,
+          0.99966097
+        ],
+        "bounds": [
+          {
+            "X": 45,
+            "Y": 123,
+            "Width": 412,
+            "Height": 19
+          },
+          {
+            "X": 38,
+            "Y": 261,
+            "Width": 524,
+            "Height": 21
+          },
+          {
+            "X": 63,
+            "Y": 398,
+            "Width": 334,
+            "Height": 24
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.2155,
+          "PreprocessMs": 10.5267,
+          "DetectionMs": 67.2547,
+          "PostprocessMs": 1.8530000000000086,
+          "CropMs": 1.4351999999999947,
+          "RecognitionMs": 71.941,
+          "TotalMs": 154.2261
+        }
+      },
+      {
+        "name": "S05_contrasty_dark.png",
+        "pass": 1,
+        "ms": 139.9896,
+        "texts": [
+          "ilk bölüm başlıyor",
+          "Şimdi gizlenmeliyiz",
+          "Stay near the river"
+        ],
+        "confidences": [
+          0.99465823,
+          0.9847462,
+          0.99991065
+        ],
+        "bounds": [
+          {
+            "X": 49,
+            "Y": 141,
+            "Width": 323,
+            "Height": 24
+          },
+          {
+            "X": 49,
+            "Y": 337,
+            "Width": 347,
+            "Height": 21
+          },
+          {
+            "X": 48,
+            "Y": 542,
+            "Width": 342,
+            "Height": 19
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.4424,
+          "PreprocessMs": 11.888800000000002,
+          "DetectionMs": 65.6161,
+          "PostprocessMs": 1.7997000000000014,
+          "CropMs": 1.792199999999994,
+          "RecognitionMs": 57.4504,
+          "TotalMs": 139.9896
+        }
+      },
+      {
+        "name": "S06_color_hud.png",
+        "pass": 1,
+        "ms": 130.2688,
+        "texts": [
+          "Can seviyesi 100",
+          "Zırh kapasitesi 45",
+          "Yeni yetenek açıldı"
+        ],
+        "confidences": [
+          0.98803806,
+          0.9549728,
+          0.9862179
+        ],
+        "bounds": [
+          {
+            "X": 52,
+            "Y": 139,
+            "Width": 238,
+            "Height": 21
+          },
+          {
+            "X": 52,
+            "Y": 334,
+            "Width": 247,
+            "Height": 20
+          },
+          {
+            "X": 50,
+            "Y": 539,
+            "Width": 264,
+            "Height": 21
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.4782,
+          "PreprocessMs": 10.560199999999998,
+          "DetectionMs": 68.8592,
+          "PostprocessMs": 1.6045000000000016,
+          "CropMs": 1.8269999999999982,
+          "RecognitionMs": 44.9397,
+          "TotalMs": 130.2688
+        }
+      },
+      {
+        "name": "S07_soft_subtitle.png",
+        "pass": 1,
+        "ms": 137.128,
+        "texts": [
+          "Köprüden karşıya geç",
+          "ileride bir çıkış var",
+          "Don't look behind"
+        ],
+        "confidences": [
+          0.98645365,
+          0.9772606,
+          0.99937034
+        ],
+        "bounds": [
+          {
+            "X": 43,
+            "Y": 123,
+            "Width": 447,
+            "Height": 28
+          },
+          {
+            "X": 47,
+            "Y": 256,
+            "Width": 385,
+            "Height": 29
+          },
+          {
+            "X": 48,
+            "Y": 398,
+            "Width": 360,
+            "Height": 21
+          }
+        ],
+        "words": 10,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.6332,
+          "PreprocessMs": 11.3332,
+          "DetectionMs": 66.32300000000001,
+          "PostprocessMs": 3.287000000000006,
+          "CropMs": 1.5984999999999872,
+          "RecognitionMs": 52.95309999999999,
+          "TotalMs": 137.128
+        }
+      },
+      {
+        "name": "S08_slightly_rotated.png",
+        "pass": 1,
+        "ms": 129.65,
+        "texts": [
+          "Kapıya doğru ilerle",
+          "Üçüncü bölüm başladı",
+          "Victory is near"
+        ],
+        "confidences": [
+          0.99730414,
+          0.9660953,
+          0.9998198
+        ],
+        "bounds": [
+          {
+            "X": 48,
+            "Y": 126,
+            "Width": 408,
+            "Height": 42
+          },
+          {
+            "X": 64,
+            "Y": 259,
+            "Width": 460,
+            "Height": 41
+          },
+          {
+            "X": 68,
+            "Y": 407,
+            "Width": 305,
+            "Height": 31
+          }
+        ],
+        "words": 9,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.8506,
+          "PreprocessMs": 11.3235,
+          "DetectionMs": 65.9978,
+          "PostprocessMs": 1.7474000000000132,
+          "CropMs": 1.8493999999999886,
+          "RecognitionMs": 46.88130000000001,
+          "TotalMs": 129.65
+        }
+      },
+      {
+        "name": "S09_small_resolution.png",
+        "pass": 1,
+        "ms": 131.9678,
+        "texts": [
+          "Çevrimdışı mod",
+          "Bir sonraki kayıt",
+          "Hikâyeye devam et"
+        ],
+        "confidences": [
+          0.9435399,
+          0.9954137,
+          0.99980253
+        ],
+        "bounds": [
+          {
+            "X": 55,
+            "Y": 81,
+            "Width": 219,
+            "Height": 17
+          },
+          {
+            "X": 54,
+            "Y": 207,
+            "Width": 234,
+            "Height": 16
+          },
+          {
+            "X": 51,
+            "Y": 332,
+            "Width": 275,
+            "Height": 16
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 0.9331,
+          "PreprocessMs": 9.2055,
+          "DetectionMs": 70.308,
+          "PostprocessMs": 1.6796999999999969,
+          "CropMs": 0.6735000000000042,
+          "RecognitionMs": 49.168000000000006,
+          "TotalMs": 131.9678
+        }
+      },
+      {
+        "name": "S10_low_contrast.png",
+        "pass": 1,
+        "ms": 136.6201,
+        "texts": [
+          "Siğinağa geri dön",
+          "Haritayı kontrol et",
+          "Gösterge açık"
+        ],
+        "confidences": [
+          0.9802208,
+          0.98680097,
+          0.9949055
+        ],
+        "bounds": [
+          {
+            "X": 51,
+            "Y": 122,
+            "Width": 307,
+            "Height": 26
+          },
+          {
+            "X": 50,
+            "Y": 258,
+            "Width": 320,
+            "Height": 21
+          },
+          {
+            "X": 55,
+            "Y": 397,
+            "Width": 241,
+            "Height": 26
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.1197,
+          "PreprocessMs": 10.6965,
+          "DetectionMs": 71.45580000000001,
+          "PostprocessMs": 2.3029999999999973,
+          "CropMs": 1.2120999999999924,
+          "RecognitionMs": 49.83300000000001,
+          "TotalMs": 136.6201
+        }
+      },
+      {
+        "name": "S11_wide_menu.png",
+        "pass": 1,
+        "ms": 132.6293,
+        "texts": [
+          "Kayıtlı oyunlar",
+          "Başarılar listesi",
+          "Ana menüye dön"
+        ],
+        "confidences": [
+          0.9809619,
+          0.98878604,
+          0.9750665
+        ],
+        "bounds": [
+          {
+            "X": 51,
+            "Y": 147,
+            "Width": 339,
+            "Height": 26
+          },
+          {
+            "X": 50,
+            "Y": 340,
+            "Width": 364,
+            "Height": 26
+          },
+          {
+            "X": 47,
+            "Y": 546,
+            "Width": 392,
+            "Height": 26
+          }
+        ],
+        "words": 7,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 3.2384,
+          "PreprocessMs": 11.876,
+          "DetectionMs": 65.3715,
+          "PostprocessMs": 1.7223000000000042,
+          "CropMs": 2.2487999999999886,
+          "RecognitionMs": 48.17230000000001,
+          "TotalMs": 132.6293
+        }
+      },
+      {
+        "name": "S12_outlined_subtitles.png",
+        "pass": 1,
+        "ms": 129.1716,
+        "texts": [
+          "Şüpheli bir ses var",
+          "Hızlı koşmalıyız",
+          "Hedefe ulaştık"
+        ],
+        "confidences": [
+          0.9798021,
+          0.9864627,
+          0.9950118
+        ],
+        "bounds": [
+          {
+            "X": 46,
+            "Y": 123,
+            "Width": 396,
+            "Height": 27
+          },
+          {
+            "X": 51,
+            "Y": 258,
+            "Width": 323,
+            "Height": 26
+          },
+          {
+            "X": 52,
+            "Y": 397,
+            "Width": 304,
+            "Height": 26
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 1.1543,
+          "PreprocessMs": 9.191099999999999,
+          "DetectionMs": 65.3484,
+          "PostprocessMs": 2.164600000000007,
+          "CropMs": 1.5792000000000002,
+          "RecognitionMs": 49.73400000000001,
+          "TotalMs": 129.1716
+        }
+      },
+      {
+        "name": "S13_thin_font_ui.png",
+        "pass": 1,
+        "ms": 129.3444,
+        "texts": [
+          "Ödülleri topla",
+          "Köyün etrafını dolaş",
+          "Choose your weapon"
+        ],
+        "confidences": [
+          0.9987984,
+          0.9965352,
+          0.99994224
+        ],
+        "bounds": [
+          {
+            "X": 54,
+            "Y": 138,
+            "Width": 216,
+            "Height": 24
+          },
+          {
+            "X": 47,
+            "Y": 334,
+            "Width": 322,
+            "Height": 26
+          },
+          {
+            "X": 47,
+            "Y": 543,
+            "Width": 340,
+            "Height": 21
+          }
+        ],
+        "words": 8,
+        "angled": 0,
+        "stages": {
+          "DecodeMs": 2.0193,
+          "PreprocessMs": 10.5466,
+          "DetectionMs": 66.0284,
+          "PostprocessMs": 1.651699999999991,
+          "CropMs": 1.4470000000000027,
+          "RecognitionMs": 47.65140000000001,
+          "TotalMs": 129.3444
+        }
+      }
+    ]
+  }
+}
