@@ -1,7 +1,7 @@
 # GameTranslatorOCR vs Tesseract 5.5.3 — Linux CPU benchmark
 
 16 Ekim 2026; kurulu modeller, sıfır indirme.
-11 sentetik görüntü/33 satır (ilk set), 10 bağımsız sentetik görüntü/30 satır (ikinci set). Görsel başına 2 koşum.
+11 sentetik görüntü/33 satır (ilk set), 10 bağımsız sentetik görüntü/30 satır (ikinci set). Her görüntü üzerinde test iki kez tekrarlandı.
 GameTranslatorOCR: C# ONNX PP-OCRv5 detector + yerel PP-OCRv6 recognizer. Gelişmiş profil: --enhanced.
 Tesseract: kurulu eng+turk traineddata, libtesseract sıcak oturumlu PSM11/6/3 ve ayrı CLI denemesi.
 
