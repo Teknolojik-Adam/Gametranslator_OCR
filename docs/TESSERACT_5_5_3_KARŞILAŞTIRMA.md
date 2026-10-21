@@ -21,8 +21,8 @@ Tesseract: kurulu eng+turk traineddata, libtesseract sıcak oturumlu PSM11/6/3 v
 | holdout | tess_cli11 | 95.82% | 24/30 | 80.00% | 193.4 ms | 210.9 ms | -- |
 
 ## Nasıl ölçüldü?
-- Karakter doğruluğu: Unicode NFKC + büyük/küçük harf yok sayıldı; Tüm OCR çıktısı satır sırasına göre birleştirildi ve Levenshtein edit mesafesi hesaplandı. Ek çıktılar/yanlışlar cezalandırıldı.
-- Tam doğru satır: bir OCR sonuç satırı, bir referans satırıyla birebir eşleşti. Satır F1 fazladan satırları da cezalandırır.
+- Karakter doğruluğu: Unicode NFKC + büyük/küçük harf yok sayıldı; Tüm OCR çıktısı satır sırasına göre birleştirildi ve Levenshtein edit mesafesi hesaplandı. Fazladan üretilen metinler ve hatalı karakterler doğruluk hesaplamasına dahil edildi.
+- Tam doğru satır: bir OCR sonuç satırı, bir referans satırıyla birebir eşleşti. Satır F1 hesabında fazladan tespit edilen satırlar da dikkate alınır.
 - Tesseract sıcak API: kurulu libtesseract tek kere başlatıldı, Pillow RGB conversion önceden yapıldı; SetImage+GetUTF8Text ölçüme dahil.
 - GameTranslatorOCR: model oturumu başlangıcı hariç, RecognizeAsync (PNG decode dahil) süreleri ölçüldü.
 - Tesseract CLI: her görüntüde ayrı proses başlar ve traineddata yeniden yüklenir; sıcak API ile eşdeğer hız sonucu değildir.
