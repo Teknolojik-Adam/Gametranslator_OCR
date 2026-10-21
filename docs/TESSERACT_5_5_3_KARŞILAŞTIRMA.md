@@ -3,7 +3,7 @@
 16 Ekim 2026; kurulu modeller, sıfır indirme.
 11 sentetik görüntü/33 satır (ilk set), 10 bağımsız sentetik görüntü/30 satır (ikinci set). Her görüntü üzerinde test iki kez tekrarlandı.
 GameTranslatorOCR: C# ONNX PP-OCRv5 detector + yerel PP-OCRv6 recognizer. Gelişmiş profil: --enhanced.
-Tesseract: kurulu eng+turk traineddata, libtesseract sıcak oturumlu PSM11/6/3 ve ayrı CLI denemesi.
+Tesseract: kurulu eng+turk traineddata, libtesseract yeniden başlatılmadan PSM11/6/3 modlarında ve ayrı CLI denemesi.
 
 | Set | Motor | Karakter doğruluğu | Tam satır | Satır F1 | Ortalama | p95 | Tepe RSS |
 |---|---|---:|---:|---:|---:|---:|---:|
@@ -23,10 +23,10 @@ Tesseract: kurulu eng+turk traineddata, libtesseract sıcak oturumlu PSM11/6/3 v
 ## Nasıl ölçüldü?
 - Karakter doğruluğu: Unicode NFKC + büyük/küçük harf yok sayıldı; Tüm OCR çıktısı satır sırasına göre birleştirildi ve Levenshtein edit mesafesi hesaplandı. Fazladan üretilen metinler ve hatalı karakterler doğruluk hesaplamasına dahil edildi.
 - Tam doğru satır: bir OCR sonuç satırı, bir referans satırıyla birebir eşleşti. Satır F1 hesabında fazladan tespit edilen satırlar da dikkate alınır.
-- Tesseract sıcak API: kurulu libtesseract tek kere başlatıldı, Pillow RGB conversion önceden yapıldı; SetImage+GetUTF8Text ölçüme dahil.
+- Tesseract API testi: kurulu libtesseract tek kere başlatıldı, Pillow RGB conversion önceden yapıldı; SetImage+GetUTF8Text ölçüme dahil.
 - GameTranslatorOCR: model oturumu başlangıcı hariç, RecognizeAsync (PNG decode dahil) süreleri ölçüldü.
-- Tesseract CLI: her görüntüde ayrı proses başlar ve traineddata yeniden yüklenir; sıcak API ile eşdeğer hız sonucu değildir.
-- Bellek: GameTranslatorOCR .NET prosesi peak RSS; Tesseract sıcak oturumu Python+libtesseract prosesi peak RSS. Framework/buffer farkı vardır.
+- Tesseract CLI: her görüntüde ayrı proses başlar ve traineddata yeniden yüklenir; önceden başlatılmış API testiyle doğrudan karşılaştırılabilir bir hız sonucu değildir.
+- Bellek: GameTranslatorOCR .NET prosesi peak RSS; Tesseract için yeniden başlatılmadan çalışan Python+libtesseract işleminin en yüksek bellek kullanımı. Framework/buffer farkı vardır.
 - Tüm denemeler CPU'da ve sentetik veridedir. Gerçek oyun ekranında, Windows/GPU'da aynı sonuç garantisi yok.
 - Tesseract PSM11 sparse text, PSM6 block, PSM3 auto layout stratejileridir.
 
