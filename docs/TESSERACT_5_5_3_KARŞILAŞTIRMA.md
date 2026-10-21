@@ -1,4 +1,4 @@
-# GameTranslatorOCR vs Tesseract 5.5.3 — Fedora CPU benchmark
+# GameTranslatorOCR vs Tesseract 5.5.3 — Linux CPU benchmark
 
 16 Ekim 2026; kurulu modeller, sıfır indirme.
 11 sentetik görüntü/33 satır (ilk set), 10 bağımsız sentetik görüntü/30 satır (ikinci set). Görsel başına 2 koşum.
