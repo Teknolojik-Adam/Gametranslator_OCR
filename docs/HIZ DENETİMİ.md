@@ -63,15 +63,13 @@ Bu örnekler, hızlı ayarın **otomatik olarak varsayılan yapılmaması** gere
 
 RapidOCR'ın bazı satırları tam doğru okurken fazladan metin tespit etmesi birleşik metin karakter skorunu düşürebilir. Bu satır ve karakter ölçütleri farklı davranışları ölçer. Tesseract karşılaştırmasındaki CLI işlem açılış maliyeti, OCR çalışma zamanı hızlarıyla birebir eşdeğer değildir; burada öncelik doğruluktur. **Bu yeni stres testinde RapidOCR v6 tam doğru satır sayısında bizden bir satır daha iyi**.
 
-## 5. Kabul kararı
-
 1. **PASS:** Hızlı ayar aynı sentetik korpusta normal ayarın toplam tam satır ve karakter doğruluğunu düşürmedi.
 2. **PASS:** Hızlı ayar bu makinede yaklaşık %17–20 daha düşük tam ekran OCR gecikmesi ve daha az peak RSS üretti.
 3. **LIMITATION:** Yeni sette hızlı profil iki benzersiz satırda, normal profilin yapmadığı Türkçe harf hataları üretiyor; dolayısıyla bireysel doğruluk korunmuyor.
 4. **LIMITATION:** Eğik yazı örneğinde hızlı profil noktalama kaybediyor.
 5. **DECISION:** `--fast` isteğe bağlı kalmalı; varsayılan Balanced 960 px korunmalı. Gelecekte adaptif ikinci tarama ya da daha sağlam yön/perspektif algoritmalarıyla bu farklar azaltılabilir; otomatik telafi henüz eklenmedi.
 
-## 6. Nasıl yeniden çalıştırılır?
+## 5. Nasıl yeniden çalıştırılır?
 
 Proje kökünde:
 
@@ -90,6 +88,6 @@ Altı ayrı koşumun satır satır ham sonuçları ve RAM/latency:
 - `benchmarks/regression_20261016/{development,holdout,independent_stress}_{normal,fast}.json`
 
 
-## 7. Kapsam sınırlaması
+## 6. Kapsam sınırlaması
 
 Bunlar yalnızca sentetik oyun arayüzleridir; gerçek oyun UI'ları, hareketli sahneler, 4K, ekran yakalama alt sistemi, Windows CPU, GPU ve uzun süreli çalışma testi bu denetime dahil edilmedi. Küçük fontlar, kontrast ve perspektif yüzünden gerçek oyunlarda performans farklı olabilir.
